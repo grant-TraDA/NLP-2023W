@@ -9,7 +9,7 @@ PASSWORD = ""
 
 
 def download_one_news(news_id: int) -> dict:
-    url = "https://api.sta.si/news/sta/" + str(news_id)
+    url = "https:" + str(news_id)
     response = requests.get(url, auth=(USERNAME, PASSWORD))
     response_dict = json.loads(response.text)
     return response_dict
@@ -17,7 +17,7 @@ def download_one_news(news_id: int) -> dict:
 
 def list_news_from_date(date: str, language: str = "en") -> list[int]:
     # date = "10.11.2022"
-    url = "https://api.sta.si/news/" + language + '/' + date
+    url = "https:" + language + '/' + date
     response = requests.get(url, auth=(USERNAME, PASSWORD))
     response_list = json.loads(response.text)
     return response_list
