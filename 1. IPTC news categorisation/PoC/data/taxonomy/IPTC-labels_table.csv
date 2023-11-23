@@ -1,0 +1,167 @@
+hlabel,label_mid,labeltext,label
+sport,judo,sport_judo,132
+politics,interior policy,politics_interior policy,77
+"crime, law and justice",trials,"crime, law and justice_trials",21
+sport,curling,sport_curling,118
+sport,rowing,sport_rowing,143
+human interest,society,human interest_society,64
+labour,wage and pension,labour_wage and pension,67
+sport,luge,sport_luge,134
+"arts, culture and entertainment",monument and heritage site,"arts, culture and entertainment_monument and heritage site",7
+"economy, business and finance",agriculture,"economy, business and finance_agriculture",27
+science and technology,natural science,science and technology_natural science,95
+"economy, business and finance",market and exchange,"economy, business and finance_market and exchange",40
+science and technology,human science,science and technology_human science,94
+sport,water skiing,sport_water skiing,157
+sport,triathlon,sport_triathlon,155
+labour,collective contract,labour_collective contract,65
+"economy, business and finance",manufacturing and engineering,"economy, business and finance_manufacturing and engineering",39
+religion and belief,christianity,religion and belief_christianity,84
+sport,alpine skiing,sport_alpine skiing,106
+sport,biathlon,sport_biathlon,112
+weather,report,weather_report,166
+"arts, culture and entertainment",mass media,"arts, culture and entertainment_mass media",6
+sport,power boating,sport_power boating,141
+religion and belief,religious leader,religion and belief_religious leader,89
+disaster and accident,emergency incident,disaster and accident_emergency incident,23
+sport,gymnastics,sport_gymnastics,128
+"arts, culture and entertainment",fashion,"arts, culture and entertainment_fashion",4
+"unrest, conflicts and war",guerrilla activity,"unrest, conflicts and war_guerrilla activity",163
+"unrest, conflicts and war",war,"unrest, conflicts and war_war",165
+"economy, business and finance",construction and property,"economy, business and finance_construction and property",32
+"crime, law and justice",punishment,"crime, law and justice_punishment",20
+education,religious education,education_religious education,46
+sport,aero and aviation sport,sport_aero and aviation sport,105
+sport,windsurfing,sport_windsurfing,159
+science and technology,research,science and technology_research,96
+"crime, law and justice",police,"crime, law and justice_police",18
+lifestyle and leisure,travel and commuting,lifestyle and leisure_travel and commuting,71
+religion and belief,religious text,religion and belief_religious text,90
+sport,Jai Alai (Pelota),sport_Jai Alai (Pelota),131
+health,illness,health_illness,57
+politics,parliament,politics_parliament,78
+social issue,missing person,social issue_missing person,102
+religion and belief,church (organisation)-DEPRECATED,religion and belief_church (organisation)-DEPRECATED,85
+sport,rugby union,sport_rugby union,144
+environmental issue,nature,environmental issue_nature,52
+religion and belief,values,religion and belief_values,91
+sport,"horse racing, harness racing","sport_horse racing, harness racing",129
+politics,diplomacy,politics_diplomacy,73
+sport,motor rallying,sport_motor rallying,137
+"arts, culture and entertainment",literature,"arts, culture and entertainment_literature",5
+environmental issue,conservation,environmental issue_conservation,49
+sport,flying disc,sport_flying disc,126
+sport,motor racing,sport_motor racing,136
+social issue,euthanasia (also includes assisted suicide),social issue_euthanasia (also includes assisted suicide),99
+"arts, culture and entertainment",culture (general),"arts, culture and entertainment_culture (general)",2
+"economy, business and finance",economy (general),"economy, business and finance_economy (general)",34
+"arts, culture and entertainment",theatre,"arts, culture and entertainment_theatre",11
+politics,parties and movements,politics_parties and movements,79
+sport,weightlifting,sport_weightlifting,158
+religion and belief,religious event,religion and belief_religious event,87
+"arts, culture and entertainment",sculpture,"arts, culture and entertainment_sculpture",9
+"economy, business and finance",consumer goods,"economy, business and finance_consumer goods",33
+"unrest, conflicts and war",massacre,"unrest, conflicts and war_massacre",164
+religion and belief,religious festival or holiday,religion and belief_religious festival or holiday,88
+sport,cycling,sport_cycling,119
+sport,dog racing,sport_dog racing,121
+sport,tennis,sport_tennis,154
+sport,rodeo,sport_rodeo,142
+education,school,education_school,47
+sport,fencing,sport_fencing,123
+politics,politics (general),politics_politics (general),80
+sport,"billiards, snooker and pool","sport_billiards, snooker and pool",113
+"arts, culture and entertainment",television,"arts, culture and entertainment_television",10
+health,preventative medicine,health_preventative medicine,61
+health,healthcare policy,health_healthcare policy,56
+sport,volleyball,sport_volleyball,156
+human interest,people,human interest_people,63
+politics,treaty and international organisation-DEPRECATED,politics_treaty and international organisation-DEPRECATED,82
+"crime, law and justice",prosecution,"crime, law and justice_prosecution",19
+sport,canoeing and kayaking,sport_canoeing and kayaking,116
+science and technology,technology (general),science and technology_technology (general),97
+politics,election,politics_election,74
+sport,sports event,sport_sports event,150
+sport,speed skating,sport_speed skating,149
+disaster and accident,disaster (general),disaster and accident_disaster (general),22
+sport,Taekwon-Do,sport_Taekwon-Do,153
+sport,ice hockey,sport_ice hockey,130
+sport,modern pentathlon,sport_modern pentathlon,135
+religion and belief,belief (faith),religion and belief_belief (faith),83
+sport,baseball,sport_baseball,110
+labour,employment,labour_employment,66
+health,medical staff,health_medical staff,59
+politics,foreign aid,politics_foreign aid,75
+sport,field Hockey,sport_field Hockey,124
+social issue,family,social issue_family,100
+disaster and accident,industrial accident,disaster and accident_industrial accident,24
+human interest,award and prize,human interest_award and prize,62
+"unrest, conflicts and war",conflict (general),"unrest, conflicts and war_conflict (general)",162
+lifestyle and leisure,gastronomy,lifestyle and leisure_gastronomy,69
+sport,swimming,sport_swimming,152
+social issue,demographics,social issue_demographics,98
+sport,sports organisations,sport_sports organisations,151
+sport,archery,sport_archery,108
+"arts, culture and entertainment",cinema,"arts, culture and entertainment_cinema",1
+sport,climbing,sport_climbing,117
+"economy, business and finance",financial and business service,"economy, business and finance_financial and business service",37
+sport,equestrian,sport_equestrian,122
+"economy, business and finance",tourism and leisure,"economy, business and finance_tourism and leisure",44
+health,government health care,health_government health care,54
+social issue,people,social issue_people,103
+"crime, law and justice",judiciary (system of justice),"crime, law and justice_judiciary (system of justice)",15
+science and technology,applied science,science and technology_applied science,92
+sport,sailing,sport_sailing,145
+health,health treatment,health_health treatment,55
+sport,figure Skating,sport_figure Skating,125
+"crime, law and justice",laws,"crime, law and justice_laws",17
+"economy, business and finance",chemicals,"economy, business and finance_chemicals",29
+"economy, business and finance",company information,"economy, business and finance_company information",30
+politics,government,politics_government,76
+"crime, law and justice",international law,"crime, law and justice_international law",14
+"crime, law and justice",justice and rights,"crime, law and justice_justice and rights",16
+sport,snow boarding,sport_snow boarding,148
+social issue,social issues (general),social issue_social issues (general),104
+"economy, business and finance",energy and resource,"economy, business and finance_energy and resource",35
+health,disease,health_disease,53
+sport,basketball,sport_basketball,111
+"economy, business and finance",process industry,"economy, business and finance_process industry",43
+"economy, business and finance",finance (general),"economy, business and finance_finance (general)",36
+sport,shooting,sport_shooting,146
+health,medicine,health_medicine,60
+"economy, business and finance",macro economics,"economy, business and finance_macro economics",38
+"arts, culture and entertainment",music,"arts, culture and entertainment_music",8
+religion and belief,religion-DEPRECATED,religion and belief_religion-DEPRECATED,86
+lifestyle and leisure,hobby,lifestyle and leisure_hobby,70
+"economy, business and finance",transport,"economy, business and finance_transport",45
+"crime, law and justice",corporate crime,"crime, law and justice_corporate crime",12
+"economy, business and finance",media,"economy, business and finance_media",41
+sport,boxing,sport_boxing,115
+sport,diving,sport_diving,120
+sport,karate,sport_karate,133
+environmental issue,natural resources,environmental issue_natural resources,51
+sport,nordic skiing,sport_nordic skiing,139
+"unrest, conflicts and war",civil unrest,"unrest, conflicts and war_civil unrest",161
+education,teaching and learning,education_teaching and learning,48
+politics,state budget and tax,politics_state budget and tax,81
+social issue,minority group,social issue_minority group,101
+lifestyle and leisure,game,lifestyle and leisure_game,68
+sport,American football,sport_American football,107
+sport,motorcycling,sport_motorcycling,138
+sport,orienteering,sport_orienteering,140
+environmental issue,environmental pollution,environmental issue_environmental pollution,50
+health,medical specialisation,health_medical specialisation,58
+"arts, culture and entertainment",entertainment (general),"arts, culture and entertainment_entertainment (general)",3
+"economy, business and finance",computing and information technology,"economy, business and finance_computing and information technology",31
+"economy, business and finance",business (general),"economy, business and finance_business (general)",28
+sport,wrestling,sport_wrestling,160
+"economy, business and finance",metal and mineral,"economy, business and finance_metal and mineral",42
+sport,freestyle Skiing,sport_freestyle Skiing,127
+sport,bobsleigh,sport_bobsleigh,114
+disaster and accident,meteorological disaster,disaster and accident_meteorological disaster,25
+disaster and accident,transport accident,disaster and accident_transport accident,26
+politics,defence,politics_defence,72
+sport,"athletics, track and field","sport_athletics, track and field",109
+sport,ski jumping,sport_ski jumping,147
+science and technology,engineering,science and technology_engineering,93
+"crime, law and justice",crime,"crime, law and justice_crime",13
