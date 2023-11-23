@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 # Function to fetch article IDs for a specific language and date
 def get_article_ids(language, date):     # language : sl / fa / en
     url = f'https://api.sta.si/news/{language}/{date}'
-    response = requests.get(url, auth=HTTPBasicAuth('wroclaw', 'k,spa6!z'))
+    response = requests.get(url, auth=HTTPBasicAuth('', ''))
     if response.status_code == 200:
         articles_ids = response.json()
         return articles_ids
@@ -17,7 +17,7 @@ def get_article_ids(language, date):     # language : sl / fa / en
 # Function to get article content by ID
 def get_article_content(language, article_id):   # language: sta / fa
     url = f'https://api.sta.si/news/{language}/{article_id}'
-    response = requests.get(url, auth=HTTPBasicAuth('wroclaw', 'k,spa6!z'))
+    response = requests.get(url, auth=HTTPBasicAuth('', ''))
     if response.status_code == 200:
         article_content = response.json()
         return article_content
