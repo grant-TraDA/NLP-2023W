@@ -1,0 +1,11 @@
+### File Descriptions
+- [01_EDA.ipynb](./01_EDA.ipynb): This notebook contains exploratory data analysis of the datasets.
+- [02_cleaning_preprocessing_dataset.ipynb](./02_cleaning_preprocessing_dataset.ipynb): This notebook contains the data cleaning and preprocessing steps.
+- [03_stemming_lemmatization.ipynb](./03_stemming_lemmatization.ipynb): This notebook contains the stemming and lemmatization process.
+- [04_bert_word_embeddings_ml.ipynb](./04_bert_word_embeddings_ml.ipynb): This notebook contains the process of using BERT for word embeddings and machine learning.
+- [11_modeling_tfidf.ipynb](./11_modeling_tfidf.ipynb): This notebook contains the process of modeling using TF-IDF.
+- [21_CharCNN.ipynb](./21_CharCNN.ipynb): This notebook contains the CharCNN model.
+- [22_CharGRU.ipynb](./22_CharGRU.ipynb): This notebook contains the CharGRU model.
+- [23_CharCNN+GRU.ipynb](./23_CharCNN+GRU.ipynb): This notebook contains the combined CharCNN and GRU model.
+- [utils/KerasModels.py](./utils/KerasModels.py): This Python script contains various Keras models used in the project.
+- [utils/optuna_utils.py](./utils/optuna_utils.py): This Python script contains utilities for using Optuna for hyperparameter optimization.
