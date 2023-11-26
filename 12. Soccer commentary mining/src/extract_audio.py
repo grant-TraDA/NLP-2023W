@@ -1,5 +1,5 @@
 from pathlib import Path
-from moviepy.editor import VideoFileClip
+from pydub import AudioSegment
 from loguru import logger
 from utils import configure_logger
 
@@ -8,7 +8,8 @@ configure_logger("extract_audio")
 
 def extract_audio_from_video(video_file_path: Path, base_audio_dir: Path) -> None:
     """
-    Extracts the audio from a given video file and saves it as an MP3 file in the specified directory.
+    Extracts the audio from a given video file and saves it as an MP3 file in the
+    specified directory.
 
     Parameters
     ----------
@@ -34,18 +35,20 @@ def extract_audio_from_video(video_file_path: Path, base_audio_dir: Path) -> Non
         # Ensure the output directory exists
         audio_file_path.parent.mkdir(parents=True, exist_ok=True)
 
-        # Process the video file
-        video = VideoFileClip(str(video_file_path))
-        audio = video.audio
-        audio.write_audiofile(str(audio_file_path), fps=16_000)
+        # Extract audio
+        video = AudioSegment.from_file(video_file_path)
+        audio = video.set_frame_rate(16_000)
+        audio.export(audio_file_path, format='mp3')
         logger.info(f"Extracted audio from {video_file_path} to {audio_file_path}")
+
     except Exception as e:
         logger.error(f"Error processing {video_file_path}: {e}")
 
 
 def process_files(base_video_dir: Path, base_audio_dir: Path) -> None:
     """
-    Processes all video files in a given directory, extracting the audio to a specified directory.
+    Processes all video files in a directory, extracting the audio to a specified
+    directory.
 
     Parameters
     ----------
