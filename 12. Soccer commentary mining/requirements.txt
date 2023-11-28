@@ -1,6 +1,6 @@
 SoccerNet==0.1.53
 loguru==0.7.2
-moviepy==1.0.3
+pydub==0.25.1
 torch==2.1.1
 librosa==0.10.1
 numpy==1.26.0
