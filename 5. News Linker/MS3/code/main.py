@@ -3,6 +3,7 @@ import argparse
 from cate import process_cate
 from caseolap import caseolap
 from rank_ensemble import rank_ensemble
+from documents import rank_documents
 from utils import *
 from tqdm import tqdm
 
@@ -36,12 +37,12 @@ for iteration in tqdm(range(args.num_iter),total=args.num_iter):
                 -size 100 -window 5 -negative 5 -sample 1e-3 -min-count 3 \
                 -threads 20 -binary 0 -iter 10 -pretrain 2"""
     # seed-guided text embeddings
-#    assert os.system(cate_c) == 0, "cate c command execute failed"
+    assert os.system(cate_c) == 0, "cate c command execute failed"
     print(cate_c)
     # initial term ranking
     print('initial term ranking')
     # Seed-guided embeddings + PLM Representations
-#    process_cate(args)
+    process_cate(args)
 
     if iteration == args.num_iter - 1:
         assert os.system(f"cp datasets/{args.dataset}/intermediate_1.txt datasets/{args.dataset}/{args.topic}_results.txt") == 0
@@ -50,11 +51,16 @@ for iteration in tqdm(range(args.num_iter),total=args.num_iter):
     # second term ranking
     print('second term ranking')
     # topic-indicative sentences
-#    caseolap(args)
+    caseolap(args)
     
     # rank ensemble
     print('rank ensemble')
     # re-rank all types of context
     rank_ensemble(args)
-print("Finished!")
+print("Iterations finished!")
+
+# convert collected scores and ids into predictions
+doc_num = 10 # ????
+rank_documents(args, doc_num)
+print("Predictions saved!\nFinished!")    
     
