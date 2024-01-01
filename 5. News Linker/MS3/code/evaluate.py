@@ -16,7 +16,7 @@ def evaluate_doc_ids(args):
     with open(os.path.join(dataset_dir, 'enum2doc.json'),'r') as f:
         enum2doc = json.load(f)
     doc_id_preds = [enum2doc[enum_id[:-1]] for enum_id in enum_id_preds]
-    with open(os.path.join(topic_dir, 'doc_ids_pred_converted.txt'),'w') as f:
+    with open(os.path.join(topic_dir, 'doc_ids_pred.txt'),'w') as f:
         for doc_id_pred in doc_id_preds:
             f.write(f"{doc_id_pred}\n")
     with open(os.path.join(topic_dir, 'doc_ids_gt.txt'),'r') as f:

@@ -11,11 +11,24 @@ cd cate
 make cate
 cd ..
 ```
-5. Place a text file with input seeds (e.g. ```topic1.txt```) in ```datasets/sta/``` directory.
-6. Run the main algorithm:
+5. Prepare training and testing datasets by either running the script:
 ```
-python main.py --dataset sta --text_file articles/article_texts.txt --pretrain_emb word_embs.txt --topic topic1 --num_iter 2
+python prepare.py --dataset sta --test_size 50 --text_file corpus_train.txt
 ```
+or, if you want to use an prepated dataset split, by placing ```corpus_train.txt```, ```corpus_test.json```, ```doc2enum.json```, ```enum2doc.json```, ```sentences.json```, ```npmi_word_frequency.json```,```npmi_word_frequency_in_document.json``` files and ```topics/``` subdirectory in the dataset's main directory (ex. ```datasets/sta/```)
+
+- The script merges articles, photos and videos into a single text corpus and randomly selects a predefined number of documents (```test_size```) to be used as testing data. 
+- The remaining documents constitute a training corpus, utilized to establish mappings between documents' STA IDs and their positional IDs within the training corpus. 
+- Additionally, the script computes word frequency in the training corpus (required for evaluating NPMI metrics)
+- Each test document is stored in the respective  ```topics/topic_N``` directory. Its text is fed to a Slovenian Named Entity Recognition (NER) pipeline, and the identified named entities are chosen as the primary input seeds.
+6. Inspect the primary input seeds in ```topic_N/topic_N.txt``` file. Add / remove seeds (if needed).
+7. Run the main algorithm for one topic:
+```
+python newslinking.py --dataset sta --text_file corpus_train.txt --pretrain_emb word_embs.txt --topic topic_N --num_iter 4
+```
+Note: The algorithm can be executed for one topic (one test document) at a time. Batch execution is not supported.
+
+8. Extracted topic-related terms are placed in ```topic_N/res_topic_N.txt``` file. IDs of the most related documents are placed in ```topic_n/doc_ids_pred.txt``` file.
 
 # SeedTopicMine
 The source code used for paper "[Effective Seed-Guided Topic Discovery by Integrating Multiple Types of Contexts](https://arxiv.org/abs/2212.06002)", published in WSDM 2023.
