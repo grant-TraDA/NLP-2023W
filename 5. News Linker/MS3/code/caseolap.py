@@ -1,3 +1,4 @@
+import os
 import json
 from collections import defaultdict
 import math
@@ -23,6 +24,11 @@ def Softmax(score_list):
 
 
 def sentence_retrieval(args, seeds, keywords):
+    # directory of a dataset (ex. sta/)
+    dataset_dir = f'datasets/{args.dataset}'
+    # directory of a current test document (ex. sta/topic_0/)
+    topic_dir = f'datasets/{args.dataset}/topics/{args.topic}' # = dataset_dir
+
     # dictionary {seed: {sentence id: number of topic-indicative terms in the sentence}}
     scores = defaultdict(dict)
     # dictionary {sentence id: sentence text}
@@ -33,7 +39,7 @@ def sentence_retrieval(args, seeds, keywords):
     id2end = {}
     # dictionary {sentence id: document id}
     id2doc = {}
-    with open(f'datasets/{args.dataset}/sentences.json') as fin:
+    with open(os.path.join(dataset_dir, 'sentences.json')) as fin:
         # iterate over each document (1 line = 1 document)
         for idx, line in enumerate(fin):
             if idx % 10000 == 0:
@@ -73,7 +79,7 @@ def sentence_retrieval(args, seeds, keywords):
     topk = args.num_sent
     wd = args.sent_window
     top_sentences = []
-    with open(f'datasets/{args.dataset}/top_sentences.json', 'w') as fout:
+    with open(os.path.join(topic_dir,'top_sentences.json'), 'w') as fout:
         # iterate over each input seed
         for seed in seeds:
             out = {}
@@ -146,9 +152,13 @@ def sentence_retrieval(args, seeds, keywords):
     return top_sentences
 
 def caseolap(args, topk=20):
+    # directory of a dataset (ex. sta/)
+    dataset_dir = f'datasets/{args.dataset}'
+    # directory of a current test document (ex. sta/topic_0/)
+    topic_dir = f'datasets/{args.dataset}/topics/{args.topic}' # = dataset_dir
     seeds = []
     keywords = {}
-    with open(f'datasets/{args.dataset}/intermediate_1.txt') as fin:
+    with open(os.path.join(topic_dir, f'intermediate_1.txt')) as fin:
         for line in fin:
             data = line.strip().split(':')
             seed = data[0]
@@ -159,9 +169,9 @@ def caseolap(args, topk=20):
             keywords[seed] = kws
 
     # learned seed-guided text embeddings of the input corpus
-    word2emb = load_cate_emb(f'datasets/{args.dataset}/emb_{args.topic}_w.txt')
+    word2emb = load_cate_emb(os.path.join(topic_dir, f'emb_{args.topic}_w.txt'))
     # PLM-based (SloBERTa-based) representations of the most popular slovenian words
-    word2bert = load_bert_emb(f'datasets/{args.dataset}/{args.dataset}_sloberta')
+    word2bert = load_bert_emb(os.path.join(dataset_dir, f'{args.dataset}_sloberta'))
 
     # for each seed retrieve topic-indicative sentences (TIS)
     top_sentences = sentence_retrieval(args, seeds, keywords)
@@ -173,6 +183,9 @@ def caseolap(args, topk=20):
     # document frequency: number of seed's TISes where the current word appears 
     # document=all TISes of a seed
     df = [defaultdict(int) for _ in range(n)]
+
+    # number of times the word appears in 
+    mdf = [defaultdict(int) for _ in range(n)]
 
     # dictionary {seed: {word: [ids of documents where the word appears in context of the seed]}}
     word2doc = []
@@ -261,7 +274,7 @@ def caseolap(args, topk=20):
         dist[word] = Softmax([bm25[x][word] for x in range(n)])
 
     total_docs = dict()
-    with open(f'datasets/{args.dataset}/intermediate_2.txt', 'w') as fout1:
+    with open(os.path.join(topic_dir, f'intermediate_2.txt'), 'w') as fout1:
         # for each seed find the top-scored terms based on 3 contexts
         for idx in range(n):
             seed = seeds[idx]
@@ -297,14 +310,38 @@ def caseolap(args, topk=20):
             #for term in top_terms:
             #    terms_docs_dict[term] = [] if not idx in candidate_states[term] else candidate_states[term][idx]
             for term, sim_score in zip(top_terms, caseolap_sorted[:topk]):
-                docs_ids = [] if not idx in candidate_states[term] else candidate_states[term][idx]
+                #docs_ids = [] if not idx in candidate_states[term] else candidate_states[term][idx]
+                #terms_docs_dict[term] = {'similarity_score': sim_score[1], 'doc_ids': docs_ids}
+
+                #docs_ids = [] if not idx in candidate_states[term] else candidate_states[term][idx]
+                #docs_scores = [] if not idx in candidate_scores[term] else candidate_scores[term][idx]
+                #scores_len = len(docs_scores)
+                #assert len(docs_ids) == scores_len
+                #if scores_len > 0:
+                #    docs_dict = {}
+                #    for i in range(scores_len):
+                #        docs_dict[docs_ids[i]] = docs_scores[i]
+                #    docs_ids = docs_dict
+
+                cur_sntns = top_sentences[idx]["sentences"]
+                # 
+                docs_ids = {}
+                for sntn in cur_sntns:
+                    occs = sntn['sentence'].count(term)
+                    if occs > 0:
+                        if sntn['doc_id'] in docs_ids:
+                            docs_ids[sntn['doc_id']] += occs
+                        else:
+                            docs_ids[sntn['doc_id']] = occs
+
                 terms_docs_dict[term] = {'similarity_score': sim_score[1], 'doc_ids': docs_ids}
+
             total_docs[seed] = terms_docs_dict
-        print(f'Saved top-{topk} terms to datasets/{args.dataset}/intermediate_2.txt')
+        print(f'Saved top-{topk} terms to {topic_dir}/intermediate_2.txt')
         
-    with open(f'datasets/{args.dataset}/intermediate_2_doc_ids.json', 'w') as fout2:
+    with open(os.path.join(topic_dir, f'intermediate_2_doc_ids.json'), 'w') as fout2:
         json.dump(total_docs, fout2)
-        print(f'Saved document ids featuring top-{topk} terms to datasets/{args.dataset}/intermediate_2_doc_ids.json')
+        print(f'Saved document ids featuring top-{topk} terms to {topic_dir}/intermediate_2_doc_ids.json')
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='main', formatter_class=argparse.ArgumentDefaultsHelpFormatter)

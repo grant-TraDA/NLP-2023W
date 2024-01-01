@@ -1,27 +1,29 @@
+import os
 import numpy as np
 import argparse
 from utils import *
 
 def process_cate(args, topK=20):
-
-    word2emb = load_cate_emb(f'datasets/{args.dataset}/emb_{args.topic}_w.txt')
-    word2bert = load_bert_emb(f'datasets/{args.dataset}/{args.dataset}_sloberta')
+    dataset_dir = f'datasets/{args.dataset}'
+    topic_dir = f'datasets/{args.dataset}/topics/{args.topic}' # = dataset_dir
+    word2emb = load_cate_emb(os.path.join(topic_dir, f'emb_{args.topic}_w.txt'))
+    word2bert = load_bert_emb(os.path.join(dataset_dir, f'{args.dataset}_sloberta'))
 
     cur_seeds = []
-    with open(f'datasets/{args.dataset}/{args.topic}_seeds.txt') as fin:
+    with open(os.path.join(topic_dir,f'{args.topic}_seeds.txt')) as fin:
         for line in fin:
             data = line.strip().split(' ')
             cur_seeds.append(data)
 
     seeds = []
-    with open(f'datasets/{args.dataset}/{args.topic}.txt') as fin:
+    with open(os.path.join(topic_dir,f'{args.topic}.txt')) as fin:
         for line in fin:
             data = line.strip()
             seeds.append(data.split(' ')[0])
             
 
     score_dict = {}
-    with open(f'datasets/{args.dataset}/intermediate_1.txt', 'w') as fout:
+    with open(os.path.join(topic_dir,f'intermediate_1.txt'), 'w') as fout:
         for seed, seeds in zip(seeds, cur_seeds):
             score = {}
             for word in word2emb:
@@ -41,11 +43,11 @@ def process_cate(args, topK=20):
                 value = record[1] 
                 score_dict[seed].append((term, value))
             
-        print(f'Saved top-{topK} terms to datasets/{args.dataset}/intermediate_1.txt')
+        print(f'Saved top-{topK} terms to {topic_dir}/intermediate_1.txt')
 
-    with open(f'datasets/{args.dataset}/intermediate_1_scores.json','w') as fout:
+    with open(os.path.join(topic_dir,f'intermediate_1_scores.json'),'w') as fout:
         json.dump(score_dict, fout)
-        print(f'Saved top-{topK} terms with scores to datasets/{args.dataset}/intermediate_1_scores.json')
+        print(f'Saved top-{topK} terms with scores to {topic_dir}/intermediate_1_scores.json')
         
 
 if __name__ == '__main__':

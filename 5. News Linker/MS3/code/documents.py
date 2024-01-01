@@ -29,7 +29,9 @@ def rank_dictionary(dictionary):
     return ranks_dict
 
 def rank_documents(args, topK=5):
-    with open(f'./datasets/{args.dataset}/locations_seeds_doc_ids.json','r') as f:
+    # directory of a current test document (ex. sta/topic_0/)
+    topic_dir = f'datasets/{args.dataset}/topics/{args.topic}' # = dataset_dir
+    with open(os.path.join(topic_dir, f'{args.topic}_seeds_doc_ids.json'),'r') as f:
         data = json.load(f)
 
     # for each keyword of a seed there is a list of document ids
@@ -98,12 +100,11 @@ def rank_documents(args, topK=5):
 
     # save predicted document ids
     pred_ids = [x[0] for x in mrr_sorted[:topK]]
-    save_list(pred_ids, f'./datasets/{args.dataset}/doc_ids_pred.txt')
+    save_list(pred_ids, os.path.join(topic_dir, f'doc_ids_pred.txt'))
     
     # save documents total frequency
-    save_sorted_dictionary(df_total, f'./datasets/{args.dataset}/doc_freq_total.txt')
+    save_sorted_dictionary(df_total, os.path.join(topic_dir, f'doc_freq_total.txt'))
 
     # save documents with their category count
-    save_sorted_dictionary(seeds_per_doc, f'./datasets/{args.dataset}/doc_seeds_count.txt')
+    save_sorted_dictionary(seeds_per_doc, os.path.join(topic_dir, f'doc_seeds_count.txt'))
     return df_seed, df_total, seeds_per_doc
-                   
