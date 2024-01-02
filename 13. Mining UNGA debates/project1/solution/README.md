@@ -3,7 +3,7 @@ Mateusz Grzyb, Mateusz Krzyziński, Bartłomiej Sobieski, Mikołaj Spytek
 
 
 ## Where is our solution available?
-- The application created during this project is available in the *Docker* image at [https://hub.docker.com/krzyzinskim/nlp-unga-debates](https://nlp-unga-debates-g2o6gnzttq-lm.a.run.app/). To run it, you simply need to run the docker container with appropriate port forwarding.
+- The application created during this project is available in the *Docker* image at [https://hub.docker.com/r/krzyzinskim/nlp-unga-debates](https://hub.docker.com/r/krzyzinskim/nlp-unga-debates). To run it, you simply need to run the docker container with appropriate port forwarding.
 - The application is also hosted at [https://nlp-unga-debates-g2o6gnzttq-lm.a.run.app/](https://nlp-unga-debates-g2o6gnzttq-lm.a.run.app/), at least until we run out of free credits at *Google Cloud Platform*.
 - The pickle binary file with processed dataset (used in the app) is available at [https://drive.google.com/drive/folders/16a-Woz3FoPsXd77MsIyIMZkKlwSEIkox?usp=share_link](https://drive.google.com/drive/folders/16a-Woz3FoPsXd77MsIyIMZkKlwSEIkox?usp=share_link). To run app properly, it should be placed in the main project directory.
 
