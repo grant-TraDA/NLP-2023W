@@ -1,0 +1,584 @@
+2023-12-10 13:42:03,999 SequenceTagger predicts: Dictionary with 25 tags: O, S-Funding Agency, B-Funding Agency, E-Funding Agency, I-Funding Agency, S-Grant Number, B-Grant Number, E-Grant Number, I-Grant Number, S-Person, B-Person, E-Person, I-Person, S-University, B-University, E-University, I-University, S-Miscellaneous, B-Miscellaneous, E-Miscellaneous, I-Miscellaneous, S-Corporation, B-Corporation, E-Corporation, I-Corporation
+2023-12-10 13:42:04,006 ----------------------------------------------------------------------------------------------------
+2023-12-10 13:42:04,008 Model: "SequenceTagger(
+  (embeddings): TransformerWordEmbeddings(
+    (model): XLNetModel(
+      (word_embedding): Embedding(32001, 1024)
+      (layer): ModuleList(
+        (0): XLNetLayer(
+          (rel_attn): XLNetRelativeAttention(
+            (layer_norm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (ff): XLNetFeedForward(
+            (layer_norm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (layer_1): Linear(in_features=1024, out_features=4096, bias=True)
+            (layer_2): Linear(in_features=4096, out_features=1024, bias=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+            (activation_function): GELUActivation()
+          )
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (1): XLNetLayer(
+          (rel_attn): XLNetRelativeAttention(
+            (layer_norm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (ff): XLNetFeedForward(
+            (layer_norm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (layer_1): Linear(in_features=1024, out_features=4096, bias=True)
+            (layer_2): Linear(in_features=4096, out_features=1024, bias=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+            (activation_function): GELUActivation()
+          )
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (2): XLNetLayer(
+          (rel_attn): XLNetRelativeAttention(
+            (layer_norm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (ff): XLNetFeedForward(
+            (layer_norm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (layer_1): Linear(in_features=1024, out_features=4096, bias=True)
+            (layer_2): Linear(in_features=4096, out_features=1024, bias=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+            (activation_function): GELUActivation()
+          )
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (3): XLNetLayer(
+          (rel_attn): XLNetRelativeAttention(
+            (layer_norm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (ff): XLNetFeedForward(
+            (layer_norm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (layer_1): Linear(in_features=1024, out_features=4096, bias=True)
+            (layer_2): Linear(in_features=4096, out_features=1024, bias=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+            (activation_function): GELUActivation()
+          )
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (4): XLNetLayer(
+          (rel_attn): XLNetRelativeAttention(
+            (layer_norm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (ff): XLNetFeedForward(
+            (layer_norm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (layer_1): Linear(in_features=1024, out_features=4096, bias=True)
+            (layer_2): Linear(in_features=4096, out_features=1024, bias=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+            (activation_function): GELUActivation()
+          )
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (5): XLNetLayer(
+          (rel_attn): XLNetRelativeAttention(
+            (layer_norm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (ff): XLNetFeedForward(
+            (layer_norm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (layer_1): Linear(in_features=1024, out_features=4096, bias=True)
+            (layer_2): Linear(in_features=4096, out_features=1024, bias=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+            (activation_function): GELUActivation()
+          )
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (6): XLNetLayer(
+          (rel_attn): XLNetRelativeAttention(
+            (layer_norm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (ff): XLNetFeedForward(
+            (layer_norm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (layer_1): Linear(in_features=1024, out_features=4096, bias=True)
+            (layer_2): Linear(in_features=4096, out_features=1024, bias=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+            (activation_function): GELUActivation()
+          )
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (7): XLNetLayer(
+          (rel_attn): XLNetRelativeAttention(
+            (layer_norm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (ff): XLNetFeedForward(
+            (layer_norm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (layer_1): Linear(in_features=1024, out_features=4096, bias=True)
+            (layer_2): Linear(in_features=4096, out_features=1024, bias=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+            (activation_function): GELUActivation()
+          )
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (8): XLNetLayer(
+          (rel_attn): XLNetRelativeAttention(
+            (layer_norm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (ff): XLNetFeedForward(
+            (layer_norm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (layer_1): Linear(in_features=1024, out_features=4096, bias=True)
+            (layer_2): Linear(in_features=4096, out_features=1024, bias=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+            (activation_function): GELUActivation()
+          )
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (9): XLNetLayer(
+          (rel_attn): XLNetRelativeAttention(
+            (layer_norm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (ff): XLNetFeedForward(
+            (layer_norm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (layer_1): Linear(in_features=1024, out_features=4096, bias=True)
+            (layer_2): Linear(in_features=4096, out_features=1024, bias=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+            (activation_function): GELUActivation()
+          )
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (10): XLNetLayer(
+          (rel_attn): XLNetRelativeAttention(
+            (layer_norm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (ff): XLNetFeedForward(
+            (layer_norm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (layer_1): Linear(in_features=1024, out_features=4096, bias=True)
+            (layer_2): Linear(in_features=4096, out_features=1024, bias=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+            (activation_function): GELUActivation()
+          )
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (11): XLNetLayer(
+          (rel_attn): XLNetRelativeAttention(
+            (layer_norm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (ff): XLNetFeedForward(
+            (layer_norm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (layer_1): Linear(in_features=1024, out_features=4096, bias=True)
+            (layer_2): Linear(in_features=4096, out_features=1024, bias=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+            (activation_function): GELUActivation()
+          )
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (12): XLNetLayer(
+          (rel_attn): XLNetRelativeAttention(
+            (layer_norm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (ff): XLNetFeedForward(
+            (layer_norm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (layer_1): Linear(in_features=1024, out_features=4096, bias=True)
+            (layer_2): Linear(in_features=4096, out_features=1024, bias=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+            (activation_function): GELUActivation()
+          )
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (13): XLNetLayer(
+          (rel_attn): XLNetRelativeAttention(
+            (layer_norm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (ff): XLNetFeedForward(
+            (layer_norm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (layer_1): Linear(in_features=1024, out_features=4096, bias=True)
+            (layer_2): Linear(in_features=4096, out_features=1024, bias=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+            (activation_function): GELUActivation()
+          )
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (14): XLNetLayer(
+          (rel_attn): XLNetRelativeAttention(
+            (layer_norm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (ff): XLNetFeedForward(
+            (layer_norm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (layer_1): Linear(in_features=1024, out_features=4096, bias=True)
+            (layer_2): Linear(in_features=4096, out_features=1024, bias=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+            (activation_function): GELUActivation()
+          )
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (15): XLNetLayer(
+          (rel_attn): XLNetRelativeAttention(
+            (layer_norm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (ff): XLNetFeedForward(
+            (layer_norm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (layer_1): Linear(in_features=1024, out_features=4096, bias=True)
+            (layer_2): Linear(in_features=4096, out_features=1024, bias=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+            (activation_function): GELUActivation()
+          )
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (16): XLNetLayer(
+          (rel_attn): XLNetRelativeAttention(
+            (layer_norm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (ff): XLNetFeedForward(
+            (layer_norm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (layer_1): Linear(in_features=1024, out_features=4096, bias=True)
+            (layer_2): Linear(in_features=4096, out_features=1024, bias=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+            (activation_function): GELUActivation()
+          )
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (17): XLNetLayer(
+          (rel_attn): XLNetRelativeAttention(
+            (layer_norm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (ff): XLNetFeedForward(
+            (layer_norm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (layer_1): Linear(in_features=1024, out_features=4096, bias=True)
+            (layer_2): Linear(in_features=4096, out_features=1024, bias=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+            (activation_function): GELUActivation()
+          )
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (18): XLNetLayer(
+          (rel_attn): XLNetRelativeAttention(
+            (layer_norm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (ff): XLNetFeedForward(
+            (layer_norm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (layer_1): Linear(in_features=1024, out_features=4096, bias=True)
+            (layer_2): Linear(in_features=4096, out_features=1024, bias=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+            (activation_function): GELUActivation()
+          )
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (19): XLNetLayer(
+          (rel_attn): XLNetRelativeAttention(
+            (layer_norm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (ff): XLNetFeedForward(
+            (layer_norm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (layer_1): Linear(in_features=1024, out_features=4096, bias=True)
+            (layer_2): Linear(in_features=4096, out_features=1024, bias=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+            (activation_function): GELUActivation()
+          )
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (20): XLNetLayer(
+          (rel_attn): XLNetRelativeAttention(
+            (layer_norm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (ff): XLNetFeedForward(
+            (layer_norm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (layer_1): Linear(in_features=1024, out_features=4096, bias=True)
+            (layer_2): Linear(in_features=4096, out_features=1024, bias=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+            (activation_function): GELUActivation()
+          )
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (21): XLNetLayer(
+          (rel_attn): XLNetRelativeAttention(
+            (layer_norm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (ff): XLNetFeedForward(
+            (layer_norm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (layer_1): Linear(in_features=1024, out_features=4096, bias=True)
+            (layer_2): Linear(in_features=4096, out_features=1024, bias=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+            (activation_function): GELUActivation()
+          )
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (22): XLNetLayer(
+          (rel_attn): XLNetRelativeAttention(
+            (layer_norm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (ff): XLNetFeedForward(
+            (layer_norm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (layer_1): Linear(in_features=1024, out_features=4096, bias=True)
+            (layer_2): Linear(in_features=4096, out_features=1024, bias=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+            (activation_function): GELUActivation()
+          )
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (23): XLNetLayer(
+          (rel_attn): XLNetRelativeAttention(
+            (layer_norm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (ff): XLNetFeedForward(
+            (layer_norm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (layer_1): Linear(in_features=1024, out_features=4096, bias=True)
+            (layer_2): Linear(in_features=4096, out_features=1024, bias=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+            (activation_function): GELUActivation()
+          )
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+      )
+      (dropout): Dropout(p=0.1, inplace=False)
+    )
+  )
+  (locked_dropout): LockedDropout(p=0.5)
+  (linear): Linear(in_features=1024, out_features=25, bias=True)
+  (loss_function): CrossEntropyLoss()
+)"
+2023-12-10 13:42:04,009 ----------------------------------------------------------------------------------------------------
+2023-12-10 13:42:04,009 Corpus: 1145 train + 150 dev + 164 test sentences
+2023-12-10 13:42:04,010 ----------------------------------------------------------------------------------------------------
+2023-12-10 13:42:04,010 Train:  1145 sentences
+2023-12-10 13:42:04,010         (train_with_dev=False, train_with_test=False)
+2023-12-10 13:42:04,011 ----------------------------------------------------------------------------------------------------
+2023-12-10 13:42:04,011 Training Params:
+2023-12-10 13:42:04,011  - learning_rate: "0.01" 
+2023-12-10 13:42:04,012  - mini_batch_size: "4"
+2023-12-10 13:42:04,012  - max_epochs: "20"
+2023-12-10 13:42:04,012  - shuffle: "True"
+2023-12-10 13:42:04,013 ----------------------------------------------------------------------------------------------------
+2023-12-10 13:42:04,013 Plugins:
+2023-12-10 13:42:04,014  - AnnealOnPlateau | patience: '3', anneal_factor: '0.5', min_learning_rate: '0.0001'
+2023-12-10 13:42:04,014 ----------------------------------------------------------------------------------------------------
+2023-12-10 13:42:04,015 Final evaluation on model from best epoch (best-model.pt)
+2023-12-10 13:42:04,015  - metric: "('micro avg', 'f1-score')"
+2023-12-10 13:42:04,015 ----------------------------------------------------------------------------------------------------
+2023-12-10 13:42:04,016 Computation:
+2023-12-10 13:42:04,016  - compute on device: cpu
+2023-12-10 13:42:04,016  - embedding storage: none
+2023-12-10 13:42:04,017 ----------------------------------------------------------------------------------------------------
+2023-12-10 13:42:04,017 Model training base path: "resources\taggers\xlnet4"
+2023-12-10 13:42:04,017 ----------------------------------------------------------------------------------------------------
+2023-12-10 13:42:04,018 ----------------------------------------------------------------------------------------------------
+2023-12-10 13:44:37,191 epoch 1 - iter 28/287 - loss 3.27199768 - time (sec): 153.17 - samples/sec: 23.55 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 13:46:51,201 epoch 1 - iter 56/287 - loss 2.86324692 - time (sec): 287.18 - samples/sec: 24.05 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 13:48:55,291 epoch 1 - iter 84/287 - loss 2.60973159 - time (sec): 411.27 - samples/sec: 23.95 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 13:51:12,482 epoch 1 - iter 112/287 - loss 2.46312301 - time (sec): 548.46 - samples/sec: 24.37 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 13:53:30,540 epoch 1 - iter 140/287 - loss 2.33562264 - time (sec): 686.52 - samples/sec: 24.09 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 13:55:44,022 epoch 1 - iter 168/287 - loss 2.23378041 - time (sec): 820.00 - samples/sec: 24.21 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 13:58:01,998 epoch 1 - iter 196/287 - loss 2.11553509 - time (sec): 957.98 - samples/sec: 24.20 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 14:00:23,982 epoch 1 - iter 224/287 - loss 2.04209825 - time (sec): 1099.96 - samples/sec: 24.65 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 14:02:55,995 epoch 1 - iter 252/287 - loss 1.96835186 - time (sec): 1251.98 - samples/sec: 24.70 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 14:05:06,348 epoch 1 - iter 280/287 - loss 1.89552464 - time (sec): 1382.33 - samples/sec: 24.78 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 14:05:34,553 ----------------------------------------------------------------------------------------------------
+2023-12-10 14:05:34,553 EPOCH 1 done: loss 1.8782 - lr: 0.010000
+100%|████████████████████████████████████████████████████████████████████████████████████| 3/3 [02:54<00:00, 58.16s/it]
+2023-12-10 14:08:29,054 DEV : loss 1.1011353731155396 - f1-score (micro avg)  0.4407
+2023-12-10 14:08:29,056  - 0 epochs without improvement
+2023-12-10 14:08:29,057 saving best model
+
+2023-12-10 14:08:30,163 ----------------------------------------------------------------------------------------------------
+2023-12-10 14:10:46,184 epoch 2 - iter 28/287 - loss 1.22628517 - time (sec): 136.02 - samples/sec: 25.48 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 14:13:02,716 epoch 2 - iter 56/287 - loss 1.14640867 - time (sec): 272.55 - samples/sec: 24.31 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 14:15:21,444 epoch 2 - iter 84/287 - loss 1.10283715 - time (sec): 411.28 - samples/sec: 24.23 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 14:17:35,201 epoch 2 - iter 112/287 - loss 1.09230287 - time (sec): 545.04 - samples/sec: 23.98 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 14:20:03,172 epoch 2 - iter 140/287 - loss 1.08617173 - time (sec): 693.01 - samples/sec: 24.39 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 14:22:22,358 epoch 2 - iter 168/287 - loss 1.06274187 - time (sec): 832.19 - samples/sec: 24.53 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 14:24:33,362 epoch 2 - iter 196/287 - loss 1.02974042 - time (sec): 963.20 - samples/sec: 24.85 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 14:26:50,898 epoch 2 - iter 224/287 - loss 1.00788757 - time (sec): 1100.73 - samples/sec: 24.43 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 14:29:10,351 epoch 2 - iter 252/287 - loss 0.97442224 - time (sec): 1240.19 - samples/sec: 24.48 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 14:31:24,611 epoch 2 - iter 280/287 - loss 0.95694145 - time (sec): 1374.45 - samples/sec: 24.62 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 14:32:17,240 ----------------------------------------------------------------------------------------------------
+2023-12-10 14:32:17,240 EPOCH 2 done: loss 0.9601 - lr: 0.010000
+100%|████████████████████████████████████████████████████████████████████████████████████| 3/3 [02:54<00:00, 58.07s/it]
+2023-12-10 14:35:11,470 DEV : loss 0.708017110824585 - f1-score (micro avg)  0.5558
+2023-12-10 14:35:11,472  - 0 epochs without improvement
+2023-12-10 14:35:11,472 saving best model
+
+2023-12-10 14:35:12,641 ----------------------------------------------------------------------------------------------------
+2023-12-10 14:37:22,460 epoch 3 - iter 28/287 - loss 0.74978319 - time (sec): 129.82 - samples/sec: 25.17 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 14:39:40,107 epoch 3 - iter 56/287 - loss 0.73502556 - time (sec): 267.46 - samples/sec: 24.96 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 14:42:04,540 epoch 3 - iter 84/287 - loss 0.73081673 - time (sec): 411.90 - samples/sec: 24.93 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 14:44:15,487 epoch 3 - iter 112/287 - loss 0.73060358 - time (sec): 542.84 - samples/sec: 25.27 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 14:46:32,968 epoch 3 - iter 140/287 - loss 0.70980541 - time (sec): 680.33 - samples/sec: 25.12 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 14:48:54,126 epoch 3 - iter 168/287 - loss 0.69406258 - time (sec): 821.48 - samples/sec: 25.37 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 14:51:18,146 epoch 3 - iter 196/287 - loss 0.68366685 - time (sec): 965.50 - samples/sec: 24.97 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 14:53:58,894 epoch 3 - iter 224/287 - loss 0.67570768 - time (sec): 1126.25 - samples/sec: 24.48 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 14:56:11,579 epoch 3 - iter 252/287 - loss 0.66509793 - time (sec): 1258.94 - samples/sec: 24.55 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 14:58:27,552 epoch 3 - iter 280/287 - loss 0.64587806 - time (sec): 1394.91 - samples/sec: 24.68 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 14:58:55,847 ----------------------------------------------------------------------------------------------------
+2023-12-10 14:58:55,848 EPOCH 3 done: loss 0.6416 - lr: 0.010000
+100%|████████████████████████████████████████████████████████████████████████████████████| 3/3 [02:53<00:00, 57.95s/it]
+2023-12-10 15:01:49,711 DEV : loss 0.604565441608429 - f1-score (micro avg)  0.6435
+2023-12-10 15:01:49,714  - 0 epochs without improvement
+2023-12-10 15:01:49,715 saving best model
+
+2023-12-10 15:01:50,879 ----------------------------------------------------------------------------------------------------
+2023-12-10 15:04:05,897 epoch 4 - iter 28/287 - loss 0.47694807 - time (sec): 135.02 - samples/sec: 24.72 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 15:06:32,850 epoch 4 - iter 56/287 - loss 0.46157751 - time (sec): 281.97 - samples/sec: 23.53 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 15:08:57,785 epoch 4 - iter 84/287 - loss 0.50630886 - time (sec): 426.91 - samples/sec: 24.49 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 15:11:13,754 epoch 4 - iter 112/287 - loss 0.51571367 - time (sec): 562.87 - samples/sec: 24.43 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 15:13:31,311 epoch 4 - iter 140/287 - loss 0.50709312 - time (sec): 700.43 - samples/sec: 24.17 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 15:15:42,739 epoch 4 - iter 168/287 - loss 0.50678236 - time (sec): 831.86 - samples/sec: 24.18 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 15:18:44,151 epoch 4 - iter 196/287 - loss 0.52357977 - time (sec): 1013.27 - samples/sec: 23.70 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 15:21:01,304 epoch 4 - iter 224/287 - loss 0.51647314 - time (sec): 1150.42 - samples/sec: 23.83 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 15:23:37,190 epoch 4 - iter 252/287 - loss 0.50909866 - time (sec): 1306.31 - samples/sec: 23.69 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 15:26:04,169 epoch 4 - iter 280/287 - loss 0.50446166 - time (sec): 1453.29 - samples/sec: 23.67 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 15:26:34,270 ----------------------------------------------------------------------------------------------------
+2023-12-10 15:26:34,270 EPOCH 4 done: loss 0.5056 - lr: 0.010000
+100%|████████████████████████████████████████████████████████████████████████████████████| 3/3 [03:01<00:00, 60.40s/it]
+2023-12-10 15:29:35,480 DEV : loss 0.4653249979019165 - f1-score (micro avg)  0.7189
+2023-12-10 15:29:35,482  - 0 epochs without improvement
+2023-12-10 15:29:35,483 saving best model
+
+2023-12-10 15:29:36,748 ----------------------------------------------------------------------------------------------------
+2023-12-10 15:31:42,996 epoch 5 - iter 28/287 - loss 0.37046841 - time (sec): 126.25 - samples/sec: 25.20 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 15:34:04,316 epoch 5 - iter 56/287 - loss 0.40330598 - time (sec): 267.57 - samples/sec: 24.99 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 15:36:20,527 epoch 5 - iter 84/287 - loss 0.37265069 - time (sec): 403.78 - samples/sec: 24.51 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 15:38:36,061 epoch 5 - iter 112/287 - loss 0.37854267 - time (sec): 539.31 - samples/sec: 24.57 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 15:41:02,512 epoch 5 - iter 140/287 - loss 0.37605342 - time (sec): 685.76 - samples/sec: 24.75 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 15:43:17,446 epoch 5 - iter 168/287 - loss 0.37968026 - time (sec): 820.70 - samples/sec: 24.57 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 15:45:32,010 epoch 5 - iter 196/287 - loss 0.39114198 - time (sec): 955.26 - samples/sec: 24.32 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 15:47:51,308 epoch 5 - iter 224/287 - loss 0.38729912 - time (sec): 1094.56 - samples/sec: 24.38 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 15:50:10,528 epoch 5 - iter 252/287 - loss 0.39206830 - time (sec): 1233.78 - samples/sec: 24.49 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 15:52:31,557 epoch 5 - iter 280/287 - loss 0.39667415 - time (sec): 1374.81 - samples/sec: 24.62 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 15:53:27,447 ----------------------------------------------------------------------------------------------------
+2023-12-10 15:53:27,447 EPOCH 5 done: loss 0.4077 - lr: 0.010000
+100%|████████████████████████████████████████████████████████████████████████████████████| 3/3 [02:53<00:00, 57.91s/it]
+2023-12-10 15:56:21,177 DEV : loss 0.5248811841011047 - f1-score (micro avg)  0.7331
+2023-12-10 15:56:21,181  - 0 epochs without improvement
+2023-12-10 15:56:21,182 saving best model
+
+2023-12-10 15:56:22,858 ----------------------------------------------------------------------------------------------------
+2023-12-10 15:58:42,890 epoch 6 - iter 28/287 - loss 0.32584152 - time (sec): 140.03 - samples/sec: 21.93 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 16:00:57,868 epoch 6 - iter 56/287 - loss 0.32110306 - time (sec): 275.01 - samples/sec: 22.14 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 16:03:25,617 epoch 6 - iter 84/287 - loss 0.32144665 - time (sec): 422.76 - samples/sec: 22.79 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 16:05:41,498 epoch 6 - iter 112/287 - loss 0.32901228 - time (sec): 558.64 - samples/sec: 23.13 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 16:07:54,281 epoch 6 - iter 140/287 - loss 0.33497864 - time (sec): 691.42 - samples/sec: 23.52 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 16:10:10,408 epoch 6 - iter 168/287 - loss 0.34270395 - time (sec): 827.55 - samples/sec: 23.74 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 16:12:29,709 epoch 6 - iter 196/287 - loss 0.34100864 - time (sec): 966.85 - samples/sec: 24.06 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 16:15:04,073 epoch 6 - iter 224/287 - loss 0.35166461 - time (sec): 1121.21 - samples/sec: 24.25 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 16:17:30,970 epoch 6 - iter 252/287 - loss 0.35899200 - time (sec): 1268.11 - samples/sec: 24.31 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 16:19:46,768 epoch 6 - iter 280/287 - loss 0.35288982 - time (sec): 1403.91 - samples/sec: 24.34 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 16:20:19,288 ----------------------------------------------------------------------------------------------------
+2023-12-10 16:20:19,289 EPOCH 6 done: loss 0.3540 - lr: 0.010000
+100%|████████████████████████████████████████████████████████████████████████████████████| 3/3 [02:53<00:00, 58.00s/it]
+2023-12-10 16:23:13,282 DEV : loss 0.45185789465904236 - f1-score (micro avg)  0.7601
+2023-12-10 16:23:13,284  - 0 epochs without improvement
+2023-12-10 16:23:13,285 saving best model
+
+2023-12-10 16:23:14,399 ----------------------------------------------------------------------------------------------------
+2023-12-10 16:25:33,946 epoch 7 - iter 28/287 - loss 0.25024310 - time (sec): 139.54 - samples/sec: 25.11 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 16:27:48,799 epoch 7 - iter 56/287 - loss 0.28212898 - time (sec): 274.40 - samples/sec: 25.78 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 16:30:06,991 epoch 7 - iter 84/287 - loss 0.30403035 - time (sec): 412.59 - samples/sec: 25.41 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 16:32:19,231 epoch 7 - iter 112/287 - loss 0.30749509 - time (sec): 544.83 - samples/sec: 24.94 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 16:34:38,177 epoch 7 - iter 140/287 - loss 0.30331713 - time (sec): 683.78 - samples/sec: 24.75 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 16:36:49,616 epoch 7 - iter 168/287 - loss 0.30916743 - time (sec): 815.21 - samples/sec: 24.56 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 16:39:07,716 epoch 7 - iter 196/287 - loss 0.30879803 - time (sec): 953.31 - samples/sec: 24.51 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 16:41:21,092 epoch 7 - iter 224/287 - loss 0.31055209 - time (sec): 1086.69 - samples/sec: 24.64 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 16:44:01,704 epoch 7 - iter 252/287 - loss 0.31571253 - time (sec): 1247.30 - samples/sec: 24.64 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 16:46:24,690 epoch 7 - iter 280/287 - loss 0.31529397 - time (sec): 1390.29 - samples/sec: 24.70 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 16:46:54,578 ----------------------------------------------------------------------------------------------------
+2023-12-10 16:46:54,578 EPOCH 7 done: loss 0.3131 - lr: 0.010000
+100%|████████████████████████████████████████████████████████████████████████████████████| 3/3 [02:53<00:00, 57.95s/it]
+2023-12-10 16:49:48,426 DEV : loss 0.4222351014614105 - f1-score (micro avg)  0.7498
+2023-12-10 16:49:48,429  - 1 epochs without improvement
+2023-12-10 16:49:48,431 ----------------------------------------------------------------------------------------------------
+
+2023-12-10 16:51:51,484 epoch 8 - iter 28/287 - loss 0.33478219 - time (sec): 123.05 - samples/sec: 26.57 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 16:54:07,410 epoch 8 - iter 56/287 - loss 0.31886953 - time (sec): 258.98 - samples/sec: 25.83 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 16:56:19,380 epoch 8 - iter 84/287 - loss 0.30024588 - time (sec): 390.95 - samples/sec: 25.18 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 16:59:06,034 epoch 8 - iter 112/287 - loss 0.31197797 - time (sec): 557.60 - samples/sec: 24.67 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 17:01:25,238 epoch 8 - iter 140/287 - loss 0.28997758 - time (sec): 696.81 - samples/sec: 25.00 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 17:03:45,233 epoch 8 - iter 168/287 - loss 0.28378155 - time (sec): 836.80 - samples/sec: 24.75 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 17:05:54,246 epoch 8 - iter 196/287 - loss 0.28237961 - time (sec): 965.81 - samples/sec: 24.81 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 17:08:15,136 epoch 8 - iter 224/287 - loss 0.27134706 - time (sec): 1106.70 - samples/sec: 24.84 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 17:10:36,165 epoch 8 - iter 252/287 - loss 0.26919106 - time (sec): 1247.73 - samples/sec: 25.03 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 17:12:54,860 epoch 8 - iter 280/287 - loss 0.27065804 - time (sec): 1386.43 - samples/sec: 24.83 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 17:13:24,280 ----------------------------------------------------------------------------------------------------
+2023-12-10 17:13:24,281 EPOCH 8 done: loss 0.2731 - lr: 0.010000
+100%|████████████████████████████████████████████████████████████████████████████████████| 3/3 [02:54<00:00, 58.10s/it]
+2023-12-10 17:16:18,598 DEV : loss 0.44514980912208557 - f1-score (micro avg)  0.7961
+2023-12-10 17:16:18,601  - 0 epochs without improvement
+2023-12-10 17:16:18,601 saving best model
+
+2023-12-10 17:16:19,803 ----------------------------------------------------------------------------------------------------
+2023-12-10 17:18:40,007 epoch 9 - iter 28/287 - loss 0.21969860 - time (sec): 140.20 - samples/sec: 22.08 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 17:21:03,175 epoch 9 - iter 56/287 - loss 0.25765576 - time (sec): 283.37 - samples/sec: 23.55 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 17:23:22,736 epoch 9 - iter 84/287 - loss 0.25000416 - time (sec): 422.93 - samples/sec: 23.08 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 17:25:46,643 epoch 9 - iter 112/287 - loss 0.24611999 - time (sec): 566.84 - samples/sec: 23.24 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 17:28:01,960 epoch 9 - iter 140/287 - loss 0.23787214 - time (sec): 702.15 - samples/sec: 23.25 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 17:30:17,896 epoch 9 - iter 168/287 - loss 0.23963684 - time (sec): 838.09 - samples/sec: 23.76 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 17:32:41,956 epoch 9 - iter 196/287 - loss 0.24532791 - time (sec): 982.15 - samples/sec: 24.23 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 17:34:55,590 epoch 9 - iter 224/287 - loss 0.24357877 - time (sec): 1115.79 - samples/sec: 24.31 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 17:37:44,409 epoch 9 - iter 252/287 - loss 0.25502859 - time (sec): 1284.60 - samples/sec: 23.88 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 17:40:05,504 epoch 9 - iter 280/287 - loss 0.25026593 - time (sec): 1425.70 - samples/sec: 23.97 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 17:40:43,877 ----------------------------------------------------------------------------------------------------
+2023-12-10 17:40:43,877 EPOCH 9 done: loss 0.2486 - lr: 0.010000
+100%|████████████████████████████████████████████████████████████████████████████████████| 3/3 [02:56<00:00, 58.68s/it]
+2023-12-10 17:43:39,918 DEV : loss 0.4944292902946472 - f1-score (micro avg)  0.7933
+2023-12-10 17:43:39,921  - 1 epochs without improvement
+2023-12-10 17:43:39,922 ----------------------------------------------------------------------------------------------------
+
+2023-12-10 17:46:02,621 epoch 10 - iter 28/287 - loss 0.20534375 - time (sec): 142.70 - samples/sec: 23.65 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 17:48:58,611 epoch 10 - iter 56/287 - loss 0.25139129 - time (sec): 318.69 - samples/sec: 22.96 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 17:51:18,838 epoch 10 - iter 84/287 - loss 0.26194542 - time (sec): 458.91 - samples/sec: 23.79 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 17:53:53,028 epoch 10 - iter 112/287 - loss 0.24411989 - time (sec): 613.10 - samples/sec: 23.42 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 17:56:18,447 epoch 10 - iter 140/287 - loss 0.23187111 - time (sec): 758.52 - samples/sec: 23.55 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 17:58:44,996 epoch 10 - iter 168/287 - loss 0.22688240 - time (sec): 905.07 - samples/sec: 23.98 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 18:00:57,939 epoch 10 - iter 196/287 - loss 0.22743107 - time (sec): 1038.02 - samples/sec: 24.15 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 18:03:13,662 epoch 10 - iter 224/287 - loss 0.22492145 - time (sec): 1173.74 - samples/sec: 23.97 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 18:05:39,587 epoch 10 - iter 252/287 - loss 0.22064704 - time (sec): 1319.66 - samples/sec: 23.57 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 18:07:57,115 epoch 10 - iter 280/287 - loss 0.21551664 - time (sec): 1457.19 - samples/sec: 23.57 - lr: 0.010000 - momentum: 0.000000
+2023-12-10 18:08:26,047 ----------------------------------------------------------------------------------------------------
+2023-12-10 18:08:26,048 EPOCH 10 done: loss 0.2186 - lr: 0.010000
+100%|████████████████████████████████████████████████████████████████████████████████████| 3/3 [02:57<00:00, 59.10s/it]
+2023-12-10 18:11:23,355 DEV : loss 0.44264256954193115 - f1-score (micro avg)  0.7893
+2023-12-10 18:11:23,358  - 2 epochs without improvement
+2023-12-10 18:11:23,360 ----------------------------------------------------------------------------------------------------
+
+2023-12-10 18:11:47,663 ----------------------------------------------------------------------------------------------------
+2023-12-10 18:11:47,664 Exiting from training early.
+2023-12-10 18:11:47,664 Saving model ...
+2023-12-10 18:11:48,760 Done.
+2023-12-10 18:11:48,763 ----------------------------------------------------------------------------------------------------
+2023-12-10 18:11:48,766 Loading model from best epoch ...
+2023-12-10 18:11:51,702 SequenceTagger predicts: Dictionary with 25 tags: O, S-Funding Agency, B-Funding Agency, E-Funding Agency, I-Funding Agency, S-Grant Number, B-Grant Number, E-Grant Number, I-Grant Number, S-Person, B-Person, E-Person, I-Person, S-University, B-University, E-University, I-University, S-Miscellaneous, B-Miscellaneous, E-Miscellaneous, I-Miscellaneous, S-Corporation, B-Corporation, E-Corporation, I-Corporation
+100%|███████████████████████████████████████████████████████████████████████████████████| 3/3 [12:23<00:00, 247.79s/it]
+2023-12-10 18:24:15,355 
+Results:
+- F-score (micro) 0.7747
+- F-score (macro) 0.6829
+- Accuracy 0.6511
+
+By class:
+                precision    recall  f1-score   support
+
+        Person     0.8861    0.9492    0.9165       295
+Funding Agency     0.6561    0.7898    0.7168       157
+  Grant Number     0.9337    0.9688    0.9509       160
+    University     0.5000    0.5859    0.5395        99
+ Miscellaneous     0.3523    0.3780    0.3647        82
+   Corporation     0.6364    0.5833    0.6087        12
+
+     micro avg     0.7393    0.8137    0.7747       805
+     macro avg     0.6608    0.7092    0.6829       805
+  weighted avg     0.7451    0.8137    0.7772       805
+
+2023-12-10 18:24:15,357 ----------------------------------------------------------------------------------------------------
+
+{'test_score': 0.7746895328208161}
