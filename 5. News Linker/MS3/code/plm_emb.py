@@ -13,9 +13,9 @@ from gensim.models.keyedvectors import KeyedVectors
 import pickle
 
 parser = argparse.ArgumentParser(description='main', formatter_class=argparse.ArgumentDefaultsHelpFormatter)
-parser.add_argument('--dataset', default='nyt', type=str)
+parser.add_argument('--dataset', default='sta', type=str)
 parser.add_argument('--text_file', default='corpus_train.txt', type=str)
-parser.add_argument('--plm', default='bert-base-uncased', type=str)
+parser.add_argument('--plm', default='EMBEDDIA/sloberta', type=str)
 parser.add_argument('--batch_size', default=64, type=int)
 parser.add_argument('--gpu', default=0, type=int)
 args = parser.parse_args()
@@ -26,6 +26,8 @@ else:
     print('CUDA not available')
     #exit()
     device = "cpu"
+
+nltk.download('popular')
 
 tokenizer = AutoTokenizer.from_pretrained(args.plm)
 model = AutoModel.from_pretrained(args.plm)
@@ -46,7 +48,7 @@ inv_vocab = {}
 sentences = []
 with open(file) as f:
     for line in tqdm(f, total=get_num_lines(file)):
-        for sent in sent_tokenize(line.strip().replace(' .', '.')):
+        for sent in sent_tokenize(line.strip().replace(' .', '.'),language='slovene'):
             sent_toks = [tok for tok in sent.replace('.', ' .').split(' ') if tok != '']
             tok_enc = tokenizer([tok.replace('_', ' ') for tok in sent_toks], add_special_tokens=False)['input_ids']
             indices = [1] + (np.cumsum([len(ids) for ids in tok_enc]) + 1).tolist()
@@ -83,4 +85,4 @@ ave_phrase_emb = phrase_emb / phrase_div
 
 kv = KeyedVectors(768)
 kv.add_vectors([inv_vocab[i] for i in range(len(vocab))], ave_phrase_emb)
-kv.save(f'datasets/{args.dataset}/{args.dataset}_bert')
+kv.save(f'datasets/{args.dataset}/{args.dataset}_sloberta')

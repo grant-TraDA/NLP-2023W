@@ -4,16 +4,28 @@ The source code of News Linking project.
 NOTE! Data used in this project is private and can't be publicly shared on GitHub due to Non-disclosure agreement. Please contact us if you need the data to run the project.
 
 ## Run News Linking
-1. Place the STA corpus (```articles/```,```photos/```,```videos/```) in ```datasets/sta/``` directory.
-2. Place SloBERTA-based word representations (```sta_sloberta```, ```sta_sloberta.vectors.npy```) in ```datasets/sta/``` directory.
-3. Place fasttext word embeddings (```word_embs.txt```) in the main directory.
-4. Compile CatE by:
+1. Install requirements: 
+```
+pip install -r requirements.txt
+```
+2. Download nltk stopwords: 
+```
+python -m nltk.downloader stopwords
+```
+3. Download slovenian pipeline 
+```
+python -m spacy download sl_core_news_sm
+```
+4. Place the STA corpus (```articles/```,```photos/```,```videos/```) in ```datasets/sta/``` directory.
+5. Place SloBERTA-based word representations (```sta_sloberta```, ```sta_sloberta.vectors.npy```) in ```datasets/sta/``` directory. Alternatively, run generate embeddings by running the scripts (takes 3-4 hours on GPU): ```python plm_emb.py ```.
+6. Place fasttext word embeddings (```word_embs.txt```) in the main directory.
+7. Compile CatE by:
 ```
 cd cate
 make cate
 cd ..
 ```
-5. Prepare training and testing datasets by either running the script:
+8. Prepare training and testing datasets by either running the script:
 ```
 python prepare.py --dataset sta --test_size 50 --text_file corpus_train.txt
 ```
@@ -23,16 +35,16 @@ or, if you want to use an prepated dataset split, by placing ```corpus_train.txt
 - The remaining documents constitute a training corpus, utilized to establish mappings between documents' STA IDs and their positional IDs within the training corpus. 
 - Additionally, the script computes word frequency in the training corpus (required for evaluating NPMI metrics)
 - Each test document is stored in the respective  ```topics/topic_N``` directory. Its text is fed to a Slovenian Named Entity Recognition (NER) pipeline, and the identified named entities are chosen as the primary input seeds.
-6. Inspect the primary input seeds in ```topic_N/topic_N.txt``` file. Add / remove seeds (if needed).
-7. Run the main algorithm for one topic:
+9. Inspect the primary input seeds in ```topic_N/topic_N.txt``` file. Add / remove seeds (if needed).
+10. Run the main algorithm for one topic (1 iteration takes approx. 25 mins on CPU):
 ```
 python newslinking.py --dataset sta --text_file corpus_train.txt --pretrain_emb word_embs.txt --topic topic_N --num_iter 4
 ```
 Note: The algorithm can be executed for one topic (one test document) at a time. Batch execution is not supported.
 
-8. Extracted topic-related terms are placed in ```topic_N/res_topic_N.txt``` file. IDs of the most related documents are placed in ```topic_n/doc_ids_pred.txt``` file.
+11. Extracted topic-related terms are placed in ```topic_N/res_topic_N.txt``` file. IDs of the most related documents are placed in ```topic_n/doc_ids_pred.txt``` file.
 
-9. Run the summarization scipts for topics in range from N to M:
+12. Run the summarization scipts for topics in range from N to M:
 ```
 python summarize.py --dataset sta --first_topic N --last_topic M
 ```
