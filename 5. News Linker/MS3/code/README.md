@@ -1,6 +1,8 @@
 # News Linking
 The source code of News Linking project. 
 
+NOTE! Data used in this project is private and can't be publicly shared on GitHub due to Non-disclosure agreement. Please contact us if you need the data to run the project.
+
 ## Run News Linking
 1. Place the STA corpus (```articles/```,```photos/```,```videos/```) in ```datasets/sta/``` directory.
 2. Place SloBERTA-based word representations (```sta_sloberta```, ```sta_sloberta.vectors.npy```) in ```datasets/sta/``` directory.
