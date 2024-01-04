@@ -108,3 +108,4 @@ def rank_documents(args, topK=5):
     # save documents with their category count
     save_sorted_dictionary(seeds_per_doc, os.path.join(topic_dir, f'doc_seeds_count.txt'))
     return df_seed, df_total, seeds_per_doc
+                   

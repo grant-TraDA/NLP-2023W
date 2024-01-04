@@ -1,3 +1,4 @@
+import os
 import numpy as np
 from gensim.models import KeyedVectors
 import json
@@ -18,6 +19,26 @@ def process_sentences(args):
                     ss.append(s)
             out['sentences'] = ss
             fout.write(json.dumps(out)+'\n')
+
+def cleanup(args):
+    topic_dir = f'./datasets/{args.dataset}/topics/{args.topic}'
+    files = [
+        'intermediate_1.txt',
+        'intermediate_1_scores.json',
+        'intermediate_2.txt',
+        'intermediate_2_doc_ids.json',
+        f'{args.topic}_seeds.txt',
+        #'doc_ids_pred.txt',
+        'doc_freq_total.txt',
+        'doc_seeds_count.txt',
+        f'emb_{args.topic}_t.txt',
+        f'emb_{args.topic}_w.txt'
+    ]
+    for fname in files:
+        path = os.path.join(topic_dir, fname)
+        if os.path.exists(path):
+            os.remove(path)
+
 
 def load_cate_emb(file):
     word2emb = {}
@@ -40,6 +61,45 @@ def load_bert_emb(file):
         emb = emb / np.linalg.norm(emb)
         word2bert[word] = emb
     return word2bert
+
+def clean_word(word):
+    while not word[0].isalnum():
+        word = word[1:]
+    while not word[-1].isalnum():
+        word = word[:-1]
+
+    for elem in ['/','\'','*']:
+        if elem in word:
+            word = word[:word.find(elem)]
+
+    for e in ['https','http']:
+        if e in word:
+            word = e
+            break
+    return word
+
+
+def get_frequencies(word, word_frequency, word_frequency_in_documents):
+    # if the word consists of two subwords
+    if '-' in word or ':' in word:
+        subwords = word.split('-' if '-' in word else ':')
+        freqs = 0.0
+        doc_sets = []
+        for sw in subwords:        
+            if sw in word_frequency:
+                freqs += word_frequency[sw] 
+            elif sw[0].isdigit():
+                freqs += word_frequency["0"+sw]
+            else:
+                freqs += 0.0
+            doc_sets.append(word_frequency_in_documents[sw] if sw in word_frequency_in_documents else set())
+        c_i = freqs / len(subwords)
+        wfid_i = set.intersection(*doc_sets)
+    else:
+        c_i = word_frequency[word] if word in word_frequency else 0.0
+        wfid_i = word_frequency_in_documents[word] if word in word_frequency else set()
+    return c_i, wfid_i
+
 
 def pmi(topic_words, word_frequency, word_frequency_in_documents, n_docs, normalise=False):
     """PMI/NPMI topic quality metric for a topic.
@@ -70,42 +130,17 @@ def pmi(topic_words, word_frequency, word_frequency_in_documents, n_docs, normal
 
     for j in range(1, n_top):
         for i in range(0, j):
-            ti = topic_words[i]
-            if '/' in ti:
-                ti = ti[:ti.find('/')]
-            tj = topic_words[j]
-            if '/' in tj:
-                tj = tj[:tj.find('/')]
-            if '-' in ti:
-                subwords = ti.split('-')
-                freqs = 0.0
-                doc_sets = []
-                for sw in subwords:
-                    freqs += word_frequency[sw]
-                    doc_sets.append(word_frequency_in_documents[sw])
-                c_i = freqs / len(subwords)
-                wfid_i = set.intersection(*doc_sets)
-            else:
-                c_i = word_frequency[ti] 
-                wfid_i = word_frequency_in_documents[ti]
-            if '-' in tj:
-                subwords = tj.split('-')
-                freqs = 0.0
-                doc_sets = []
-                for sw in subwords:
-                    freqs += word_frequency[sw]
-                    doc_sets.append(word_frequency_in_documents[sw])
-                c_j = freqs / len(subwords)
-                wfid_j = set.intersection(*doc_sets)
-            else:
-                c_j = word_frequency[tj]
-                wfid_j = word_frequency_in_documents[tj] 
+            ti = clean_word(topic_words[i])
+            tj = clean_word(topic_words[j])
 
+            c_i, wfid_i = get_frequencies(ti, word_frequency, word_frequency_in_documents)
+            c_j, wfid_j = get_frequencies(tj, word_frequency, word_frequency_in_documents)
             
             c_i_and_j = len(wfid_i.intersection(wfid_j))
 
             dividend = (c_i_and_j + 1.0) / float(n_docs)
             divisor = ((c_i * c_j) / float(n_docs) ** 2)
+            
             pmi += np.log(dividend / divisor)
 
             npmi += -1.0 * np.log((c_i_and_j + 0.01) / float(n_docs))

@@ -30,6 +30,11 @@ Note: The algorithm can be executed for one topic (one test document) at a time.
 
 8. Extracted topic-related terms are placed in ```topic_N/res_topic_N.txt``` file. IDs of the most related documents are placed in ```topic_n/doc_ids_pred.txt``` file.
 
+9. Run the summarization scipts for topics in range from N to M:
+```
+python summarize.py --dataset sta --first_topic N --last_topic M
+```
+
 # SeedTopicMine
 The source code used for paper "[Effective Seed-Guided Topic Discovery by Integrating Multiple Types of Contexts](https://arxiv.org/abs/2212.06002)", published in WSDM 2023.
 

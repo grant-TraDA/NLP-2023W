@@ -49,18 +49,24 @@ for iteration in tqdm(range(args.num_iter),total=args.num_iter):
         break
 
     # second term ranking
-    print('second term ranking')
+    print('Second term ranking')
     # topic-indicative sentences
     caseolap(args)
     
     # rank ensemble
-    print('rank ensemble')
+    print('Rank ensemble')
     # re-rank all types of context
     rank_ensemble(args)
+
+    # convert collected scores and ids into predictions
+    doc_num = 10 # ????
+    rank_documents(args, doc_num)
+    print("Predictions saved")    
+
 print("Iterations finished!")
 
 # convert collected scores and ids into predictions
-doc_num = 10 # ????
+doc_num = 10 
 rank_documents(args, doc_num)
 print("Predictions saved!\nFinished!")    
 
@@ -68,3 +74,5 @@ evaluate_doc_ids(args)
 print("Evaluation of documents predictions performed!")
 evaluate_npmi(args)
 print("NPMI evaluation performed!")
+
+cleanup(args)

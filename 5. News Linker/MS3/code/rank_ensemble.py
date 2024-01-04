@@ -18,6 +18,7 @@ def rank_ensemble(args, topk=20):
     # PLM-based (SloBERTa-based) representations of the most popular slovenian words
     word2bert = load_bert_emb(os.path.join(dataset_dir, f'{args.dataset}_sloberta'))
 
+    # load topic-indicative terms selected after context ensembling
     caseolap_results = []
     with open(os.path.join(topic_dir, f'intermediate_2.txt')) as fin:
         for line in fin:
@@ -27,9 +28,11 @@ def rank_ensemble(args, topk=20):
             _, res = data[0], "".join(data[1:])
             caseolap_results.append(res.split(','))
             
+    # load the terms together with the corresponding scores and the related documents
     with open(os.path.join(topic_dir, f'intermediate_2_doc_ids.json'), 'r') as fin:
         caseolap_dict = json.load(fin)
        
+    # load the seeds
     cur_seeds = []
     with open(os.path.join(topic_dir, f'{args.topic}_seeds.txt')) as fin:
         for line in fin:
@@ -41,9 +44,10 @@ def rank_ensemble(args, topk=20):
     with open(os.path.join(topic_dir, f'{args.topic}_seeds.txt'), 'w') as fout:
         for idx, comb in enumerate(zip(cur_seeds, caseolap_results)):
             seeds, caseolap_res = comb
+            # dictionary for calculating the Mean Residual Rank
             word2mrr = defaultdict(float)
 
-            # cate mrr
+            # add ranking based on scores from seed-guided text embeddings
             word2cate_score = {word:np.mean([np.dot(word2emb[word], word2emb[s]) for s in seeds]) for word in word2emb}
             r = 1.
             for w in sorted(word2cate_score.keys(), key=lambda x: word2cate_score[x], reverse=True)[:topk]:
@@ -51,7 +55,7 @@ def rank_ensemble(args, topk=20):
                 word2mrr[w] += 1./r
                 r += 1
                  
-            # bert mrr
+            # add ranking based on scores from SloBERTA representations
             word2bert_score = {word:np.mean([np.dot(word2bert[word], word2bert[s]) for s in seeds]) for word in word2bert}
             r = 1.
             for w in sorted(word2bert_score.keys(), key=lambda x: word2bert_score[x], reverse=True)[:topk]:
@@ -59,21 +63,24 @@ def rank_ensemble(args, topk=20):
                 word2mrr[w] += 1./r
                 r += 1
             
-            # caseolap mrr
+            # add ranking based on scores form all contexts ensemble
             r = 1.
             for w in caseolap_res[:topk]:
                 word2mrr[w] += 1./r
                 r += 1
 
+            # sort the terms based on their ranks  
             score_sorted = sorted(word2mrr.items(), key=lambda x: x[1], reverse=True)
+            # select top-k terms
             top_terms = [x[0].replace(' ', '') for x in score_sorted if x[1] > args.rank_ens and x[0] != '']
             top_mrr = [x[1] for x in score_sorted if x[1] > args.rank_ens and x[0] != '']
+            # save the terms
             fout.write(' '.join(top_terms).replace(":","") + '\n')
 
+            # get a list seed-related documents
             cur_dict = caseolap_dict[seeds[0]]
             terms_docs_dict = dict()
-            #for term in top_terms:
-            #    terms_docs_dict[term] = [] if not term in cur_dict else cur_dict[term]
+            # for each of the top-term save its mrr, similarity score and ids of the related documents
             for term, mrr in zip(top_terms,top_mrr):
                 docs_ids = [] if not term in cur_dict else cur_dict[term]
                 terms_docs_dict[term] = {
@@ -82,7 +89,9 @@ def rank_ensemble(args, topk=20):
                     'doc_ids': docs_ids['doc_ids'] if len(docs_ids) > 0 else []
                 }
             final_dict[seeds[0]] = terms_docs_dict
+            
         print(f'Saved ranked terms to {topic_dir}/{args.topic}_seeds.txt')
+
     with open(os.path.join(topic_dir,f'{args.topic}_seeds_doc_ids.json'), 'w') as fout2:
         json.dump(final_dict,fout2)
         print(f'Saved document ids featuring ranked terms to {topic_dir}/{args.topic}_seeds_doc_ids.json')

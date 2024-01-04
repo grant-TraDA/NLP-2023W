@@ -64,14 +64,18 @@ def sentence_retrieval(args, seeds, keywords):
                 for word in words:
                     word_cnt[word] += 1
                 
-                # calculate the total number of topic-indicative terms in the sentence
+                
                 score = defaultdict(int)
                 for seed in keywords:
+                    # save total number of occurences of the seed's topic-indicative terms in the sentence
                     for kw in keywords[seed]:
                         score[seed] += word_cnt[kw]
+                # if the sentence contains topic-indicative terms of a seed - save the seed
                 pos_seeds = [x for x in score if score[x] > 0]
+                # consider only sentences with topic-indicative terms of a single seed 
                 if len(pos_seeds) == 1:
                     seed = pos_seeds[0]
+                    # set current sentence as the 'anchor' sentence of the given seed
                     scores[seed][sent_id] = score[seed]
 
 
@@ -85,7 +89,7 @@ def sentence_retrieval(args, seeds, keywords):
             out = {}
             out['seed'] = seed
             out['sentences'] = []
-            # sort the sentences based on the number of topic-indicative terms they contain
+            # sort the anchor sentences based on the number of topic-indicative (t-i) terms they contain
             scores_sorted = sorted(scores[seed].items(), key=lambda x: x[1], reverse=True)
             # select the top-k best scored sentences
             scores_sorted = scores_sorted[:topk]
@@ -115,7 +119,8 @@ def sentence_retrieval(args, seeds, keywords):
                             excl = 0
                             break
                     if excl == 1:
-                        #out['sentences'].append(id2sent[k])
+                        # no terms from other seeds were found - add as 'neighbour'
+                        # Note: it's possible that the neighbour doesn't have terms of the given seed
                         out['sentences'].append({
                             'doc_id': id2doc[k],
                             'score': scores[seed][k] if k in scores[seed] else 0,
@@ -139,7 +144,8 @@ def sentence_retrieval(args, seeds, keywords):
                             excl = 0
                             break
                     if excl == 1:
-                        #out['sentences'].append(id2sent[k])
+                        # no terms from other seeds were found - add as 'neighbour'
+                        # Note: it's possible that the neighbour doesn't have terms of the given seed
                         out['sentences'].append({
                             'doc_id': id2doc[k],
                             'score': scores[seed][k] if k in scores[seed] else 0,
@@ -184,43 +190,32 @@ def caseolap(args, topk=20):
     # document=all TISes of a seed
     df = [defaultdict(int) for _ in range(n)]
 
-    # number of times the word appears in 
-    mdf = [defaultdict(int) for _ in range(n)]
-
     # dictionary {seed: {word: [ids of documents where the word appears in context of the seed]}}
     word2doc = []
-    # TODO: description
-    word2score = []
     # iterate over each seed
     for idx, data in enumerate(top_sentences):
         word2doc.append(dict())
-        word2score.append(dict())
         # iterate over each TIS retrieved the seed
         for sent in data['sentences']:
             # id of the document where the TIS appears
             doc_id = sent['doc_id']
-            # TODO: description
-            value = sent['score']
+            # count to the seed's topic-indicative terms within the sentence
+            tit_count = sent['score']
             # full text of the TIS
             sent = sent['sentence']
             # words of the TIS
             words = sent.split()
             # iterate over each word of the TIS
             for word in words:
-                # update the number of times a word appears in the current seed's TISes
+                # update the number of times a word appears in the seed's TISes
                 tf[idx][word] += 1
 
-                # save an id of the document where the word appeared in the current seed's context
+                # save an id of the document where the word appeared in the seed's context
                 if word in word2doc[idx]:
                     word2doc[idx][word].append(doc_id)
                 else:
                     word2doc[idx][word] = [doc_id]
 
-                # TODO: description
-                if word in word2score[idx]:
-                    word2score[idx][word].append(value)
-                else:
-                    word2score[idx][word] = [value]
             # get the unique words of the current TIS
             words = set(words)
             # update the count of TISes where the word appeard in the current seed's context
@@ -232,8 +227,6 @@ def caseolap(args, topk=20):
     candidate = set()
     # dictionary: {word: {seed id: [ids of documents where the word appeared in seed's context]}}
     candidate_states = dict()
-    # TODO: description
-    candidate_scores = dict()
     # iterate over each seed
     for idx in range(n):
         # iterate over each word appearing in the seed's TISes
@@ -248,12 +241,6 @@ def caseolap(args, topk=20):
                 else:
                     candidate_states[word] = {idx : word2doc[idx][word]}
                 
-                # TODO: description
-                if word in candidate_scores:
-                    candidate_scores[word][idx] = word2score[idx][word]
-                else:
-                    candidate_scores[word] = {idx: word2score[idx][word]}
-
     # for each seed find the largest number of seed's TISes a word appears in
     maxdf = [max(df[x].values()) for x in range(n)]
     # length of seed's TISes in words (terms)
@@ -302,40 +289,31 @@ def caseolap(args, topk=20):
                     caseolap[word] = sim3 * sim2 * sim1  
             # sort candidate words based on their similarity scores with the seed   
             caseolap_sorted = sorted(caseolap.items(), key=lambda x: x[1], reverse=True)
-            
+            # retrieve k terms with the highest simirality scores
             top_terms = [x[0] for x in caseolap_sorted[:topk]]
+            # save the retrieved terms
             fout1.write(seed+':'+','.join(top_terms).replace(":","")+'\n')
 
+            # get a list of topic indicative sentences for a given seed
+            cur_sntns = top_sentences[idx]["sentences"]
             terms_docs_dict = dict()
-            #for term in top_terms:
-            #    terms_docs_dict[term] = [] if not idx in candidate_states[term] else candidate_states[term][idx]
+            # iterate over each topic-indicative term of the seed
             for term, sim_score in zip(top_terms, caseolap_sorted[:topk]):
-                #docs_ids = [] if not idx in candidate_states[term] else candidate_states[term][idx]
-                #terms_docs_dict[term] = {'similarity_score': sim_score[1], 'doc_ids': docs_ids}
-
-                #docs_ids = [] if not idx in candidate_states[term] else candidate_states[term][idx]
-                #docs_scores = [] if not idx in candidate_scores[term] else candidate_scores[term][idx]
-                #scores_len = len(docs_scores)
-                #assert len(docs_ids) == scores_len
-                #if scores_len > 0:
-                #    docs_dict = {}
-                #    for i in range(scores_len):
-                #        docs_dict[docs_ids[i]] = docs_scores[i]
-                #    docs_ids = docs_dict
-
-                cur_sntns = top_sentences[idx]["sentences"]
-                # 
+                # {document id: count of the term's occurences in the seed's t-i sentences with the document}
                 docs_ids = {}
+                # iterate over each topic-indicative sentence
                 for sntn in cur_sntns:
+                    # count occurences of the term in the sentence
                     occs = sntn['sentence'].count(term)
+                    # if the term occurs - save the id of the document where the sentence is located 
                     if occs > 0:
                         if sntn['doc_id'] in docs_ids:
                             docs_ids[sntn['doc_id']] += occs
                         else:
                             docs_ids[sntn['doc_id']] = occs
-
+                # save the term's similarity score together with the document's ids and the term's counts
                 terms_docs_dict[term] = {'similarity_score': sim_score[1], 'doc_ids': docs_ids}
-
+            # save a dictionary of seed's t-i terms and the corresponding scores and documents
             total_docs[seed] = terms_docs_dict
         print(f'Saved top-{topk} terms to {topic_dir}/intermediate_2.txt')
         
