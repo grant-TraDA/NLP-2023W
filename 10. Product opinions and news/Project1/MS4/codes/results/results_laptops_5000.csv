@@ -1,0 +1,56 @@
+,Statistic,Value,Name
+0,correct,1303,PyabsaExtractor + FlairClassifier
+1,incorrect,737,PyabsaExtractor + FlairClassifier
+2,partial,118,PyabsaExtractor + FlairClassifier
+3,missing,200,PyabsaExtractor + FlairClassifier
+4,spurious,268,PyabsaExtractor + FlairClassifier
+5,possible,2358,PyabsaExtractor + FlairClassifier
+6,actual,2426,PyabsaExtractor + FlairClassifier
+7,precision,0.5370981038746908,PyabsaExtractor + FlairClassifier
+8,recall,0.5525869380831213,PyabsaExtractor + FlairClassifier
+9,f1,0.544732441471572,PyabsaExtractor + FlairClassifier
+10,name,PyabsaExtractor + FlairClassifier,PyabsaExtractor + FlairClassifier
+0,correct,1029,PyabsaExtractor + SentiClassifier
+1,incorrect,1034,PyabsaExtractor + SentiClassifier
+2,partial,95,PyabsaExtractor + SentiClassifier
+3,missing,200,PyabsaExtractor + SentiClassifier
+4,spurious,268,PyabsaExtractor + SentiClassifier
+5,possible,2358,PyabsaExtractor + SentiClassifier
+6,actual,2426,PyabsaExtractor + SentiClassifier
+7,precision,0.42415498763396536,PyabsaExtractor + SentiClassifier
+8,recall,0.43638676844783714,PyabsaExtractor + SentiClassifier
+9,f1,0.4301839464882943,PyabsaExtractor + SentiClassifier
+10,name,PyabsaExtractor + SentiClassifier,PyabsaExtractor + SentiClassifier
+0,correct,263,SpacyExtractor + FlairClassifier
+1,incorrect,169,SpacyExtractor + FlairClassifier
+2,partial,195,SpacyExtractor + FlairClassifier
+3,missing,1731,SpacyExtractor + FlairClassifier
+4,spurious,1210,SpacyExtractor + FlairClassifier
+5,possible,2358,SpacyExtractor + FlairClassifier
+6,actual,1837,SpacyExtractor + FlairClassifier
+7,precision,0.1431682090364725,SpacyExtractor + FlairClassifier
+8,recall,0.11153519932145886,SpacyExtractor + FlairClassifier
+9,f1,0.12538736591179978,SpacyExtractor + FlairClassifier
+10,name,SpacyExtractor + FlairClassifier,SpacyExtractor + FlairClassifier
+0,correct,202,SpacyExtractor + SentiClassifier
+1,incorrect,276,SpacyExtractor + SentiClassifier
+2,partial,149,SpacyExtractor + SentiClassifier
+3,missing,1731,SpacyExtractor + SentiClassifier
+4,spurious,1210,SpacyExtractor + SentiClassifier
+5,possible,2358,SpacyExtractor + SentiClassifier
+6,actual,1837,SpacyExtractor + SentiClassifier
+7,precision,0.10996189439303211,SpacyExtractor + SentiClassifier
+8,recall,0.08566581849024597,SpacyExtractor + SentiClassifier
+9,f1,0.0963051251489869,SpacyExtractor + SentiClassifier
+10,name,SpacyExtractor + SentiClassifier,SpacyExtractor + SentiClassifier
+0,correct,1874,PyabsaExtrassifier
+1,incorrect,93,PyabsaExtrassifier
+2,partial,191,PyabsaExtrassifier
+3,missing,200,PyabsaExtrassifier
+4,spurious,268,PyabsaExtrassifier
+5,possible,2358,PyabsaExtrassifier
+6,actual,2426,PyabsaExtrassifier
+7,precision,0.7724649629018961,PyabsaExtrassifier
+8,recall,0.7947413061916879,PyabsaExtrassifier
+9,f1,0.7834448160535118,PyabsaExtrassifier
+10,name,PyabsaExtrassifier,PyabsaExtrassifier
