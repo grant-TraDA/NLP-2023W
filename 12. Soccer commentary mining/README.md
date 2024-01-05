@@ -1,26 +1,39 @@
 # Soccer Commentary Mining
 
 ## 🗒️ Authors
-| Student's name |
-|----------------|
-| Adam Narozniak |
+|  Student's  name  |
+|-------------------|
+| Szymon  Maksymiuk |
+|-------------------|
+|  Adam  Narozniak  |
+|-------------------|
+| Władysław Olejnik |
+|-------------------|
+|  Patryk  Świątek  |
 
-Project structure
+## 🌳 Project structure
 ```bash
-├── README.md # This file
-├── data # Data (excluded in .gitignore)
-│   └── video # Raw video from SoccerNet
-│   └── audio # Extracted audio
-│   └── emotions # Generated emotions using ML model 
-│   └── loudness # Generated loudness in dB
-├── docs # Documents, reports, presentations
-├── logs # Logs storage directory
-├── requirements.txt # Dependency requriements to reproduce the experiment
-├── scripts # Bash scripts
-└── src # Source code
+│   .gitignore # Files to ignore
+│   README.md # This file
+│   requirements.in # File used by pip-compile
+│   requirements.txt # Dependency requriements to reproduce the experiment
+├───data
+│       labels.csv # Labels
+│       sentiment.csv # Extracted sentiment
+│       video_encoding.json # Video encoding
+├───docs # Documents, reports, presentations
+├───logs # Folder for logs
+├───scripts # Bash scripts used to perform project tasks
+└───src
+    │   (...).py # Python files each for one project task; used by bash scripts
+    │
+    └───SoccerNetExplorer # Our module used to explore dataset and handle its complicated structure
+        ├───audio_emotions # Submodule for extracting emotions
+        ├───flair_sentiment # Submodule for extracting sentiment with Flair
+        ├───labels_data # Submodule for preparing labels
+        └───vader_sentiment # Submodule for extracting sentiment with Vader
 ```
-
-## Reproduce Audio Part
+## 📖 Reproduce Text-related Part
 **Installation**
 
 Create a virtualenv (e.g. with pyenv)
@@ -32,7 +45,35 @@ pyenv local soccernet
 ```
 Install python requirements
 ```bash
-python -m pip install -r ./../requirements.txt
+python -m pip install -r ./requirements.txt
+```
+
+**Scripts**
+Run project tasks
+```bash
+python (...).py
+```
+
+To run all project tasks run
+```bash
+python main.py
+```
+**Warning:** It may take a while!
+
+
+## 🎙️ Reproduce Audio Part
+**Installation**
+
+Create a virtualenv (e.g. with pyenv)
+```bash
+# Create
+pyenv virtualenv soccernet 3.10.9
+# Automatically activate
+pyenv local soccernet
+```
+Install python requirements
+```bash
+python -m pip install -r ./requirements.txt
 ```
 Some system miss `ffmpeg` (it's valid for some audio libraries). Let's install it too:
 ```bash
