@@ -1,0 +1,10 @@
+SoccerNet
+flair
+pqdm
+pandas
+vaderSentiment
+loguru
+pydub
+librosa
+speechbrain
+ffprobe-python
