@@ -4,11 +4,8 @@
 |  Student's  name  |
 |-------------------|
 | Szymon  Maksymiuk |
-|-------------------|
 |  Adam  Narozniak  |
-|-------------------|
 | Władysław Olejnik |
-|-------------------|
 |  Patryk  Świątek  |
 
 ## 🌳 Project structure
@@ -49,6 +46,7 @@ python -m pip install -r ./requirements.txt
 ```
 
 **Scripts**
+
 Run project tasks
 ```bash
 python (...).py
