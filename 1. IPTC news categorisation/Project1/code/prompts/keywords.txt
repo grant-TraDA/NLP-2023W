@@ -1,0 +1,10 @@
+Generate as many semantically diversified keywords as you can, related to the following category of news articles: 
+
+{category} - {description}
+
+Format:
+```
+{{
+   "keywords": [...] 
+}}
+```
