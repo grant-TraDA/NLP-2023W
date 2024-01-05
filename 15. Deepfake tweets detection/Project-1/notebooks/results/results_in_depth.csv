@@ -1,0 +1,191 @@
+,accuracy,model,bot_type,type
+0,0.8364632237871674,LGBMClassifier,human,bert_embeddings
+1,0.9781553398058253,LGBMClassifier,rnn,bert_embeddings
+2,0.9483471074380165,LGBMClassifier,others,bert_embeddings
+3,0.6744791666666666,LGBMClassifier,gpt2,bert_embeddings
+4,0.856137607505864,LGBMClassifier,all,bert_embeddings
+5,0.8255086071987481,LogisticRegression,human,bert_embeddings
+6,0.970873786407767,LogisticRegression,rnn,bert_embeddings
+7,0.9235537190082644,LogisticRegression,others,bert_embeddings
+8,0.6380208333333334,LogisticRegression,gpt2,bert_embeddings
+9,0.8393275996872557,LogisticRegression,all,bert_embeddings
+10,0.8028169014084507,RandomForestClassifier,human,bert_embeddings
+11,0.9320388349514563,RandomForestClassifier,rnn,bert_embeddings
+12,0.9173553719008265,RandomForestClassifier,others,bert_embeddings
+13,0.5416666666666666,RandomForestClassifier,gpt2,bert_embeddings
+14,0.8060985144644254,RandomForestClassifier,all,bert_embeddings
+15,0.8716744913928013,SVC,human,bert_embeddings
+16,0.9781553398058253,SVC,rnn,bert_embeddings
+17,0.9442148760330579,SVC,others,bert_embeddings
+18,0.6927083333333334,SVC,gpt2,bert_embeddings
+19,0.8756841282251759,SVC,all,bert_embeddings
+20,0.8333333333333334,XGBClassifier,human,bert_embeddings
+21,0.9733009708737864,XGBClassifier,rnn,bert_embeddings
+22,0.9524793388429752,XGBClassifier,others,bert_embeddings
+23,0.65625,XGBClassifier,gpt2,bert_embeddings
+24,0.8518373729476153,XGBClassifier,all,bert_embeddings
+0,0.715962441314554,LGBMClassifier,human,tfidf stemmed
+1,0.9393203883495146,LGBMClassifier,rnn,tfidf stemmed
+2,0.9958677685950413,LGBMClassifier,others,tfidf stemmed
+3,0.8072916666666666,LGBMClassifier,gpt2,tfidf stemmed
+4,0.818608287724785,LGBMClassifier,all,tfidf stemmed
+5,0.7676056338028169,LogisticRegression,human,tfidf stemmed
+6,0.9441747572815534,LogisticRegression,rnn,tfidf stemmed
+7,0.9421487603305785,LogisticRegression,others,tfidf stemmed
+8,0.7369791666666666,LogisticRegression,gpt2,tfidf stemmed
+9,0.8244722439405786,LogisticRegression,all,tfidf stemmed
+10,0.6823161189358372,RandomForestClassifier,human,tfidf stemmed
+11,0.9393203883495146,RandomForestClassifier,rnn,tfidf stemmed
+12,0.9917355371900827,RandomForestClassifier,others,tfidf stemmed
+13,0.8255208333333334,RandomForestClassifier,gpt2,tfidf stemmed
+14,0.8037529319781079,RandomForestClassifier,all,tfidf stemmed
+15,0.7574334898278561,SVC,human,tfidf stemmed
+16,0.9490291262135923,SVC,rnn,tfidf stemmed
+17,0.9524793388429752,SVC,others,tfidf stemmed
+18,0.7630208333333334,SVC,gpt2,tfidf stemmed
+19,0.8260359655981235,SVC,all,tfidf stemmed
+20,0.7386541471048513,XGBClassifier,human,tfidf stemmed
+21,0.9271844660194175,XGBClassifier,rnn,tfidf stemmed
+22,0.987603305785124,XGBClassifier,others,tfidf stemmed
+23,0.7578125,XGBClassifier,gpt2,tfidf stemmed
+24,0.8189992181391712,XGBClassifier,all,tfidf stemmed
+0,0.7433489827856025,LGBMClassifier,human,tfidf lemmatized
+1,0.9514563106796117,LGBMClassifier,rnn,tfidf lemmatized
+2,0.9628099173553719,LGBMClassifier,others,tfidf lemmatized
+3,0.7708333333333334,LGBMClassifier,gpt2,tfidf lemmatized
+4,0.8225175918686474,LGBMClassifier,all,tfidf lemmatized
+5,0.7668231611893583,LogisticRegression,human,tfidf lemmatized
+6,0.9490291262135923,LogisticRegression,rnn,tfidf lemmatized
+7,0.9173553719008265,LogisticRegression,others,tfidf lemmatized
+8,0.7265625,LogisticRegression,gpt2,tfidf lemmatized
+9,0.818608287724785,LogisticRegression,all,tfidf lemmatized
+10,0.6713615023474179,RandomForestClassifier,human,tfidf lemmatized
+11,0.9393203883495146,RandomForestClassifier,rnn,tfidf lemmatized
+12,0.9979338842975206,RandomForestClassifier,others,tfidf lemmatized
+13,0.8385416666666666,RandomForestClassifier,gpt2,tfidf lemmatized
+14,0.8014073494917905,RandomForestClassifier,all,tfidf lemmatized
+15,0.7543035993740219,SVC,human,tfidf lemmatized
+16,0.9466019417475728,SVC,rnn,tfidf lemmatized
+17,0.9731404958677686,SVC,others,tfidf lemmatized
+18,0.7838541666666666,SVC,gpt2,tfidf lemmatized
+19,0.8311180609851446,SVC,all,tfidf lemmatized
+20,0.715962441314554,XGBClassifier,human,tfidf lemmatized
+21,0.9150485436893204,XGBClassifier,rnn,tfidf lemmatized
+22,0.9896694214876033,XGBClassifier,others,tfidf lemmatized
+23,0.7786458333333334,XGBClassifier,gpt2,tfidf lemmatized
+24,0.8092259577795152,XGBClassifier,all,tfidf lemmatized
+0,0.7206572769953051,LGBMClassifier,human,tfidf preprocessed
+1,0.9514563106796117,LGBMClassifier,rnn,tfidf preprocessed
+2,0.993801652892562,LGBMClassifier,others,tfidf preprocessed
+3,0.8151041666666666,LGBMClassifier,gpt2,tfidf preprocessed
+4,0.8236903831118061,LGBMClassifier,all,tfidf preprocessed
+5,0.7394366197183099,LogisticRegression,human,tfidf preprocessed
+6,0.9368932038834952,LogisticRegression,rnn,tfidf preprocessed
+7,0.9152892561983471,LogisticRegression,others,tfidf preprocessed
+8,0.7239583333333334,LogisticRegression,gpt2,tfidf preprocessed
+9,0.8021892103205629,LogisticRegression,all,tfidf preprocessed
+10,0.6940532081377152,RandomForestClassifier,human,tfidf preprocessed
+11,0.941747572815534,RandomForestClassifier,rnn,tfidf preprocessed
+12,0.987603305785124,RandomForestClassifier,others,tfidf preprocessed
+13,0.8177083333333334,RandomForestClassifier,gpt2,tfidf preprocessed
+14,0.8080531665363565,RandomForestClassifier,all,tfidf preprocessed
+15,0.7543035993740219,SVC,human,tfidf preprocessed
+16,0.9538834951456311,SVC,rnn,tfidf preprocessed
+17,0.9669421487603306,SVC,others,tfidf preprocessed
+18,0.7682291666666666,SVC,gpt2,tfidf preprocessed
+19,0.8287724784988272,SVC,all,tfidf preprocessed
+20,0.7535211267605634,XGBClassifier,human,tfidf preprocessed
+21,0.941747572815534,XGBClassifier,rnn,tfidf preprocessed
+22,0.9256198347107438,XGBClassifier,others,tfidf preprocessed
+23,0.7005208333333334,XGBClassifier,gpt2,tfidf preprocessed
+24,0.8084440969507428,XGBClassifier,all,tfidf preprocessed
+0,0.7965571205007824,CharCNN,human,lemmatized
+1,0.9830097087378641,CharCNN,rnn,lemmatized
+2,0.9338842975206612,CharCNN,others,lemmatized
+3,0.703125,CharCNN,gpt2,lemmatized
+4,0.8385457388584832,CharCNN,all,lemmatized
+5,0.8067292644757433,CharCNN,human,simple
+6,0.9830097087378641,CharCNN,rnn,simple
+7,0.8966942148760331,CharCNN,others,simple
+8,0.7135416666666666,CharCNN,gpt2,simple
+9,0.838154808444097,CharCNN,all,simple
+10,0.8208137715179968,CharCNN,human,stemmed
+11,0.9781553398058253,CharCNN,rnn,stemmed
+12,0.8822314049586777,CharCNN,others,stemmed
+13,0.6692708333333334,CharCNN,gpt2,stemmed
+14,0.835027365129007,CharCNN,all,stemmed
+0,0.7136150234741784,CharGRU,human,lemmatized
+1,0.9830097087378641,CharGRU,rnn,lemmatized
+2,0.9793388429752066,CharGRU,others,lemmatized
+3,0.828125,CharGRU,gpt2,lemmatized
+4,0.8244722439405786,CharGRU,all,lemmatized
+5,0.7942097026604069,CharGRU,human,simple
+6,0.9805825242718447,CharGRU,rnn,simple
+7,0.9194214876033058,CharGRU,others,simple
+8,0.7109375,CharGRU,gpt2,simple
+9,0.8354182955433933,CharGRU,all,simple
+10,0.7464788732394366,CharGRU,human,stemmed
+11,0.9757281553398058,CharGRU,rnn,stemmed
+12,0.9669421487603306,CharGRU,others,stemmed
+13,0.7734375,CharGRU,gpt2,stemmed
+14,0.8291634089132135,CharGRU,all,stemmed
+0,0.7676056338028169,CharCNN_GRU,human,lemmatized
+1,0.9854368932038835,CharCNN_GRU,rnn,lemmatized
+2,0.9628099173553719,CharCNN_GRU,others,lemmatized
+3,0.7760416666666666,CharCNN_GRU,gpt2,lemmatized
+4,0.8408913213448006,CharCNN_GRU,all,lemmatized
+5,0.7550860719874805,CharCNN_GRU,human,simple
+6,0.9902912621359223,CharCNN_GRU,rnn,simple
+7,0.9380165289256198,CharCNN_GRU,others,simple
+8,0.7864583333333334,CharCNN_GRU,gpt2,simple
+9,0.8322908522283033,CharCNN_GRU,all,simple
+10,0.7621283255086072,CharCNN_GRU,human,stemmed
+11,0.9878640776699029,CharCNN_GRU,rnn,stemmed
+12,0.9586776859504132,CharCNN_GRU,others,stemmed
+13,0.7447916666666666,CharCNN_GRU,gpt2,stemmed
+14,0.8330727130570759,CharCNN_GRU,all,stemmed
+0,0.7926447574334898,WordCNN,human,lemmatized
+1,0.9611650485436893,WordCNN,rnn,lemmatized
+2,0.8388429752066116,WordCNN,others,lemmatized
+3,0.6692708333333334,WordCNN,gpt2,lemmatized
+4,0.8100078186082877,WordCNN,all,lemmatized
+5,0.7879499217527387,WordCNN,human,simple
+6,0.9538834951456311,WordCNN,rnn,simple
+7,0.8677685950413223,WordCNN,others,simple
+8,0.7135416666666666,WordCNN,gpt2,simple
+9,0.818608287724785,WordCNN,all,simple
+10,0.7942097026604069,WordCNN,human,stemmed
+11,0.9514563106796117,WordCNN,rnn,stemmed
+12,0.8636363636363636,WordCNN,others,stemmed
+13,0.7161458333333334,WordCNN,gpt2,stemmed
+14,0.8209538702111024,WordCNN,all,stemmed
+0,0.7769953051643192,WordGRU,human,lemmatized
+1,0.9490291262135923,WordGRU,rnn,lemmatized
+2,0.9276859504132231,WordGRU,others,lemmatized
+3,0.7473958333333334,WordGRU,gpt2,lemmatized
+4,0.8287724784988272,WordGRU,all,lemmatized
+5,0.8184663536776213,WordGRU,human,simple
+6,0.9441747572815534,WordGRU,rnn,simple
+7,0.7933884297520661,WordGRU,others,simple
+8,0.6223958333333334,WordGRU,gpt2,simple
+9,0.8045347928068803,WordGRU,all,simple
+10,0.7785602503912363,WordGRU,human,stemmed
+11,0.9393203883495146,WordGRU,rnn,stemmed
+12,0.9256198347107438,WordGRU,others,stemmed
+13,0.7265625,WordGRU,gpt2,stemmed
+14,0.8244722439405786,WordGRU,all,stemmed
+0,0.7895148669796557,WordCNN_GRU,human,lemmatized
+1,0.9587378640776699,WordCNN_GRU,rnn,lemmatized
+2,0.871900826446281,WordCNN_GRU,others,lemmatized
+3,0.7083333333333334,WordCNN_GRU,gpt2,lemmatized
+4,0.8201720093823299,WordCNN_GRU,all,lemmatized
+5,0.7809076682316118,WordCNN_GRU,human,simple
+6,0.9587378640776699,WordCNN_GRU,rnn,simple
+7,0.8822314049586777,WordCNN_GRU,others,simple
+8,0.7083333333333334,WordCNN_GRU,gpt2,simple
+9,0.8178264268960125,WordCNN_GRU,all,simple
+10,0.7863849765258216,WordCNN_GRU,human,stemmed
+11,0.9587378640776699,WordCNN_GRU,rnn,stemmed
+12,0.8863636363636364,WordCNN_GRU,others,stemmed
+13,0.7317708333333334,WordCNN_GRU,gpt2,stemmed
+14,0.8248631743549648,WordCNN_GRU,all,stemmed
