@@ -1,0 +1,18 @@
+version: '3.4'
+
+services:
+  pytorch-notebook-gpu-2.0.1:
+    image: pytorch-notebook-gpu:cuda11.7.1
+    environment:
+      - JUPYTER_TOKEN=!@#qweASDzxc
+    volumes:
+      - ./:/app
+    ports:
+      - 8888:8888
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
