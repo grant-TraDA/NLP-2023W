@@ -1,0 +1,24 @@
+[[pages]]
+path = "01_speech_viewer.py"
+name = "Speech Viewer"
+icon = ":page_with_curl:"
+
+[[pages]]
+path = "02_over_years.py"
+name = "Analysis Over Years"
+icon = ":chart_with_downwards_trend:"
+
+[[pages]]
+path = "03_attributes.py"
+name = "Speech Attributes"
+icon = ":chart_with_upwards_trend:"
+
+[[pages]]
+path = "04_speech_comparer.py"
+name = "Speech Comparer"
+icon = ":mag:"
+
+[[pages]]
+path = "05_BERTopic.py"
+name = "BERTopic Analysis"
+icon = ":bar_chart:"
