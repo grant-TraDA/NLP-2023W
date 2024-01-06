@@ -45,7 +45,15 @@ In the project we used a dataset called **Fake News Corspus**, which can be down
 │   │   ├── main_df.csv -> ../01-EDA/data_1000/main_df.csv
 │   │   └── outputs ...
 │   ├── 03-models                           # 03 - models - script and files with trained models
-│   │   └── models ...
+│   │   ├── LaTeX ...
+│   │   ├── modelling.ipynb                 # final models
+│   │   ├── models ...
+│   │   ├── PoC modelling.ipynb             # POC models
+│   │   └── preprocessed_datasets
+│   │       ├── gssdmm7_nouns.csv -> ../../02-clustering/outputs/gssdmm7_nouns.csv
+│   │       ├── ldatfidf4_nouns.csv -> ../../02-clustering/outputs/ldatfidf4_nouns.csv
+│   │       ├── main_df.csv -> ../../01-EDA/data_1000/main_df.csv
+│   │       └── README.md
 │   ├── 04-explainability                   # 04 - explainability - scripts for explanations with files
 │   │   ├── explainability.ipynb
 │   │   ├── explanations ...
