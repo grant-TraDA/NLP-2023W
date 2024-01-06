@@ -62,6 +62,7 @@ In the project we used a dataset called **Fake News Corspus**, which can be down
 │   │       ├── gssdmm7_nouns.csv -> ../../02-clustering/outputs/gssdmm7_nouns.csv
 │   │       ├── ldatfidf4_nouns.csv -> ../../02-clustering/outputs/ldatfidf4_nouns.csv
 │   │       └── main_df.csv -> ../../01-EDA/data_1000/main_df.csv
-│   └── report.pdf                          # final report
+│   ├── presentation.pdf                    # presentation
+│   └── report.pdf                          # report
 └── README.md
 ```
