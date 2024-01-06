@@ -41,11 +41,13 @@ tok_wo_stop <- tokens_select(tok, stopwords("english"), selection = "remove", pa
 tokens <- data.frame(
   ntoken = c(ntoken(tok), ntoken(tok_wo_stop)),
   ntype = c(ntype(tok), ntype(tok_wo_stop)),
-  stopwords = c(rep(FALSE, times = length(ntoken(tok))), rep(TRUE, times = length(ntoken(tok_wo_stop))))
+  stopwords = c(rep("Included", times = length(ntoken(tok))), rep("Excluded", times = length(ntoken(tok_wo_stop))))
 )
 
 ggplot(data = tokens) +
-  geom_density(aes(x = ntoken, fill = stopwords), alpha = 0.5) +
+  geom_density(aes(x = ntoken, fill = stopwords), alpha = 0.3) +
+  labs(x = "Tokens", y = "Density", fill = "Stop words", title = "Tokens density for each match depending on stop words inclusion") +
+  scale_y_continuous(labels = scales::label_number_si()) +
   theme_bw()
 
 ggplot(data = tokens) +
@@ -63,6 +65,7 @@ ggplot(data = tokens, aes(x = ntoken, y = ntype, color = stopwords)) +
 ggplot(data = tokens, aes(x = ntoken, y = ntype, color = stopwords)) +
   geom_point() +
   geom_smooth() +
+  labs(x = "Tokens", y = "Types", color = "Stop words", title = "Token to Type relationship with LOESS smoothing applied") +
   theme_bw()
 
 summary(lm(ntype~ntoken, data = tokens[tokens$stopwords, ]))
@@ -127,7 +130,8 @@ ggplot(data = scores[[3]]) +
   theme_bw()
 # Flesch score - the higher score value is, the simplest text is
 ggplot(data = scores[[4]]) +
-  geom_density(aes(x = score, fill = name), alpha = 0.5) +
+  geom_density(aes(x = score), alpha = 0.5) +
+  labs(title = "Flesch reading ease score density", x = "Flesch reading ease score", y = "Density") +
   theme_bw()
 
 # Calculating lexical richness metrics
@@ -138,11 +142,12 @@ ttr_sw <- textstat_lexdiv(dfm(tok), measure = "TTR")$TTR
 ttr_wo_sw <- textstat_lexdiv(dfm(tok_wo_stop), measure = "TTR")$TTR
 ttr_df <- data.frame(
   ttr = c(ttr_sw, ttr_wo_sw),
-  stopwords = c(rep(TRUE, times = length(ttr_sw)), rep(FALSE, times = length(ttr_wo_sw)))
+  stopwords = c(rep("Included", times = length(ttr_sw)), rep("Excluded", times = length(ttr_wo_sw)))
 )
 
 ggplot(data = ttr_df) +
-  geom_density(aes(x = ttr, fill = stopwords), alpha = 0.5) +
+  geom_density(aes(x = ttr, fill = stopwords), alpha = 0.3) +
+  labs(title = "Token to type ratio density", x = "Token to type ratio", y = "Density", fill = "Stop words") +
   theme_bw()
 
 # Calculating Hapax score - https://en.wikipedia.org/wiki/Hapax_legomenon
@@ -157,11 +162,12 @@ hapax_sw <- calculte_hapax_score(tok)
 hapax_wo_sw <- calculte_hapax_score(tok_wo_stop)
 hapax_df <- data.frame(
   hapax = c(hapax_sw, hapax_wo_sw),
-  stopwords = c(rep(TRUE, times = length(hapax_sw)), rep(FALSE, times = length(hapax_wo_sw)))
+  stopwords = c(rep("Included", times = length(hapax_sw)), rep("Excluded", times = length(hapax_wo_sw)))
 )
 
 ggplot(data = hapax_df) +
-  geom_density(aes(x = hapax, fill = stopwords), alpha = 0.5) +
+  geom_density(aes(x = hapax, fill = stopwords), alpha = 0.3) +
+  labs(title = "Hapax score density", x = "Hapax score", y = "Density", fill = "Stop words") +
   theme_bw()
 
 
