@@ -22,6 +22,7 @@ filelock==3.13.1
 Flask==3.0.0
 fonttools==4.46.0
 fsspec==2023.12.1
+ftfy==6.0.3
 gensim==4.2.0
 hdbscan==0.8.33
 huggingface-hub==0.19.4
@@ -82,6 +83,7 @@ pydantic_core==2.14.5
 Pygments==2.17.2
 pynndescent==0.5.11
 pyparsing==3.1.1
+pyphen==0.14.0
 python-dateutil==2.8.2
 pytz==2023.3.post1
 PyYAML==6.0.1
@@ -99,10 +101,12 @@ smart-open==6.4.0
 spacy==3.7.2
 spacy-legacy==3.0.12
 spacy-loggers==1.0.5
+spacy-lookups-data==1.0.5
 srsly==2.4.8
 stack-data==0.6.3
 sympy==1.12
 tenacity==8.2.3
+textdescriptives==2.7.1
 thinc==8.2.1
 threadpoolctl==3.2.0
 tokenizers==0.15.0

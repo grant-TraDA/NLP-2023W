@@ -67,7 +67,7 @@ def get_processed_data(
     corpora_path: Optional[str] = None,
     additional_stop_words: List = [],
     spacy_model: str = "en_core_web_lg",
-    processed_filename: str = "data_processed.pickle",
+    processed_filename: str = "data_processed_add_features.pickle",
     n_process: int = 4,
     batch_size: int = 25,
 ) -> pd.DataFrame:

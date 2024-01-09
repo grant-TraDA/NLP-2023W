@@ -3,8 +3,9 @@ from pathlib import Path
 
 sys.path.append("./preprocessing/")
 
-from text_preprocessing import get_processed_data
+from utils import read_processed_data
 
+INPUT_PATH = "./data_processed_add_features.pickle"
 OUTPUT_PATH = "./metrics/octis_dataset/"
 
 if __name__ == "__main__":
@@ -12,7 +13,7 @@ if __name__ == "__main__":
     if not output_path.is_dir():
         output_path.mkdir()
     
-    corpus = get_processed_data()["lemmas"]
+    corpus = read_processed_data(INPUT_PATH)["lemmas"]
     
     with (output_path / "corpus.tsv").open("w") as f:
         for document in corpus:
