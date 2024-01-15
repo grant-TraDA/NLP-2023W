@@ -1,5 +1,4 @@
 import streamlit as st
-from st_pages import show_pages_from_config
 from streamlit_extras.metric_cards import style_metric_cards
 import streamlit_scrollable_textbox as stx
 
@@ -61,9 +60,8 @@ def prepare_lexical_dispersion_plot(lemmas, words_to_show):
     return fig
 
 
-st.set_page_config(layout="wide")
 st.title("Speech Viewer")
-show_pages_from_config()
+
 
 df = load_data(PATH_TO_DATA)
 

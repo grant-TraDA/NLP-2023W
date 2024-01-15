@@ -9,7 +9,7 @@ def prepare_barplot_words(countred_dataframe):
     num_bars = len(countred_dataframe)
 
     # Set x-axis tick label orientation based on the number of bars
-    if num_bars < 20:
+    if num_bars < 15:
         fig.update_layout(
             xaxis=dict(tickangle=0),  # horizontal tick labels
         )
