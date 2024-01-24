@@ -96,7 +96,7 @@ def process_audio_file(file_path: str, classifier: Any, batch_duration: int = 12
 
 def save_results_to_csv(results: List[Dict[str, Any]], file_path: str) -> None:
     """
-    Save the classification results to a CSV file.
+    Save the results to a CSV file.
 
     Parameters
     ----------
@@ -106,6 +106,7 @@ def save_results_to_csv(results: List[Dict[str, Any]], file_path: str) -> None:
         The file path for the CSV file to be saved.
     """
     df = pd.DataFrame(results)
+
     df.to_csv(csv_path, index=False)
 
 
