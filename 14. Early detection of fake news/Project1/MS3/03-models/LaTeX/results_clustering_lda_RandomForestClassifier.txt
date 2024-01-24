@@ -1,0 +1,10 @@
+\begin{tabular}{rrrrrrrrrrrrlrrr}
+\toprule
+bias & clickbait & conspiracy & fake & hate & junksci & political & reliable & rumor & satire & unknown & unreliable & ____________ & accuracy & accuracy without political & size \\
+\midrule
+0.41 & 0.54 & 0.48 & 0.35 & 0.57 & 0.62 & 0.27 & 0.49 & 0.81 & 0.29 & 0.26 & 0.40 &  & 0.46 & 0.50 & 2995 \\
+0.30 & 0.60 & 0.49 & 0.31 & 0.40 & 0.74 & 0.28 & 0.42 & 0.77 & 0.33 & 0.27 & 0.44 &  & 0.45 & 0.50 & 2862 \\
+0.45 & 0.57 & 0.47 & 0.32 & 0.50 & 0.59 & 0.19 & 0.54 & 0.79 & 0.42 & 0.29 & 0.39 &  & 0.45 & 0.51 & 2981 \\
+0.26 & 0.56 & 0.36 & 0.36 & 0.68 & 0.75 & 0.30 & 0.61 & 0.80 & 0.32 & 0.12 & 0.42 &  & 0.47 & 0.53 & 3162 \\
+\bottomrule
+\end{tabular}
