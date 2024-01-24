@@ -106,7 +106,8 @@ def save_results_to_csv(results: List[Dict[str, Any]], file_path: str) -> None:
         The file path for the CSV file to be saved.
     """
     df = pd.DataFrame(results)
-    df.to_csv(file_path, index=False)
+
+    df.to_csv(csv_path, index=False)
 
 
 if __name__ == "__main__":
