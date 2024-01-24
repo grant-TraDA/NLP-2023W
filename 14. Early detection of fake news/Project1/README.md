@@ -64,5 +64,10 @@ In the project we used a dataset called **Fake News Corspus**, which can be down
 │   │       └── main_df.csv -> ../../01-EDA/data_1000/main_df.csv
 │   ├── presentation.pdf                    # presentation
 │   └── report.pdf                          # report
+├── requirements.txt                        # file with required Python packages
 └── README.md
 ```
+
+## Environment
+
+The repository contains the `requirements.txt` file with the required Python packages. Additionally, the `gssdm` package has to be installed manually from the source: [https://github.com/rwalk/gsdmm](https://github.com/rwalk/gsdmm).
