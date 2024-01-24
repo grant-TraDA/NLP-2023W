@@ -1,0 +1,6 @@
+type,model,score,params
+bert_embeddings,LGBM,0.8596951387811214,"{'lgbm_boosting_type': 'gbdt', 'lgbm_max_depth': 7, 'lgbm_n_estimators': 385, 'lgbm_subsample': 0.9695453366156187}"
+bert_embeddings,XGB,0.8540899189752803,"{'xgb_booster': 'dart', 'xgb_max_depth': 15, 'xgb_n_estimators': 244, 'xgb_subsample': 0.8931104403282367}"
+bert_embeddings,RF,0.8111590133251474,"{'rf_max_depth': 12, 'rf_n_estimators': 32, 'rf_criterion': 'gini', 'rf_min_samples_split': 0.012701770392299291}"
+bert_embeddings,SVC,0.8783788335143825,"{'svc_kernel': 'rbf', 'svc_C': 21.642802198313092}"
+bert_embeddings,LR,0.8450507674108376,"{'lr_penalty': 'l1', 'lr_C': 11.802229858706795}"
