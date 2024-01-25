@@ -193,6 +193,7 @@ wcwidth==0.2.9
 weasel==0.3.4
 webcolors==1.13
 Wikipedia-API==0.6.0
+wordcloud
 wrapt==1.15.0
 XlsxWriter==3.1.9
 yarl==1.9.2
