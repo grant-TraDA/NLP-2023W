@@ -2,6 +2,8 @@
 
 The Comparison of Local and Global Early Fake News Detection Methods
 
+Authors: Hubert Ruczyński, Bartosz Siński, Maciej Pawlikowski, Adrian Stańdo
+
 ## Goals
 1. Comparison of different topic detection models.
 2. Comparison of fake news detection methods.
