@@ -65,6 +65,7 @@ In the project we used a dataset called **Fake News Corspus**, which can be down
 │   │       ├── ldatfidf4_nouns.csv -> ../../02-clustering/outputs/ldatfidf4_nouns.csv
 │   │       └── main_df.csv -> ../../01-EDA/data_1000/main_df.csv
 │   ├── presentation.pdf                    # presentation
+│   ├── presentation_final.pdf              # final presentation of the project
 │   └── report.pdf                          # report
 ├── requirements.txt                        # file with required Python packages
 └── README.md
