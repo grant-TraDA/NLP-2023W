@@ -66,7 +66,8 @@ In the project we used a dataset called **Fake News Corspus**, which can be down
 │   │       └── main_df.csv -> ../../01-EDA/data_1000/main_df.csv
 │   ├── presentation.pdf                    # presentation
 │   ├── presentation_final.pdf              # final presentation of the project
-│   └── report.pdf                          # report
+│   ├── report.pdf                          # report
+│   └── report_final.pdf                    # final report of the project
 ├── requirements.txt                        # file with required Python packages
 └── README.md
 ```
