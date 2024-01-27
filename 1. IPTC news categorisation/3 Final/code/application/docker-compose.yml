@@ -1,0 +1,34 @@
+version: "3.8"
+services:
+  chroma:
+    image: chromadb/chroma
+    ports:
+      - 8000:8000
+    networks:
+      - app-network
+
+  flask-app:
+    build:
+      context: .
+      dockerfile: Dockerfile-flask
+    ports:
+      - 6004:6004
+    networks:
+      - app-network
+    depends_on:
+      - chroma
+
+  streamlit-app:
+    build:
+      context: .
+      dockerfile: Dockerfile-streamlit
+    ports:
+      - 8501:8501
+    networks:
+      - app-network
+    depends_on:
+      - flask-app
+
+networks:
+  app-network:
+    driver: bridge
