@@ -72,3 +72,7 @@ Authors:
 - [README.md](./README.md): This file provides an overview of the project and describes the workspace structure.
 - [docker-compose.yml](./docker-compose.yml): This file can be used to setup jupyter server environment to run notebooks using GPU.
 - [requirements.txt](./requirements.txt): This file is used to store all Python dependencies for the project, which can be then easily installed.
+
+### Results
+
+Results are available in [notebooks/results](./notebooks/results) folder. Model checkpoints and preprocessed datasets can be found in [Google Drive](https://drive.google.com/drive/folders/17fvFoImpwdA98alU3-hE-7qwlPgyBTQn?usp=sharing).

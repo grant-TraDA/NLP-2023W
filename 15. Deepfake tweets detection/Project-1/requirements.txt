@@ -10,3 +10,7 @@ shap==0.44.0
 xgboost==2.0.2
 matplotlib==3.8.2
 seaborn==0.13.1
+pyspellchecker==0.7.2
+spacy==3.7.2
+nltk==3.8.1
+optuna==3.3.0
