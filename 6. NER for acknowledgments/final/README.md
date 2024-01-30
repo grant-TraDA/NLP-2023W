@@ -1,6 +1,6 @@
-<h1>README</h1>
+<h1>NER for acknowledgments</h1>
 
-The project *NER for acknowledgements* has been prepared by: 
+The project has been prepared by: 
 * Sebastian Deręgowski,
 * Klaudia Gruszkowska,
 * Bartosz Jamroży,
