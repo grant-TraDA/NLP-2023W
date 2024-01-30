@@ -1,0 +1,1892 @@
+code,name,hierarchy,final_description
+subj:01000000,"arts, culture and entertainment",1,"Name: arts, culture and entertainment
+Description: Matters pertaining to the advancement and refinement of the human mind, of interests, skills, tastes and emotions 
+Keywords: performing arts, visual arts, literary arts, music, theater, dance, painting, sculpture, photography, film, fashion, culinary arts, architecture, museums, galleries, concerts, exhibitions, festivals, crafts, design, poetry, literature, novels, opera, ballet, jazz, rock music, pop culture, street art, graffiti, modern art, classical music, creative writing, stand-up comedy, art history, artificial intelligence in art, cultural heritage, art conservation, art education, film industry, cinematography, animation, digital art, game design, arts criticism, arts funding, arts policy, arts therapy, cultural festivals, folk arts, indie music, art auctions, art fairs, art movements, fine arts, artistic expression, creative industries, entertainment law, cultural events, celebrity culture, art awards, art grants, art competitions, avant-garde, choreography, artistic collaboration, cultural identity, world music, collectible arts, artistic innovation, street performances, arts advocacy, art collectors, art dealers, art critics, cultural policy, genre cinema, historical reenactment, subcultures, artistic mediums, cultural studies, cultural tourism, artisanal crafts"
+subj:01001000,archaeology,2,"Name: archaeology
+Description: Probing the past through ruins and artefacts "
+subj:01002000,architecture,2,"Name: architecture
+Description: Designing of buildings, monuments and the spaces around them "
+subj:01003000,bullfighting,2,"Name: bullfighting
+Description: Classical contest pitting man against the bull "
+subj:01004000,festive event (including carnival),2,"Name: festive event (including carnival)
+Description: Parades, parties, celebrations and the like not necessarily tied to a fixed occasion or date "
+subj:01005000,cinema,2,"Name: cinema
+Description: Cinema as art and entertainment "
+subj:01005001,film festival,3,"Name: film festival
+Description: National and international motion pictures festivals, selections, festival juries, nominations, awards etc. "
+subj:01006000,dance,2,"Name: dance
+Description: The expression of emotion or message through movement "
+subj:01007000,fashion,2,"Name: fashion
+Description: The design of clothing and accessories "
+subj:01007001,jewelry,3,"Name: jewelry
+Description: Accessories to clothing "
+subj:01008000,language,2,"Name: language
+Description: The means by which people communicate with each other "
+subj:01009000,library and museum,2,"Name: library and museum
+Description: Edifices used to house collections of books, music, art, or objects from the past and present for public use and display "
+subj:01010000,literature,2,"Name: literature
+Description: The use of pamphlets, books or other printed matter to convey ideas, stories or other messages for the public "
+subj:01010001,fiction,3,"Name: fiction
+Description: Structured stories that are usually not based on fact but are the creation of the authors imagination "
+subj:01010002,poetry,3,"Name: poetry
+Description: The art, structure, forms of poetic expression "
+subj:01011000,music,2,"Name: music
+Description: Expressing emotion or message through instruments or voice using different sounds, tones, harmonies and the like "
+subj:01011001,classical music,3,"Name: classical music
+Description: Music that follows classic structures of rhythm and harmony "
+subj:01011002,folk music,3,"Name: folk music
+Description: Music that developed from folk cultures, often based on story-telling "
+subj:01011003,jazz music,3,"Name: jazz music
+Description: A music of diverse harmonics, often improvised "
+subj:01011004,popular music,3,"Name: popular music
+Description: The latest fad in music, generally aimed at the younger generation "
+subj:01011005,country music,3,"Name: country music
+Description: Similar to folk but is unique to the United States and is less about story telling than about loves sought and lost "
+subj:01011006,rock and roll music,3,"Name: rock and roll music
+Description: Popular dance music developed in the 1950s "
+subj:01011007,hip-hop,3,"Name: hip-hop
+Description: A contemporary urban music originating in the 1970s. "
+subj:01012000,painting,2,"Name: painting
+Description: Using the mediums of oils, watercolour, pastel, pencils, chalk, crayon etc on various grounds to express emotion or message "
+subj:01013000,photography,2,"Name: photography
+Description: Mechanical means of creating images of objects by use of light and light sensitive materials with chemicals or by digitals means "
+subj:01014000,radio,2,"Name: radio
+Description: Radio as art and entertainment "
+subj:01015000,sculpture,2,"Name: sculpture
+Description: Representation of forms in clays, stone, woods, metals or other materials "
+subj:01015001,plastic art,3,"Name: plastic art
+Description: Forms of hand created art including installations "
+subj:01016000,television,2,"Name: television
+Description: Television as art and entertainment "
+subj:01016001,soap opera,3,"Name: soap opera
+Description: Episodic TV drama or saga, normally aired during daytime "
+subj:01017000,theatre,2,"Name: theatre
+Description: Telling of a story or idea through dialogue, music and physical expression in a space or building designed for it "
+subj:01017001,music theatre,3,"Name: music theatre
+Description: Opera, operetta, music revues etc "
+subj:01018000,monument and heritage site,2,"Name: monument and heritage site
+Description: Areas containing commemorative objects for historical people or events "
+subj:01019000,customs and tradition,2,"Name: customs and tradition
+Description: A particular way of behaving, or observances that have developed over time by a group of people "
+subj:01020000,arts (general),2,"Name: arts (general)
+Description: The collective expression of message or emotion through music, literature, painting, theatre or other means "
+subj:01021000,entertainment (general),2,"Name: entertainment (general)
+Description: The collective use of television, radio, theatre, music and the like for the amusement of people "
+subj:01021001,entertainment award,3,"Name: entertainment award
+Description: Awards for achievement in the entertainment industry, such as the Oscars for film, the Booker Prize for Literature, the Grammys for music, or induction into halls of fame. "
+subj:01022000,culture (general),2,"Name: culture (general)
+Description: The ideas, customs, arts, skills of a particular group "
+subj:01022001,cultural development,3,"Name: cultural development
+Description: The history of the development of art and culture such as the rise of cave paintings, pre-Colombian art, Chinese paper-making, anything non-political "
+subj:01023000,nightclub,2,"Name: nightclub
+Description: A commercial establishment providing music, or other entertainment along with food and drink to selected clientele "
+subj:01024000,cartoon,2,"Name: cartoon
+Description: Still images such as editorial cartoons and comic strips "
+subj:01025000,animation,2,"Name: animation
+Description: Animation, including full-length and short cinema, artists and merchandising of goods featuring animation characters. "
+subj:01026000,mass media,2,"Name: mass media
+Description: Television, radio, magazines, newspapers etc "
+subj:01026001,periodicals,3,"Name: periodicals
+Description: Written material that is usually published weekly, bi-weekly, monthly or annually for a long time "
+subj:01026002,news media,3,"Name: news media
+Description: Television, wire services, radio that collect facts about incidents, developing and presenting them to audiences as a whole story "
+subj:01026003,newspapers,3,"Name: newspapers
+Description: Daily or weekly publications that present the day to day history of the world, as well as features, comics etc "
+subj:01026004,reviews,3,"Name: reviews
+Description: A critical look at someone else's work, whether film, theatre or writing "
+subj:01027000,internet,2,"Name: internet
+Description: Internet as art and entertainment "
+subj:01028000,history,2,"Name: history
+Description: Issues connected with the past; discoveries, repair, conservation or display of artifacts; anniversaries of historic events "
+subj:02000000,"crime, law and justice",1,"Name: crime, law and justice
+Description: Establishment and/or statement of the rules of behaviour in society, the enforcement of these rules, breaches of the rules and the punishment of offenders. Organizations and bodies involved in these activities. 
+Keywords: criminal justice system, law enforcement agencies, judiciary branch, legal statutes, civil rights violations, criminal prosecution, sentencing guidelines, felony charges, misdemeanor offenses, legal code amendments, law and order policies, police misconduct, courtroom trials, judicial review, crime prevention strategies, penal system, juvenile delinquency, bail reforms, probation system, plea bargaining, public defender services, victim advocacy, forensics analysis, criminal defense, correctional facilities, legislative oversight, white-collar crimes, drug trafficking laws, domestic violence acts, arrest warrants, search and seizure, crime statistics, recidivism rates, restorative justice, capital punishment, mental health courts, jury selection process, hate crime legislation, criminal appeals process, decriminalization policies, youth offender programs, community policing initiatives, fraud investigations, cybercrime laws, identity theft penalties, sexual assault protocols, homicide investigations, terrorism charges, human trafficking enforcement, embezzlement cases, corruption scandals, data privacy laws, legal advocacy groups, parole eligibility, witness protection programs, extradition treaties, forensic psychology, counter-terrorism measures, organized crime prosecution, intellectual property rights enforcement, border control security, money laundering regulations, legal aid resources, inmate rehabilitation programs, crime scene investigation"
+subj:02001000,crime,2,"Name: crime
+Description: Violation of established laws by individuals, companies or organizations "
+subj:02001001,homicide,3,"Name: homicide
+Description: Killing of one person by another "
+subj:02001002,computer crime,3,"Name: computer crime
+Description: Theft or destructive behaviour using a computer "
+subj:02001003,theft,3,"Name: theft
+Description: Unlawful taking "
+subj:02001004,drug trafficking,3,"Name: drug trafficking
+Description: Dealing in illicit often harmful substances "
+subj:02001005,sexual assault,3,"Name: sexual assault
+Description: Sexual battery of one sex against another "
+subj:02001006,assault (general),3,"Name: assault (general)
+Description: Battery, slugfests, brawls and threatening behaviour "
+subj:02001007,kidnapping,3,"Name: kidnapping
+Description: To seize and detain or carry away a person against that person's will by unlawful threat, force or fraud "
+subj:02001008,arson,3,"Name: arson
+Description: Intentional setting of fires with criminal intent "
+subj:02001009,gang activity,3,"Name: gang activity
+Description: Criminal activities by groups of individuals, usually in urban areas, who are allied by common territories, languages, ethnic backgrounds but generally are loosely organized. "
+subj:02001010,terrorism,3,"Name: terrorism
+Description: Violence against people to create fear in order to achieve political or ideological objectives "
+subj:02002000,judiciary (system of justice),2,"Name: judiciary (system of justice)
+Description: The system set up to deal with crime and those who do them "
+subj:02002001,lawyer,3,"Name: lawyer
+Description: Anyone legally able to represent another person or entity in a legal matter, such as a lawyer, solicitor, barrister, procurator, notary. "
+subj:02002002,judge,3,"Name: judge
+Description: Members of the bench that sit in judgement "
+subj:02002003,court administration,3,"Name: court administration
+Description: Court clerks, bailiffs, stenographers etc. "
+subj:02003000,police,2,"Name: police
+Description: Agents of the legal system set up enforce the laws "
+subj:02003001,law enforcement,3,"Name: law enforcement
+Description: Agencies involved in attempts to prevent disobedience to established laws, or to bring to justice those that disobey those laws "
+subj:02003002,investigation,3,"Name: investigation
+Description: Process of inquiry of a possible crime up to the point of arrest "
+subj:02003003,arrest,3,"Name: arrest
+Description: Detention of a suspect of a crime "
+subj:02004000,punishment,2,"Name: punishment
+Description: The retribution handed out to those who break the laws "
+subj:02004001,fine,3,"Name: fine
+Description: Monetary punishment "
+subj:02004002,execution,3,"Name: execution
+Description: The carrying out of executions by a government or state, not by extralegal groups/organisations "
+subj:02005000,prison,2,"Name: prison
+Description: Also know as jails, lockups, calaboose, etc. for keeping law breakers from society "
+subj:02006000,laws,2,"Name: laws
+Description: The codification of rules of behaviour "
+subj:02006001,criminal,3,"Name: criminal
+Description: The criminal code system "
+subj:02006002,civil,3,"Name: civil
+Description: The civil code system "
+subj:02007000,justice and rights,2,"Name: justice and rights
+Description: The equitable administration of laws and regulations "
+subj:02007001,civil rights,3,"Name: civil rights
+Description: Rights of individuals under civil law "
+subj:02008000,trials,2,"Name: trials
+Description: The process by which guilt or innocence, or right or wrong is determined and adjudged "
+subj:02008001,litigation,3,"Name: litigation
+Description: Taking disputed issues to court for settlement by judge and/or jury "
+subj:02008002,arbitration,3,"Name: arbitration
+Description: Resolution of disputed issues by a neutral panel "
+subj:02008003,court preliminary,3,"Name: court preliminary
+Description: Pre-trial events including pleas, bail, motions, discovery, depositions. "
+subj:02009000,prosecution,2,"Name: prosecution
+Description: Stories regarding activities and investigations by public prosecutors. "
+subj:02009001,defendant,3,"Name: defendant
+Description: The person on trial "
+subj:02009002,witness,3,"Name: witness
+Description: A person who testifies "
+subj:02010000,organized crime,2,"Name: organized crime
+Description: Crimes committed by gangs or criminal groups. "
+subj:02011000,international law,2,"Name: international law
+Description: The system of laws embraced by all nations, such as the Geneva Convention, the International Law of the Seas, etc. "
+subj:02011001,international court or tribunal,3,"Name: international court or tribunal
+Description: The activities of international tribunals such as European court for human rights, Hague tribunal, International Court of Justice etc "
+subj:02011002,extradition,3,"Name: extradition
+Description: Legal transfer of criminals or suspects between countries "
+subj:02012000,corporate crime,2,"Name: corporate crime
+Description: Misdeeds of corporations and corporate officers "
+subj:02012001,fraud,3,"Name: fraud
+Description: Intentional deception that causes others to give up rights or property "
+subj:02012002,embezzlement,3,"Name: embezzlement
+Description: The intentional theft of money left in one's care "
+subj:02012003,restraint of trade,3,"Name: restraint of trade
+Description: Interference in free competition in business and trade "
+subj:02012004,breach of contract,3,"Name: breach of contract
+Description: Rupture of legal agreements between companies, and with customers "
+subj:02012005,anti-trust crime,3,"Name: anti-trust crime
+Description: Violations of laws against monopolies "
+subj:02012006,corruption,3,"Name: corruption
+Description: General business misbehaviour "
+subj:02012007,bribery,3,"Name: bribery
+Description: Payments or benefits to influence the outcome of a legal case "
+subj:02013000,war crime,2,"Name: war crime
+Description: Crimes committed during a war or armed conflict, usually against civilians or POW's, including the prosecution of such crimes "
+subj:02014000,inquest,2,"Name: inquest
+Description: Formal investigation of sudden or unexpected death and the hearing to decide cause of death. "
+subj:02015000,inquiry,2,"Name: inquiry
+Description: Formal hearing involving a disaster, political event etc. Eg rail crash, drug prescription scandal. "
+subj:02016000,tribunal,2,"Name: tribunal
+Description: Formal hearing usually involving employment issues, property etc. "
+subj:03000000,disaster and accident,1,"Name: disaster and accident
+Description: Man made and natural events resulting in loss of life or injury to living creatures and/or damage to inanimate objects or property. 
+Keywords: earthquake, flood, hurricane, tsunami, tornado, wildfire, drought, volcanic eruption, avalanche, landslide, industrial accident, nuclear disaster, chemical spill, oil spill, radiation leak, explosion, structural collapse, mining disaster, transportation accident, airplane crash, train derailment, shipwreck, traffic collision, bridge failure, pipeline burst, electrical fire, gas leak explosion, terrorism, armed conflict, riot, building fire, dam failure, power outage, cyber attack, biohazard incident, genetic pollution, infrastructure failure, mass poisoning, food contamination, water contamination, air pollution incident, deforestation, habitat destruction, resource depletion, ecosystem collapse, extreme weather event, heatwave, cold snap, toxic waste dumping, sinkhole, pesticide spill, crowd crush, amusement park accident, workplace injury, school shooting, public health emergency, pandemic, epidemic, animal attack, mass extinction event, environmental disaster, radiological emergency, drone collision"
+subj:03001000,drought,2,"Name: drought
+Description: A severe lack of water over a period of time "
+subj:03002000,earthquake,2,"Name: earthquake
+Description: The shifting of the tectonic plates of the Earth, creating in some cases damage to structures "
+subj:03003000,famine,2,"Name: famine
+Description: Severe lack of food for a large population "
+subj:03004000,fire,2,"Name: fire
+Description: Ignition and consumption of materials through a combination of high heat and oxygen "
+subj:03005000,flood,2,"Name: flood
+Description: Surfeit of water, caused by heavy rains or melting snow, usually in places where it's not wanted "
+subj:03006000,industrial accident,2,"Name: industrial accident
+Description: A mishap in a factory, a shop or an office, potentially harmful to humans "
+subj:03006001,structural failures,3,"Name: structural failures
+Description: When a building, bridge or other structures collapse because of unexpected forces or poor design "
+subj:03007000,meteorological disaster,2,"Name: meteorological disaster
+Description: A weather-related disaster "
+subj:03007001,windstorms,3,"Name: windstorms
+Description: A storm of high velocity but non-hurricane force movements of air with little or no rain or hail. Often highly destructive "
+subj:03008000,nuclear accident,2,"Name: nuclear accident
+Description: A mishap involving radioactive materials "
+subj:03009000,pollution,2,"Name: pollution
+Description: Emissions of unwanted materials in areas where it can be harmful "
+subj:03010000,transport accident,2,"Name: transport accident
+Description: An accident involving one or more vehicles "
+subj:03010001,road accident,3,"Name: road accident
+Description: Accidents on roads. "
+subj:03010002,railway accident,3,"Name: railway accident
+Description: Accidents involving trains. "
+subj:03010003,air and space accident,3,"Name: air and space accident
+Description: Accidents involving craft in air or space. "
+subj:03010004,maritime accident,3,"Name: maritime accident
+Description: Accidents involving marine vessels. "
+subj:03011000,volcanic eruption,2,"Name: volcanic eruption
+Description: A rupture in the skin of the Earth allowing molten material to escape to the surface "
+subj:03012000,relief and aid organisation,2,"Name: relief and aid organisation
+Description: Organizations set up to provide help to those in need because of lack of food, water or shelter "
+subj:03013000,accident (general),2,"Name: accident (general)
+Description: Any unplanned event that causes unwanted consequences "
+subj:03014000,emergency incident,2,"Name: emergency incident
+Description: A sudden, unexpected event that requires immediate action "
+subj:03014001,explosion,3,"Name: explosion
+Description: Sudden eruptions, usually of chemical substances "
+subj:03015000,disaster (general),2,"Name: disaster (general)
+Description: Serious or sudden misfortune "
+subj:03015001,natural disasters,3,"Name: natural disasters
+Description: Destructive incidents caused by the very nature of nature -- hurricanes, earthquakes, floods etc "
+subj:03015002,avalanche/landslide,3,"Name: avalanche/landslide
+Description: Sudden dislodging of massive amounts of snow or soil. "
+subj:03016000,emergency planning,2,"Name: emergency planning
+Description: Planning for actions to deal with sudden, unplanned events "
+subj:03017000,rescue,2,"Name: rescue
+Description: An operation to save people, animals or property from harm or danger. "
+subj:04000000,"economy, business and finance",1,"Name: economy, business and finance
+Description: All matters concerning the planning, production and exchange of wealth. 
+Keywords: economic growth, GDP, stock market, business expansion, financial planning, monetary policy, investment strategies, trade agreements, market analysis, inflation rates, unemployment figures, consumer spending, fiscal policy, corporate earnings, wealth management, banking sector, interest rates, budget deficit, credit markets, tax legislation, financial regulation, exchange rates, economic forecast, venture capital, start-up ecosystem, business mergers, market trends, financial crisis, asset allocation, entrepreneurship, economic indicators, commodity prices, trade balance, economic sanctions, business innovation, investor sentiment, private equity, corporate governance, economic development, financial markets, government spending, business cycles, capital markets, economic policy, supply chain, business law, global economy, market volatility, public debt, economic stimulus, foreign investment, economic inequality, risk management, economic integration, business strategy, mergers and acquisitions, quantitative easing, fintech, green economy, sustainable finance, e-commerce trends, cryptocurrency markets, central banking, trade tariffs, industrial production, real estate market, financial literacy, economic conferences, business regulations, economic modeling, revenue forecasts, investment banking, economic resilience, business outsourcing"
+subj:04001000,agriculture,2,"Name: agriculture
+Description: The process of producing natural materials for consumption "
+subj:04001001,arable farming,3,"Name: arable farming
+Description: Production of food in the ground "
+subj:04001002,fishing industry,3,"Name: fishing industry
+Description: Raising or gathering of fish "
+subj:04001003,forestry and timber,3,"Name: forestry and timber
+Description: Production and collection and preparation of wood products for future use "
+subj:04001004,livestock farming,3,"Name: livestock farming
+Description: Raising of animals for food "
+subj:04001005,viniculture,3,"Name: viniculture
+Description: Production of wines from the vines to the finish products "
+subj:04001006,aquaculture,3,"Name: aquaculture
+Description: Growing plants or animals in water for human consumption "
+subj:04002000,chemicals,2,"Name: chemicals
+Description: Natural or manmade materials used to produce other materials "
+subj:04002001,biotechnology,3,"Name: biotechnology
+Description: The business of using engineering technology to study and solved problems of living organisms "
+subj:04002002,fertiliser,3,"Name: fertiliser
+Description: Natural or manmade materials used to encourage the growth of plants "
+subj:04002003,health and beauty product,3,"Name: health and beauty product
+Description: Compilation of chemicals and other substances for use in enhancing ones looks or smell "
+subj:04002004,inorganic chemical,3,"Name: inorganic chemical
+Description: The branch of chemistry dealing with minerals and metals "
+subj:04002005,organic chemical,3,"Name: organic chemical
+Description: The branch of chemistry dealing with human, animal or carbon-based substances "
+subj:04002006,pharmaceutical,3,"Name: pharmaceutical
+Description: The production of medicines from various chemicals and natural substances "
+subj:04002007,synthetic and plastic,3,"Name: synthetic and plastic
+Description: Chemicals used to produce plastics and other artificial substances to be used in manufacturing "
+subj:04003000,computing and information technology,2,"Name: computing and information technology
+Description: Anything to do with the computing and/or transmission of information from one point to another. "
+subj:04003001,hardware,3,"Name: hardware
+Description: The physical devices used to provide computer services, such as monitors, hard drives, keyboards etc. but can also be used for equipment such as routers, servers and other network devices. "
+subj:04003002,networking,3,"Name: networking
+Description: The interconnectivity between hardware that provides the medium for the transmission of data. "
+subj:04003003,satellite technology,3,"Name: satellite technology
+Description: Hardware and software that enables groundbased devices to send signals to each other via an orbiting satellite. "
+subj:04003004,semiconductors and active components,3,"Name: semiconductors and active components
+Description: The basic components that together create working electronic devices such as computers "
+subj:04003005,software,3,"Name: software
+Description: Programming sets that, when installed on hardware, perform specified functions. "
+subj:04003006,telecommunication equipment,3,"Name: telecommunication equipment
+Description: Devices such as telephone sets, voice/data switches, modems etc that facilitate point-to-point voice/data transmissions "
+subj:04003007,telecommunication service,3,"Name: telecommunication service
+Description: Services provided by commercial companies that facilitate connections between telephones, pagers, computers "
+subj:04003008,security,3,"Name: security
+Description: To encompass technical developments in hardware and software, basic research and related areas such as cyber security "
+subj:04003009,wireless technology,3,"Name: wireless technology
+Description: Transmission of information through means other than point-to-point wired hookups "
+subj:04004000,construction and property,2,"Name: construction and property
+Description: All items pertaining to the construction and sale of property "
+subj:04004001,heavy construction,3,"Name: heavy construction
+Description: Large scale construction projects, construction of roads, dams, office/factory buildings, offshore and onshore structures, large sport stadiums "
+subj:04004002,house building,3,"Name: house building
+Description: Construction of residences, for private use "
+subj:04004003,real estate,3,"Name: real estate
+Description: The buying and selling of properties of all types "
+subj:04004004,farms,3,"Name: farms
+Description: Agricultural areas for the production of foodstuffs, including dairy products, fruits and livestock, such as cattle and fish "
+subj:04004005,land price,3,"Name: land price
+Description: The price of land in specific zoned areas such as commercial, residential arable as provided by a responsible body "
+subj:04004006,renovation,3,"Name: renovation
+Description: Restoring properties/structures to a former better state by cleaning, repairing or rebuilding. "
+subj:04004007,design and engineering,3,"Name: design and engineering
+Description: Design and planning by Engineers, Architects etc. of roads, offices, factories, dams , offshore structures, "
+subj:04005000,energy and resource,2,"Name: energy and resource
+Description: Production of electrical power, and the water, air, sunlight, and fuels used to produce them "
+subj:04005001,alternative energy,3,"Name: alternative energy
+Description: Alternative energy business "
+subj:04005002,coal,3,"Name: coal
+Description: Production and mining of anthracite and bituminous products for use in power production "
+subj:04005003,oil and gas - downstream activities,3,"Name: oil and gas - downstream activities
+Description: All matters concerning oil and gas, typically refining and distribution activities "
+subj:04005004,oil and gas - upstream activities,3,"Name: oil and gas - upstream activities
+Description: All matters concerning oil and gas, typically supply chain activities from the reservoir to the refinery gate "
+subj:04005005,nuclear power,3,"Name: nuclear power
+Description: Use of radioactive materials for power production "
+subj:04005006,electricity production and distribution,3,"Name: electricity production and distribution
+Description: Primarily concerning the power line distribution system, but also the sale of electrical power at wholesale and retail levels "
+subj:04005007,waste management and pollution control,3,"Name: waste management and pollution control
+Description: The business of waste management and pollution control "
+subj:04005008,water supply,3,"Name: water supply
+Description: The business of providing water for human use "
+subj:04005009,natural resources (general),3,"Name: natural resources (general)
+Description: The general use of natural resources for business purposes, not focused on specific resources such as coal, oil, gas or water "
+subj:04005010,energy (general),3,"Name: energy (general)
+Description: Energy industry, not focused on any specific sector "
+subj:04005011,natural gas,3,"Name: natural gas
+Description: A natural resource, mainly methane in an flammable gaseous state, from the ground "
+subj:04005012,petrol,3,"Name: petrol
+Description: Distilled petroleum product used for automotive fuel, with or without additives "
+subj:04005013,diesel fuel,3,"Name: diesel fuel
+Description: A distilled petroleum product heavier than gasoline used not only for trucks, marine engines, but in certain forms for home heating "
+subj:04005014,kerosene/paraffin,3,"Name: kerosene/paraffin
+Description: A light petroleum distillate used for cooking fuel, aircraft jet engines, lamps, heating and cleaning "
+subj:04006000,financial and business service,2,"Name: financial and business service
+Description: Services that transmit, safeguard, keep track of money or provide backup to commercial enterprises "
+subj:04006001,accountancy and auditing,3,"Name: accountancy and auditing
+Description: Services provide balance sheet, budgets reconciliation and examine accuracy of financial statements "
+subj:04006002,banking,3,"Name: banking
+Description: Services for storing, transmitting, receiving and delivery of cash moneys "
+subj:04006003,consultancy service,3,"Name: consultancy service
+Description: Providers of expert knowledge in a wide range of fields usually on a temporary, contract basis "
+subj:04006004,employment agency,3,"Name: employment agency
+Description: A service helping people find jobs, and companies to find workers "
+subj:04006005,healthcare provider,3,"Name: healthcare provider
+Description: Providers of medical services at all levels, including doctors, hospitals etc "
+subj:04006006,insurance,3,"Name: insurance
+Description: A risk taking venture that allows individuals to pay small amounts periodically to guard financially against unexpected events "
+subj:04006007,legal service,3,"Name: legal service
+Description: Lawyers and others who help companies and individuals deal with state, federal and local laws "
+subj:04006008,market research,3,"Name: market research
+Description: A service that tries to determine what people want to buy "
+subj:04006009,stock broking,3,"Name: stock broking
+Description: The buying and selling of company shares on behalf of individuals or other entities "
+subj:04006010,personal investing,3,"Name: personal investing
+Description: Personal finance and investment "
+subj:04006011,market trend,3,"Name: market trend
+Description: Statistically significant consumer behaviour. "
+subj:04006012,shipping service,3,"Name: shipping service
+Description: Companies that prepare and transport packages and documents for individuals or companies by any means, including postal services. "
+subj:04006013,personal service,3,"Name: personal service
+Description: Consumer service that is intangible e.g. beauty care as in hairdressing "
+subj:04006014,janitorial service,3,"Name: janitorial service
+Description: Companies that provide cleaning and similar services for homes and businesses. "
+subj:04006015,funeral parlour and crematorium,3,"Name: funeral parlour and crematorium
+Description: Companies that provide services for disposal of the dead "
+subj:04006016,rental service,3,"Name: rental service
+Description: Companies which provide rentals, including motor vehicles, tuxedos, tools, heavy equipment, and other supplies "
+subj:04006017,wedding service,3,"Name: wedding service
+Description: Services and products related to the wedding industry "
+subj:04006018,personal finance,3,"Name: personal finance
+Description: An individual's income and expenses "
+subj:04006019,personal income,3,"Name: personal income
+Description: Money that a person earns and is his/hers to keep or spend "
+subj:04006020,auction service,3,"Name: auction service
+Description: Sales by bidding "
+subj:04006021,printing/promotional service,3,"Name: printing/promotional service
+Description: Production of printed matter such as flyers, ads, signs etc "
+subj:04006022,investment service,3,"Name: investment service
+Description: Financial advisers, as opposed to stock dealers or consultants "
+subj:04007000,consumer goods,2,"Name: consumer goods
+Description: Items produced for and sold to individuals "
+subj:04007001,clothing,3,"Name: clothing
+Description: Items of apparel to wear "
+subj:04007002,department store,3,"Name: department store
+Description: Stores largely devoted to the sale of clothing to individuals "
+subj:04007003,food,3,"Name: food
+Description: Fruits, vegetables, breads, meats for human consumption "
+subj:04007004,mail order,3,"Name: mail order
+Description: Items sold through and delivered by mail "
+subj:04007005,retail,3,"Name: retail
+Description: The last stage in the sales chain "
+subj:04007006,speciality store,3,"Name: speciality store
+Description: Retail outlets that specialize in categories such as shoes, coats, power tools, etc "
+subj:04007007,wholesale,3,"Name: wholesale
+Description: The first link in the sales chain after production "
+subj:04007008,beverage,3,"Name: beverage
+Description: Liquid consumables, both alcoholic and non-alcoholic "
+subj:04007009,electronic commerce,3,"Name: electronic commerce
+Description: Buying and selling items through the Internet "
+subj:04007010,luxury good,3,"Name: luxury good
+Description: Leather bags, jewellery, haute couture, accessories etc "
+subj:04007011,non-durable good,3,"Name: non-durable good
+Description: Lighters, pens and stationery, tableware, watches, glasses etc "
+subj:04007012,toy,3,"Name: toy
+Description: Children's plaything "
+subj:04008000,macro economics,2,"Name: macro economics
+Description: Broad scale economics and the world or national level "
+subj:04008001,central bank,3,"Name: central bank
+Description: A country's major bank that sets interest rates, and provides transfer of funds between commercial banks "
+subj:04008002,consumer issue,3,"Name: consumer issue
+Description: Those issues, such as prices, inflation/deflation, quality of goods, at the retail sales level "
+subj:04008003,debt market,3,"Name: debt market
+Description: Market for trading debt instruments such as bonds, CDs, bankers acceptances, T bills, notes, IOUs etc "
+subj:04008004,economic indicator,3,"Name: economic indicator
+Description: Certain indexes, such as company inventories, the movement of prices that show whether the economy is improving or declining "
+subj:04008005,emerging market,3,"Name: emerging market
+Description: Those markets that are struggling to enter the world economies and those requiring financial help from international lenders "
+subj:04008006,foreign exchange market,3,"Name: foreign exchange market
+Description: The trading of shekels, dinars, euros dollars etc around the world through regulated markets "
+subj:04008007,government aid,3,"Name: government aid
+Description: Supply of financial and other help by one government, usually to another "
+subj:04008008,government debt,3,"Name: government debt
+Description: The amount a government owes on bonds, services and for goods and services for which it has no ready cash "
+subj:04008009,interest rate,3,"Name: interest rate
+Description: The amount of money one must pay to borrow money "
+subj:04008010,international economic institution,3,"Name: international economic institution
+Description: Entities such as UNIDO, World Bank, World Trade Organization, the Import-Expert Bank etc that deals at a world level "
+subj:04008011,international (foreign) trade,3,"Name: international (foreign) trade
+Description: Trade of goods and services between nations "
+subj:04008012,loan market,3,"Name: loan market
+Description: The market where money is available to borrow, at certain rates of interest "
+subj:04008013,economic organization,3,"Name: economic organization
+Description: Business, industrial and trade associations, societies and other private-sector groups. "
+subj:04008014,consumer confidence,3,"Name: consumer confidence
+Description: Reports on consumer confidence in the economy. "
+subj:04008015,trade dispute,3,"Name: trade dispute
+Description: International dispute over trade barriers, cartels, dumping etc. "
+subj:04008016,inflation and deflation,3,"Name: inflation and deflation
+Description: An increase in the amount of money in circulation and thereby a rise in prices; deflation, tighter monetary policy causing lower prices "
+subj:04008017,prices,3,"Name: prices
+Description: The monetary value of goods, services or stocks and bonds "
+subj:04008018,currency values,3,"Name: currency values
+Description: The value of one currency as measured against another "
+subj:04008019,budgets and budgeting,3,"Name: budgets and budgeting
+Description: A method of balancing revenues against expenses "
+subj:04008020,credit and debt,3,"Name: credit and debt
+Description: Credit: the amount of money available to you, often by loan. Debt, the amount you owe. "
+subj:04008021,loans,3,"Name: loans
+Description: An agreement by one individual or institution to temporarily disperse money to another, with an agreed rate and time for its return "
+subj:04008022,mortgages,3,"Name: mortgages
+Description: The loan of money for the purpose of purchasing a property, whether land or building. Or, for homeowners to repair or maintain properties, often based on owner equity in a property "
+subj:04008023,financial markets,3,"Name: financial markets
+Description: Institutions set up to trade the shares or other financial paper of companies or other organizations, can also include currency trading "
+subj:04008024,commodity markets,3,"Name: commodity markets
+Description: The bartering or trading of goods such as cotton, oil, coal, metals, etc "
+subj:04008025,investments,3,"Name: investments
+Description: Speculative purchases of corporate instruments, of commodities, currencies, or parts thereof "
+subj:04008026,stocks,3,"Name: stocks
+Description: Corporate paper that gives an individual an ownership right to a part of a company's earnings "
+subj:04008027,bonds,3,"Name: bonds
+Description: Corporate or governmental paper representing the loan of money at a fixed rate and for a fixed time to that company or government "
+subj:04008028,mutual funds,3,"Name: mutual funds
+Description: Pools of shares or bonds for sale often grouped by investment intention, such as growth, income or security "
+subj:04008029,derivative securities,3,"Name: derivative securities
+Description: Financial instruments such as futures, swaps and options, used for risk management, whose characteristics and value depend upon the characteristics and value of an underlying instrument, such as a commodity, bond, equity or currency. "
+subj:04008030,imports,3,"Name: imports
+Description: What is bought abroad and brought into a country for resale "
+subj:04008031,exports,3,"Name: exports
+Description: What is produced or manufactured in your country and sent and sold elsewhere "
+subj:04008032,trade agreements,3,"Name: trade agreements
+Description: Government level agreements between countries for the sale and purchase of goods and services "
+subj:04008033,trade policy,3,"Name: trade policy
+Description: Governmental decisions on tariffs, shipping, embargoes, and the types or kinds of goods and services to be imported and exported "
+subj:04008034,business enterprises,3,"Name: business enterprises
+Description: Organizations set up usually for profit-making purposes by creating and selling a product or service "
+subj:04008035,tariff,3,"Name: tariff
+Description: Fees placed on goods imported or exported, often punitive "
+subj:04008036,trade balance,3,"Name: trade balance
+Description: The difference between the financial value of imports and exports "
+subj:04009000,market and exchange,2,"Name: market and exchange
+Description: Organized entities for buying and selling stocks, currencies, commodities and other goods "
+subj:04009001,energy,3,"Name: energy
+Description: Stories related to energy trading and markets "
+subj:04009002,metal,3,"Name: metal
+Description: Markets for trading base metals such as copper, aluminium, steel, zinc etc "
+subj:04009003,securities,3,"Name: securities
+Description: Markets for trading types of company paper such as stocks and bonds "
+subj:04009004,soft commodity,3,"Name: soft commodity
+Description: Trading in commodities such as cotton, sugar, sorghum, soybeans etc. "
+subj:04010000,media,2,"Name: media
+Description: The various means of disseminating news and information to the public "
+subj:04010001,advertising,3,"Name: advertising
+Description: Methods of promoting goods and service to consumers through video, graphics, print text etc "
+subj:04010002,book,3,"Name: book
+Description: The business of producing and selling bound media, whether fiction or non-fiction "
+subj:04010003,cinema industry,3,"Name: cinema industry
+Description: The business of cinema "
+subj:04010004,news agency,3,"Name: news agency
+Description: Commercial agencies for production and distribution of newsworthy events through print, broadcast, video or electronic media "
+subj:04010005,newspaper and magazine,3,"Name: newspaper and magazine
+Description: The business of producing bound and unbound printed paper products for periodic distribution of news items "
+subj:04010006,online,3,"Name: online
+Description: The business of distributing news and information through computer networks for public consumption "
+subj:04010007,public relation,3,"Name: public relation
+Description: The job of promoting products and services through advertising campaigns and/or through person-to-person contact or through news releases "
+subj:04010008,radio industry,3,"Name: radio industry
+Description: Business of radio "
+subj:04010009,satellite and cable service,3,"Name: satellite and cable service
+Description: The business of transmitting of news, entertainment and information via satellite or cable television services "
+subj:04010010,television industry,3,"Name: television industry
+Description: Business of television "
+subj:04010011,music industry,3,"Name: music industry
+Description: Recording, production, marketing of music "
+subj:04011000,manufacturing and engineering,2,"Name: manufacturing and engineering
+Description: Manufacturers of electrical, electronic and mechanical equipment but does not cover civil engineering. "
+subj:04011001,aerospace,3,"Name: aerospace
+Description: Companies that assemble or manufacture components for airplanes and space ships. "
+subj:04011002,automotive equipment,3,"Name: automotive equipment
+Description: Companies that produce components for automobiles "
+subj:04011003,defence equipment,3,"Name: defence equipment
+Description: Manufacturers of guns, tanks, cannons, ships etc for the military and non-military protection services "
+subj:04011004,electrical appliance,3,"Name: electrical appliance
+Description: Makers of large and small electrical goods for use in homes or business "
+subj:04011005,heavy engineering,3,"Name: heavy engineering
+Description: Manufacturers of cranes, bulldozers and the like for use in major construction projects "
+subj:04011006,industrial component,3,"Name: industrial component
+Description: Manufacturers of mechanical, electrical, electronic items needed in the manufacture of other items "
+subj:04011007,instrument engineering,3,"Name: instrument engineering
+Description: Manufacturers of instruments for calibration, measurement of things like speed, pressure, distance "
+subj:04011008,shipbuilding,3,"Name: shipbuilding
+Description: Manufacturers of ships, submarines, barges. "
+subj:04011009,machine manufacturing,3,"Name: machine manufacturing
+Description: Manufacturers of turbines, engines, fans , pumps , motors and components for powered equipment. "
+subj:04012000,metal and mineral,2,"Name: metal and mineral
+Description: Production and refining of ores into metals "
+subj:04012001,building material,3,"Name: building material
+Description: Manufacture of materials like wallboard, lumber wiring for the building industry "
+subj:04012002,gold and precious material,3,"Name: gold and precious material
+Description: Mining, refining and sales of gold and other precious metals "
+subj:04012003,iron and steel,3,"Name: iron and steel
+Description: Mining, refining and sales of iron-based metals "
+subj:04012004,non ferrous metal,3,"Name: non ferrous metal
+Description: Mining, refining and sales of copper, zinc, aluminium, and other metals not based on iron "
+subj:04012005,mining,3,"Name: mining
+Description: The industry of digging for metals, raw materials such as coal, or precious gems such as diamonds "
+subj:04013000,process industry,2,"Name: process industry
+Description: The business of turning raw materials into useable products "
+subj:04013001,distiller and brewer,3,"Name: distiller and brewer
+Description: Manufacture of alcoholic beverages "
+subj:04013002,food,3,"Name: food
+Description: The business of processing, distributing and selling for basic human consumption "
+subj:04013003,furnishings and furniture,3,"Name: furnishings and furniture
+Description: Manufacture of furniture, wallpaper, paints and fabrics for interior decoration "
+subj:04013004,paper and packaging product,3,"Name: paper and packaging product
+Description: Production of paper material for writing, wrapping, printing, or packaging "
+subj:04013005,rubber product,3,"Name: rubber product
+Description: Production of rubber based materials for gloves, protective coatings, hoses and the like "
+subj:04013006,soft drinks,3,"Name: soft drinks
+Description: Production of non-alcoholic drinks "
+subj:04013007,textile and clothing,3,"Name: textile and clothing
+Description: Production of fabrics for furnishings and fixtures, and for clothing of various types "
+subj:04013008,tobacco,3,"Name: tobacco
+Description: Growing, producing and sale of tobacco products "
+subj:04014000,tourism and leisure,2,"Name: tourism and leisure
+Description: Tourism and leisure industries "
+subj:04014001,casino and gambling,3,"Name: casino and gambling
+Description: The business of providing outlets for various games of chance using cards, dice, spinning wheels to betting on animal races "
+subj:04014002,hotel and accommodation,3,"Name: hotel and accommodation
+Description: The business of providing food and shelter to travellers "
+subj:04014003,recreational and sporting goods,3,"Name: recreational and sporting goods
+Description: Manufacture of goods for leisure activities "
+subj:04014004,restaurant and catering,3,"Name: restaurant and catering
+Description: The business of providing prepared foods for customers in groups large and small "
+subj:04014005,tour operator,3,"Name: tour operator
+Description: Operators of trips either locally, as around town, or to other countries "
+subj:04015000,transport,2,"Name: transport
+Description: The means of getting from one place to the other without walking "
+subj:04015001,air transport,3,"Name: air transport
+Description: Airplane and airport operations "
+subj:04015002,railway,3,"Name: railway
+Description: The business of transporting people or cargo by rail "
+subj:04015003,road transport,3,"Name: road transport
+Description: The business of transport goods by trucks and highways "
+subj:04015004,waterway and maritime transport,3,"Name: waterway and maritime transport
+Description: Commercial movement of people or goods via boats, ships and water "
+subj:04016000,company information,2,"Name: company information
+Description: Information about individual companies or business entities "
+subj:04016001,accounting and audit,3,"Name: accounting and audit
+Description: Changes in choice of auditing firm. Reports on impact of changes in GAAP. "
+subj:04016002,annual and special corporate meeting,3,"Name: annual and special corporate meeting
+Description: Announcements of upcoming meetings. Reports on meetings. "
+subj:04016003,annual report,3,"Name: annual report
+Description: Availability or contents of annual company reports. "
+subj:04016004,antitrust issue,3,"Name: antitrust issue
+Description: Antitrust activities, monopoly regulation, etc. "
+subj:04016005,"merger, acquisition and takeover",3,"Name: merger, acquisition and takeover
+Description: News on mergers, takeovers or acquisitions. "
+subj:04016006,analysts' comment,3,"Name: analysts' comment
+Description: Stock analyst comments, analysis and recommendations. "
+subj:04016007,bankruptcy,3,"Name: bankruptcy
+Description: Actual bankruptcy filings. "
+subj:04016008,board of directors (appointment and change),3,"Name: board of directors (appointment and change)
+Description: Appointments to or changes in the board of directors for a company. "
+subj:04016009,buyback,3,"Name: buyback
+Description: Stock buyback programs. This should be kept distinct from Stock Activity (see below). "
+subj:04016010,C.E.O. interview,3,"Name: C.E.O. interview
+Description: Interviews with Chief Executive Officers. "
+subj:04016011,corporate officer,3,"Name: corporate officer
+Description: Appointments or changes in corporate officers. "
+subj:04016012,corporate profile,3,"Name: corporate profile
+Description: Descriptive profiles of companies. "
+subj:04016013,contract,3,"Name: contract
+Description: Commercial contracts. "
+subj:04016014,defence contract,3,"Name: defence contract
+Description: The award of government contracts for defence related activity. "
+subj:04016015,dividend announcement,3,"Name: dividend announcement
+Description: Announcements regarding the disbursement of dividends. "
+subj:04016016,earnings forecast,3,"Name: earnings forecast
+Description: Analyst prediction of company earnings. "
+subj:04016017,financially distressed company,3,"Name: financially distressed company
+Description: Aa company is financially distressed - not yet having filed for bankruptcy. "
+subj:04016018,earnings,3,"Name: earnings
+Description: Any increase of earnings results. "
+subj:04016019,financing and stock offering,3,"Name: financing and stock offering
+Description: New offerings of equity including initial public offerings. "
+subj:04016020,government contract,3,"Name: government contract
+Description: The award of government contracts not related to defence activity "
+subj:04016021,global expansion,3,"Name: global expansion
+Description: Planned or actual openings of offices in countries for the first time. "
+subj:04016022,insider trading,3,"Name: insider trading
+Description: The purchase or sales of stock by corporate officers or board members. "
+subj:04016023,joint venture,3,"Name: joint venture
+Description: Joint ventures between companies. (Not marketing related - see Marketing.) "
+subj:04016024,leveraged buyout,3,"Name: leveraged buyout
+Description: Leveraged buyouts. "
+subj:04016025,layoffs and downsizing,3,"Name: layoffs and downsizing
+Description: Planned or actual reductions in the labour force. "
+subj:04016026,licensing agreement,3,"Name: licensing agreement
+Description: Licensing agreements between companies. "
+subj:04016027,litigation and regulation,3,"Name: litigation and regulation
+Description: Corporate law including litigation and regulations. "
+subj:04016028,management change,3,"Name: management change
+Description: Major appointments or changes in management below the level of corporate officer. "
+subj:04016029,marketing,3,"Name: marketing
+Description: Includes news regarding joint marketing agreements between companies, adoption of new product marketing strategies, etc. "
+subj:04016030,new product,3,"Name: new product
+Description: Announcements of new products. "
+subj:04016031,"patent, copyright and trademark",3,"Name: patent, copyright and trademark
+Description: News related to patents, copyright and trademarks. "
+subj:04016032,plant closing,3,"Name: plant closing
+Description: Announcements of planned or actual plant closings. "
+subj:04016033,plant opening,3,"Name: plant opening
+Description: Announcements of planned or actual plant openings. "
+subj:04016034,privatisation,3,"Name: privatisation
+Description: Privatisation (privatisation) of state run companies. "
+subj:04016035,proxy filing,3,"Name: proxy filing
+Description: Filings with regulatory agencies of proxy statements for upcoming shareholder votes. "
+subj:04016036,rating,3,"Name: rating
+Description: Corporate and sovereign debt and credit ratings (e.g. SandP or Moody's) "
+subj:04016037,research and development,3,"Name: research and development
+Description: Research and expenditure on new product development. "
+subj:04016038,quarterly or semiannual financial statement,3,"Name: quarterly or semiannual financial statement
+Description: Availability or contents of quarterly or semi-annual corporate reports. "
+subj:04016039,restructuring and recapitalisation,3,"Name: restructuring and recapitalisation
+Description: Sale of company units, splits of existing companies into units under a holding company, etc. "
+subj:04016040,spin-off,3,"Name: spin-off
+Description: Creation of new companies being spun off from existing companies. "
+subj:04016041,stock activity,3,"Name: stock activity
+Description: Announcements of major stock events: splits, block trades, new highs or lows, etc. "
+subj:04016042,industrial production,3,"Name: industrial production
+Description: Manufacture of durable and non-durable goods "
+subj:04016043,productivity,3,"Name: productivity
+Description: The cost of labour to produce an item of value, often measured as output per hour per person "
+subj:04016044,inventories,3,"Name: inventories
+Description: Goods not sold and held by the producer, wholesaler or retailer "
+subj:04016045,sales,3,"Name: sales
+Description: Either the exchange of goods for money, or the practice of discounting prices to increase the amount of goods sold, or to get rid of outdated merchandise "
+subj:04016046,corporations,3,"Name: corporations
+Description: Business enterprises formally licensed with boards of directors and hierarchical structures of governance "
+subj:04016047,shareholders,3,"Name: shareholders
+Description: Anyone holding a piece of paper issued by a company which changes in value and entitles them to dividends depending on the performance of the company "
+subj:04016048,corporate performance,3,"Name: corporate performance
+Description: How well a company performs, measured by its net earnings, its dividends its earnings per share and price/earnings ratio "
+subj:04016049,losses,3,"Name: losses
+Description: When expenses exceed revenue "
+subj:04016050,credit ratings,3,"Name: credit ratings
+Description: Formal statements by certain rating agencies such as Standard and Poor's on the investment risk of a company, a country or enterprise "
+subj:04016051,stock splits,3,"Name: stock splits
+Description: Issuing multiple shares for one share of stock. Usually occurs when the price of a stock has increased so much that its purchase price is not attractive. A reverse split is when one share is issued for multiple shares, to raise the per share value. "
+subj:04016052,stock options,3,"Name: stock options
+Description: An agreement to either buy or sell a stock when it meets a certain price "
+subj:04016053,recalls (products),3,"Name: recalls (products)
+Description: A decision by a company to take back or repair a defective product "
+subj:04016054,globalization,3,"Name: globalization
+Description: Doing business around the world "
+subj:04016055,consumers,3,"Name: consumers
+Description: Buyers of goods and services "
+subj:04016056,purchase,3,"Name: purchase
+Description: Items that companies buy, such as raw materials, office supplies etc. "
+subj:04016057,new service,3,"Name: new service
+Description: New services added by a company, such as new flight routes, etc. "
+subj:04017000,economy (general),2,"Name: economy (general)
+Description: Content of a general nature about trade and the economy "
+subj:04017001,economic policy,3,"Name: economic policy
+Description: Government directed policy on production, taxes, tariffs and things that affect the direction and health of the economy "
+subj:04018000,business (general),2,"Name: business (general)
+Description: Content of a general nature about business "
+subj:04018001,institution,3,"Name: institution
+Description: Either an established law, practice or system or an organization having a social, religious, educational or similar purpose such as hospital, school, prison "
+subj:04019000,finance (general),2,"Name: finance (general)
+Description: Content of a general nature about finance "
+subj:04019001,money and monetary policy,3,"Name: money and monetary policy
+Description: Government bank directed policy on the amount of money in circulation and the rate at which it can be loaned "
+subj:05000000,education,1,"Name: education
+Description: All aspects of furthering knowledge of human individuals from birth to death. 
+Keywords: early childhood education, primary schooling, secondary education, higher education, vocational training, adult learning, e-learning, online courses, education technology, lifelong learning, academic research, curriculum development, standardized testing, education policy, special needs education, education reform, teacher training, student loans, scholarships, educational psychology, literacy programs, STEM education, arts education, educational equity, homeschooling, international education, educational assessment, career counseling, tuition fees, learning disabilities, graduation rates, education funding, classroom technology, study abroad programs, educational leadership, distance learning, extracurricular activities, education conferences, pedagogy, cognitive learning, academic publishing, school accreditation, bilingual education, educational grants, MOOCs, student engagement, educational games, academic advising, educational standards, student exchange programs, education startups, education innovation, library science, textbook publishing, education entrepreneurship, educational workshops, school safety, education advocacy, student mentoring, education statistics, peer learning, after-school programs, digital literacy, educational outreach, special education resources, academic competitions, educational apps, learning models, teacher certification, education law, child development, education research, cultural literacy, academic scholarships, education networking, professional development for educators, education policy analysis"
+subj:05001000,adult education,2,"Name: adult education
+Description: Education provided for older students outside the usual age groups of 5-25 "
+subj:05002000,further education,2,"Name: further education
+Description: Any form of education beyond basic education of several levels "
+subj:05003000,parent organisation,2,"Name: parent organisation
+Description: Groups of parents set up to support schools "
+subj:05004000,preschool,2,"Name: preschool
+Description: Education for children under the national compulsory education age "
+subj:05005000,school,2,"Name: school
+Description: A building or institution in which education of various sorts is provided "
+subj:05006000,teachers union,2,"Name: teachers union
+Description: Organization of teachers for collective bargaining and other purposes "
+subj:05007000,university,2,"Name: university
+Description: Institutions of higher learning capable of providing doctorate degrees "
+subj:05008000,upbringing,2,"Name: upbringing
+Description: Lessons learned from parents and others as one grows up "
+subj:05009000,entrance examination,2,"Name: entrance examination
+Description: Exams for entering colleges, universities, junior and senior high schools, and all other higher and lower education institutes, including cram schools, which help students prepare for exams for entry to prestigious schools. "
+subj:05010000,teaching and learning,2,"Name: teaching and learning
+Description: Either end of the education equation "
+subj:05010001,students,3,"Name: students
+Description: People of any age in a structured environment, not necessarily a classroom, in order to learn something "
+subj:05010002,teachers,3,"Name: teachers
+Description: People with knowledge who can impart that knowledge to others "
+subj:05010003,curriculum,3,"Name: curriculum
+Description: The courses offered by a learning institution and the regulation of those courses "
+subj:05010004,test/examination,3,"Name: test/examination
+Description: A measurement of student accomplishment "
+subj:05011000,religious education,2,"Name: religious education
+Description: Instruction by any faith, in that faith or about other faiths, usually, but not always, conducted in schools run by religious bodies "
+subj:06000000,environmental issue,1,"Name: environmental issue
+Description: All aspects of protection, damage, and condition of the ecosystem of the planet earth and its surroundings. 
+Keywords: climate change, global warming, deforestation, ozone layer depletion, air pollution, water pollution, soil contamination, endangered species, biodiversity loss, overfishing, habitat destruction, conservation efforts, sustainable development, renewable energy, recycling programs, carbon footprint reduction, environmental policy, eco-friendly technologies, greenhouse gas emissions, natural resource depletion, urban sprawl, environmental degradation, ecosystem services, wildlife preservation, marine pollution, acid rain, plastic waste, sustainable agriculture, clean air initiatives, clean water acts, environmental activism, oil spills, toxic waste disposal, environmental health impacts, invasive species, landfill overflow, melting ice caps, sea level rise, solar power adoption, wind energy expansion, geothermal energy, environmental education, organic farming, green building standards, low-carbon economy, electric vehicles, sustainable transport, public transit improvements, beach erosion, desertification, forest fires, eco-tourism, pesticide pollution, noise pollution, light pollution, environmental justice, climate adaptation, climate mitigation, environmental engineering, nature conservation laws, green politics, coral reef bleaching, fossil fuel divestment, animal poaching"
+subj:06001000,renewable energy,2,"Name: renewable energy
+Description: Environmental impact of renewable energy, including solar, wind, hydro, biomass and geothermal "
+subj:06002000,conservation,2,"Name: conservation
+Description: Preservation of wilderness areas, flora and fauna, including species extinction "
+subj:06002001,endangered species,3,"Name: endangered species
+Description: Those species of wildlife in danger of disappearing, largely because of changes in environment, hunting, or weather "
+subj:06002002,ecosystem,3,"Name: ecosystem
+Description: A system of plants, animals and bacteria interrelated in its physical/chemical environment "
+subj:06003000,energy saving,2,"Name: energy saving
+Description: Conservation of electrical, and other power sources "
+subj:06004000,environmental politics,2,"Name: environmental politics
+Description: The debate on environmental policy "
+subj:06005000,environmental pollution,2,"Name: environmental pollution
+Description: Corruption of air, water, land etc. by harmful substances "
+subj:06005001,air pollution,3,"Name: air pollution
+Description: Solid or gaseous matter affecting the quality of air that we breathe "
+subj:06005002,water pollution,3,"Name: water pollution
+Description: Solids or liquids that corrupt the quality of water that could be used for drinking or irrigation "
+subj:06006000,natural resources,2,"Name: natural resources
+Description: Stories about the environmental issues related to the exploitation of natural resources for human use "
+subj:06006001,land resources,3,"Name: land resources
+Description: That portion of a nation or state that is above water and available for development either for profit or for the general good of the public "
+subj:06006002,parks,3,"Name: parks
+Description: Areas set aside and developed for public enjoyment and recreation, including commercial development such as theme parks "
+subj:06006003,forests,3,"Name: forests
+Description: Open areas of trees either available for public enjoyment, or for commercial purposes "
+subj:06006004,wetlands,3,"Name: wetlands
+Description: Areas generally marshy and not either under water or dry land. Often related to aquifers for water quality and/or wildlife "
+subj:06006005,mountains,3,"Name: mountains
+Description: Elevated land masses formed over the ages either by erosion, volcanic eruption, or movement of massive geographical formations called plates "
+subj:06006006,rivers,3,"Name: rivers
+Description: Moving water areas bounded by land that extend from earth sources and meander through land areas to join with other water areas. In smaller forms they are creeks, rivulets, streams etc "
+subj:06006007,oceans,3,"Name: oceans
+Description: Salt water masses separating continents or other major geographical masses. smaller forms are seas or lakes or ponds "
+subj:06006008,wildlife,3,"Name: wildlife
+Description: All forms of animal life that have not been domesticated "
+subj:06006009,energy resources,3,"Name: energy resources
+Description: Such resources as coal, gas, wind, sunlight etc., used to generate heat, electricity and power "
+subj:06007000,nature,2,"Name: nature
+Description: Taken as a whole the natural environment of flora and fauna "
+subj:06007001,invasive species,3,"Name: invasive species
+Description: Non-native plants, animals and other organisms that tend to take over native species "
+subj:06008000,population,2,"Name: population
+Description: People and their growth and development within a natural setting "
+subj:06009000,waste,2,"Name: waste
+Description: Environmental impact of waste, including recycling efforts "
+subj:06010000,water,2,"Name: water
+Description: Environmental issues about bodies of water, including oceans, lakes, streams and reservoirs, as well as ice, glaciers and forms of precipitation "
+subj:06011000,global warming,2,"Name: global warming
+Description: All issues relating to global warming including temperature research, remote sensing on temperature trends, debate on global warming, ways to reduce emissions and carbon trading. "
+subj:06012000,hazardous materials,2,"Name: hazardous materials
+Description: Materials that are harmful to humans or animals if they are exposed to them. Includes radiation, poison gases, chemicals, heavy metals, PCBs, and certain plant products "
+subj:06013000,environmental cleanup,2,"Name: environmental cleanup
+Description: Processes whereby contaminated areas are cleaned of hazardous materials so they can be inhabited again by either people or animals. "
+subj:07000000,health,1,"Name: health
+Description: All aspects pertaining to the physical and mental welfare of human beings. 
+Keywords: wellness, fitness, nutrition, mental health, disease prevention, public health, healthcare, exercise, stress management, dietary habits, health policy, medical research, substance abuse, therapy, mindfulness, chronic illness, vaccinations, epidemiology, pediatrics, senior health, occupational safety, psychological wellbeing, preventive medicine, health education, sexual health, lifestyle diseases, maternal health, alternative medicine, health tech, health disparities, environmental health, health insurance, personal hygiene, pharmaceutical advancements, holistic health, emotional health, geriatrics, telemedicine, meditation, surgical innovations, reproductive health, addiction recovery, clinical trials, patient care, orthopedics, immunotherapy, cardiovascular health, neurology, oncology, gastrointestinal health, diabetes management, sports medicine, healthcare policies, physical therapy, dental health, vision care, audiology, skin care, ergonomics, obesity treatment, yoga and health, health informatics, antibiotic resistance, health innovation, health science, mobile health, natural remedies, health ethics, childhood obesity, endocrinology, aging and longevity, genetic disorders, sleep patterns, allergy and immunology, health regulations, mental resilience, pandemic response, viral outbreaks, health risk factors, health-aware consumerism, precision medicine, behavioral therapy, microbiome and health, health supplements, hormonal health, integrative health, health advocacy, community health, global health issues, infection control, biomedical engineering, radiology, health data analytics"
+subj:07001000,disease,2,"Name: disease
+Description: Any harmful or destructive condition "
+subj:07001001,communicable diseases,3,"Name: communicable diseases
+Description: Diseases that can be transmitted from one person or animal to another "
+subj:07001002,virus diseases,3,"Name: virus diseases
+Description: Diseases caused by infection within cells by viruses "
+subj:07001003,AIDS,3,"Name: AIDS
+Description: Acquired Immunity Deficiency Syndrome, an incurable disease caused by the human immunodeficiency virus "
+subj:07001004,cancer,3,"Name: cancer
+Description: A serious and often fatal disease caused when normal cells mutate into tumours "
+subj:07001005,heart disease,3,"Name: heart disease
+Description: A degenerative and serious disease caused by narrowing of the arteries feeding the heart "
+subj:07001006,alzheimer's disease,3,"Name: alzheimer's disease
+Description: A disorder of the brain leading to dementia "
+subj:07001007,animal diseases,3,"Name: animal diseases
+Description: Disorders affecting animals that do not necessarily endanger humans "
+subj:07001008,plant diseases,3,"Name: plant diseases
+Description: Disorders affecting plants caused either by parasites or environmental factors "
+subj:07001009,retrovirus,3,"Name: retrovirus
+Description: A family of RNA viruses such as those causing leukaemia and AIDS "
+subj:07002000,epidemic and plague,2,"Name: epidemic and plague
+Description: An epidemic is a rapidly spreading condition in a community and a plague is usually a deadly disease of epidemic proportions "
+subj:07003000,health treatment,2,"Name: health treatment
+Description: In general treatment of diseases and other conditions to produce wellness "
+subj:07003001,prescription drugs,3,"Name: prescription drugs
+Description: Drugs that can be purchased only with a doctor's authorization "
+subj:07003002,dietary supplements,3,"Name: dietary supplements
+Description: Nutrients taken in addition to food to bolster health "
+subj:07003003,diet,3,"Name: diet
+Description: Controlled food consumption "
+subj:07003004,medical procedure/test,3,"Name: medical procedure/test
+Description: Any of a variety of treatments such as stress tests, catheterization, blood tests, computerised axial tomography scan or magnetic resonance imaging "
+subj:07003005,therapy,3,"Name: therapy
+Description: Treatment of physical, mental or medical conditions by non-surgical means "
+subj:07004000,health organisations,2,"Name: health organisations
+Description: Includes stories about specific health organizations, including professional associations, non-profits and international groups "
+subj:07005000,medical research,2,"Name: medical research
+Description: Investigation into the causes and cures of diseases "
+subj:07006000,medical staff,2,"Name: medical staff
+Description: Doctors, nurses, interns and others in a medical facility "
+subj:07006001,primary care physician,3,"Name: primary care physician
+Description: Patient's basic health care doctor - first point of call for all health related problems "
+subj:07006002,health-workers union,3,"Name: health-workers union
+Description: Issues involving industry groups for doctors, nurses, health workers etc. "
+subj:07007000,medicine,2,"Name: medicine
+Description: A substance used with the expectation that it will eliminate disease or illness "
+subj:07007001,herbal,3,"Name: herbal
+Description: Treatment based on the use of herbs and other plants to cure or alleviate disease symptoms "
+subj:07007002,holistic,3,"Name: holistic
+Description: Treatment of the whole person including mental and social factors rather than just the symptoms of the disease. "
+subj:07007003,western,3,"Name: western
+Description: The practice of diagnosis, treatment and prevention of disease based on modern scientific research in the western hemisphere. "
+subj:07007004,traditional Chinese,3,"Name: traditional Chinese
+Description: The practice of diagnosis, treatment and prevention of disease based on traditional methods developed in the orient. "
+subj:07008000,preventative medicine,2,"Name: preventative medicine
+Description: Substances used to prevent diseases or illnesses "
+subj:07008001,vaccines,3,"Name: vaccines
+Description: Medications designed to create immunity to diseases "
+subj:07009000,injury,2,"Name: injury
+Description: A traumatic condition of the human body caused usually by outside forces "
+subj:07010000,hospital and clinic,2,"Name: hospital and clinic
+Description: Medical facilities for the treatment of illnesses and injury "
+subj:07012000,private health care,2,"Name: private health care
+Description: Health care provided by privately funded or insured organizations "
+subj:07013000,healthcare policy,2,"Name: healthcare policy
+Description: Health-related policy decisions including what different countries are doing regarding prescription drug policies, AIDS, psychiatric care, health care funding and related topics. "
+subj:07013001,food safety,3,"Name: food safety
+Description: Issues relating to food cleanliness and contamination "
+subj:07014000,medical specialisation,2,"Name: medical specialisation
+Description: The different medical specialist areas. "
+subj:07014001,geriatric,3,"Name: geriatric
+Description: Research into aging and age-related issues including age-related illnesses, medical research, trends, geriatric medicine and related topics like age discrimination and health insurance for an ageing population. "
+subj:07014002,pediatrics,3,"Name: pediatrics
+Description: Research and medicine specifically for the young - includes premature babies, infant care, childhood disease and treatment - also teen-related health and behaviour problems. "
+subj:07014003,reproduction,3,"Name: reproduction
+Description: Reproductive technologies like invitro fertilization and cloning as well as related debates. Sexual development matters and sexually transmitted diseases would also fall under this category. "
+subj:07014004,genetics,3,"Name: genetics
+Description: The science and research into genetic-base disease and cures for disease. This would include proteomics (the study of what proteins are produced by which genes and what those proteins do), general genetics and stem-cell research. "
+subj:07014005,obstetrics/gynecology,3,"Name: obstetrics/gynecology
+Description: Specialty of female reproductive organs "
+subj:07015000,medical service,2,"Name: medical service
+Description: Medical support for doctors, including blood tests and other medical tests on individuals, X-rays CAT scans MRIs etc. "
+subj:07016000,physical fitness,2,"Name: physical fitness
+Description: The condition of a person's cardio-vascular and muscular health. "
+subj:07017000,illness,2,"Name: illness
+Description: Non-specific maladies such as stomach aches, headaches, flat feet, lumbago "
+subj:07017001,mental illness,3,"Name: mental illness
+Description: Those illnesses affecting the mind "
+subj:07017002,eating disorder,3,"Name: eating disorder
+Description: Anorexia, bulimia, overeating and similar illnesses "
+subj:07017003,obesity,3,"Name: obesity
+Description: A condition of body weight generally considered 20 percent above the norm for gender, age, height and bone structure "
+subj:07018000,medical conditions,2,"Name: medical conditions
+Description: Various stages of disease, illness or injury "
+subj:07019000,patient,2,"Name: patient
+Description: Issues which affect population in general as attendees at hospitals or doctors' surgeries. "
+subj:08000000,human interest,1,"Name: human interest
+Description: Lighter items about individuals, groups, animals or objects. 
+Keywords: heartwarming stories, inspiring individuals, community heroes, animal rescues, random acts of kindness, triumph over adversity, personal achievements, cultural celebrations, humanitarian efforts, overcoming challenges, charitable acts, emotional reunions, unusual companionships, extraordinary talents, lifestyle features, positive news, family milestones, elderly joys, youth accomplishments, neighborly goodwill, humorous anecdotes, acts of bravery, selfless volunteers, artistic expressions, innovative inventions, surprising turns of events, feel-good stories, underdog success, local interest pieces, courage in crisis, heartfelt tributes"
+subj:08001000,animal,2,"Name: animal
+Description: Animals of all types "
+subj:08002000,curiosity,2,"Name: curiosity
+Description: Content of an unusual nature that can raise questions or amuse "
+subj:08003000,people,2,"Name: people
+Description: Unusual content about people of all levels "
+subj:08003001,advice,3,"Name: advice
+Description: Letters and answers about personal problems that are publishable "
+subj:08003002,celebrity,3,"Name: celebrity
+Description: Celebrity news, i.e. Madonna has a baby, Elton John sues his accountants etc. "
+subj:08003003,accomplishment,3,"Name: accomplishment
+Description: Achievements by individuals or groups, such as charitable fundraising, winning a competitive contest etc "
+subj:08003004,human mishap,3,"Name: human mishap
+Description: Stories arising from silly/stupid human errors e.g. like forgetting to tie one end of a bungee cord "
+subj:08003005,fortune-telling,3,"Name: fortune-telling
+Description: The forecasting of future events or the delineation of character by methods not ordinarily considered to have a rational basis "
+subj:08004000,mystery,2,"Name: mystery
+Description: Something unexplained or unknown "
+subj:08005000,society,2,"Name: society
+Description: Stories of well-known people "
+subj:08005001,ceremony,3,"Name: ceremony
+Description: Rituals of a non-religious nature such as dedications, wreath layings, ship launchings etc "
+subj:08005002,death,3,"Name: death
+Description: The human interest aspects of the demise of a person "
+subj:08005003,funeral,3,"Name: funeral
+Description: The ceremony to intern the remains of a person "
+subj:08005004,estate bestowal,3,"Name: estate bestowal
+Description: The distribution of the estate of a person according to their will and any disagreements between the heirs "
+subj:08005005,memorial,3,"Name: memorial
+Description: Commemorative ceremony or object - plaque, statue etc - in remembrance of a person. "
+subj:08006000,award and prize,2,"Name: award and prize
+Description: Decorations, awards and prizes, including those given by the government. "
+subj:08006001,record,3,"Name: record
+Description: Non-sport achievement by an individual or group that sets a new record, such as most books read, holding your breath longest "
+subj:08007000,imperial and royal matters,2,"Name: imperial and royal matters
+Description: Imperial and royal family members, including matters on legal systems. "
+subj:08008000,plant,2,"Name: plant
+Description: An organism of the kind exemplified by trees, shrubs, grasses, ferns, and mosses, typically growing in a permanent site "
+subj:09000000,labour,1,"Name: labour
+Description: Social aspects, organizations, rules and conditions affecting the employment of human effort for the generation of wealth or provision of services and the economic support of the unemployed. 
+Keywords: workforce dynamics, employment legislation, trade unions, labor market trends, collective bargaining, occupational health and safety, minimum wage policy, unemployment benefits, industrial relations, job security, workplace diversity, employee rights, labour economics, social insurance, career development, work-life balance, vocational training, employment equity, labor strikes, human resource management, economic inequality, job creation programs, worker's compensation, labor law compliance, retirement planning, workplace discrimination, employment standards, living wage debates, job market forecasting, employee welfare schemes, labor activism, skill acquisition, automation impact on jobs, youth employment, precarious work, right to work, underemployment, workplace harassment policies, labor dispute resolution, social security systems, maternity and paternity leave, flexible working hours, gig economy"
+subj:09001000,apprentices,2,"Name: apprentices
+Description: People who are in the work force at a learning level, serving under a master "
+subj:09002000,collective contract,2,"Name: collective contract
+Description: Usually written contracts covering a specific class of worker "
+subj:09002001,contract issue-wages,3,"Name: contract issue-wages
+Description: Element of contracts and contract discussions centring on remuneration "
+subj:09002002,contract issue-healthcare,3,"Name: contract issue-healthcare
+Description: Element of contracts and contract discussions centring on health care issues "
+subj:09002003,contract issue-work rules,3,"Name: contract issue-work rules
+Description: Element of contracts and contract discussions centring on rules affecting issues such as lunch and other breaks, work shifts, vacation scheduling, seniority, sick leave etc. "
+subj:09003000,employment,2,"Name: employment
+Description: Paid labour "
+subj:09003001,labor market,3,"Name: labor market
+Description: A pool of people who are working or are seeking work "
+subj:09003002,job layoffs,3,"Name: job layoffs
+Description: The reduction of a company's work force through dismissal because of changing economic factors "
+subj:09003003,child labor,3,"Name: child labor
+Description: Employment of children, usually under the age of 18 "
+subj:09003004,occupations,3,"Name: occupations
+Description: Generally one's trade, profession or business although professions are usually such things as lawyers and doctors, and occupations are such as clerks or truckers "
+subj:09004000,labour dispute,2,"Name: labour dispute
+Description: Differences of opinion about work conditions, pay, etc "
+subj:09005000,labour legislation,2,"Name: labour legislation
+Description: Laws governing work and labour "
+subj:09006000,retirement,2,"Name: retirement
+Description: The years after work "
+subj:09007000,retraining,2,"Name: retraining
+Description: Providing a worker training in new skills when his old skills are no longer applicable "
+subj:09008000,strike,2,"Name: strike
+Description: A job action involving cessation of work "
+subj:09009000,unemployment,2,"Name: unemployment
+Description: Lack of paid work "
+subj:09010000,unions,2,"Name: unions
+Description: Groups established to represent bodies of workers "
+subj:09011000,wage and pension,2,"Name: wage and pension
+Description: Parts of a salary divided for current income and future income "
+subj:09011001,employee benefits,3,"Name: employee benefits
+Description: Either benefits provided to an employee by a company, such as pensions, health insurance; or monetary compensation paid by a government to the jobless usually called unemployment benefits "
+subj:09011002,social security,3,"Name: social security
+Description: FICA. Money paid by individual and companies into a government account to be paid out when that individual reaches a certain age "
+subj:09012000,work relations,2,"Name: work relations
+Description: The give and take between management and labour "
+subj:09013000,health and safety at work,2,"Name: health and safety at work
+Description: Rules and procedures for guaranteeing the health of workers "
+subj:09014000,advanced training,2,"Name: advanced training
+Description: Additional training to enhance current skills "
+subj:09015000,employer,2,"Name: employer
+Description: The person who employs workers and pays the salaries and other benefits to workers "
+subj:09016000,employee,2,"Name: employee
+Description: A person who trades his time and talent for money and other benefits "
+subj:10000000,lifestyle and leisure,1,"Name: lifestyle and leisure
+Description: Activities undertaken for pleasure, relaxation or recreation outside paid employment, including eating and travel. 
+Keywords: outdoor adventures, cultural experiences, luxury travel, family vacations, restaurant reviews, culinary tours, wellness retreats, extreme sports, leisure activities, hiking trails, beach getaways, world cuisine, home gardening, music festivals, road trips, sustainable tourism, spa holidays, wine tasting, craft hobbies, photography tours, book clubs, yoga retreats, fishing excursions, budget traveling, art galleries, amusement parks, romantic escapes, volunteer travel, solo journeys, ecotourism, pet-friendly vacations, gourmet dining, historical landmarks, weekend workshops, city breaks, cruise vacations, local festivals, urban exploration, wildlife safaris, cooking classes, scenic roadways, farm stays, vintage shopping, digital detox, mountain biking, meditation retreats, glamping, marathons, collecting hobbies, island hopping, treasure hunting, hot air ballooning, coffee culture tours, gaming conventions, water sports, national parks, eco gardening, winter sports, performance arts, foodie adventures, heritage trails, adventure parks, picnicking, miniature painting, RV traveling, camping sites, surf retreats, bridal showers, pilgrimage tours, stargazing events, rural exploration, cookout barbecues, dance workshops"
+subj:10001000,game,2,"Name: game
+Description: Contests generally for ones amusement "
+subj:10001002,chess,3,"Name: chess
+Description: A game played on a chequered board with 16 pieces to each side with specific ranges of movement depending on their identity "
+subj:10002000,gaming and lottery,2,"Name: gaming and lottery
+Description: Gambling, often involving selection of sets of numbers one expects to come up "
+subj:10003000,gastronomy,2,"Name: gastronomy
+Description: The art of good eating "
+subj:10003001,organic foods,3,"Name: organic foods
+Description: Food which is grown using no artificial fertilizers or chemical compounds "
+subj:10004000,hobby,2,"Name: hobby
+Description: Various types of activities for amusement, such as collecting stamps, building models, quilting, crafts "
+subj:10004001,DIY,3,"Name: DIY
+Description: DIY - do it yourself. Normally the construction, repair or maintenance of residential property by an amateur "
+subj:10004002,shopping,3,"Name: shopping
+Description: Consumer purchasing and related trends, but not the business aspects of retailing "
+subj:10004003,gardening,3,"Name: gardening
+Description: The non-commercial aspects of landscaping, growing plants, trees and other vegetation that gives pleasure to the gardener and others "
+subj:10005000,holiday or vacation,2,"Name: holiday or vacation
+Description: Leisure travel to a single location and/or country over a short period of time "
+subj:10006000,tourism,2,"Name: tourism
+Description: Leisure travel involving visits to a number of locations and/or countries over an extended period of time, often as part of an organized group "
+subj:10007000,travel and commuting,2,"Name: travel and commuting
+Description: Transport options, travel networks, commuting, car pooling and business travel "
+subj:10007001,traffic,3,"Name: traffic
+Description: Traffic reports and/or warnings "
+subj:10008000,club and association,2,"Name: club and association
+Description: Organizations joined by individuals because of similar interests "
+subj:10009000,lifestyle (house and home),2,"Name: lifestyle (house and home)
+Description: Unique culture of ones own home "
+subj:10010000,leisure (general),2,"Name: leisure (general)
+Description: Activities carried out in ones' spare time "
+subj:10011000,public holiday,2,"Name: public holiday
+Description: A day or days set off for celebration "
+subj:10012000,hunting,2,"Name: hunting
+Description: An activity involving the use of weapons or traps for the capturing of animals "
+subj:10013000,fishing,2,"Name: fishing
+Description: An activity involving the use of baits, lures, weapons and traps for the capture of aquatic species "
+subj:10014000,auto trends,2,"Name: auto trends
+Description: The evolution of the automobile "
+subj:10015000,adventure,2,"Name: adventure
+Description: Expeditions, daring feats, exploration, record-breaking, risk-associated events "
+subj:10017000,consumer issue,2,"Name: consumer issue
+Description: Shopping, products for the home, relevant surveys, product recalls "
+subj:10018000,wedding,2,"Name: wedding
+Description: The marriage ceremony and the events that surround it - showers, rehearsal, parties, honeymoon, etc. "
+subj:11000000,politics,1,"Name: politics
+Description: Local, regional, national and international exercise of power, or struggle for power, and the relationships between governing bodies and states. 
+Keywords: elections, campaigns, legislation, diplomacy, treaties, government policies, political parties, voting rights, political scandals, leadership elections, political debates, senate proceedings, house of representatives, parliamentary sessions, international summits, peace negotiations, sanctions, political ideologies, civil rights, political activism, lobbying, political representation, municipal governance, county politics, state politics, national interests, foreign policy, military strategy, constitutional law, judiciary decisions, executive orders, political reforms, bilateral relations, geopolitical tensions, political transitions, regime change, electoral systems, democratic processes, autocratic governance, political movements, grassroots organizing, caucuses and primaries, political conventions, suffrage, legislative committees, budget hearings, policy making, party platforms, incumbency, political figures, diplomatic corps, consulates and embassies, ambassadors, state sovereignty, nation-building, gubernatorial races, mayoral contests, city councils, political patronage, super PACs, political donations, voter turnout, ward politics, political rallies, public administration, international law, political ethics, referendums, devolution, coalition governments, proxy wars, political alliances, third-party politics, left-wing politics, right-wing politics, moderate politics, political spectrums, political campaigns"
+subj:11001000,defence,2,"Name: defence
+Description: Anything involving the defence of one's own country "
+subj:11001001,veterans affairs,3,"Name: veterans affairs
+Description: Care and provision for those who served in the military "
+subj:11001002,national security,3,"Name: national security
+Description: The philosophy of securing a nation and its borders, as well as the well being of its citizens "
+subj:11001003,security measures,3,"Name: security measures
+Description: Means of making a nation, a state, a building or a person secure from harm and outside interference. "
+subj:11001004,armed Forces,3,"Name: armed Forces
+Description: Those employed by a government to conduct war, or to enforce the security of a nation "
+subj:11001005,military equipment,3,"Name: military equipment
+Description: Equipment issued to members of the armed forces "
+subj:11001006,firearms,3,"Name: firearms
+Description: Anything that uses an explosive in a directed manner to propel an object that can maim or kill "
+subj:11001007,biological and chemical weapons,3,"Name: biological and chemical weapons
+Description: Devices using biological agents, or chemical mixtures to disable, maim or kill an opponent "
+subj:11001008,missile systems,3,"Name: missile systems
+Description: Anything that propels an inert, explosive, biological or chemical object through the air with the aim of disabling, maiming or killing an opponent. "
+subj:11001009,nuclear weapons,3,"Name: nuclear weapons
+Description: Weapons that use controlled radioactivity from the decay of certain elements to disable, maim or kill an opponent "
+subj:11002000,diplomacy,2,"Name: diplomacy
+Description: The use of verbal and written skills for persuading others to your point of view "
+subj:11002001,summit,3,"Name: summit
+Description: Includes meetings of leaders, foreign and finance ministers from the Group of Eight major nations and Group of Seven industrialized nations. "
+subj:11002002,international relations,3,"Name: international relations
+Description: Non-violent relations between nations through negotiation, treaty, or personal meetings "
+subj:11002003,peace negotiations,3,"Name: peace negotiations
+Description: Negotiations intended to bring an end to a conflict "
+subj:11002004,alliances,3,"Name: alliances
+Description: Coalitions of like-minded groups formed to present a stronger force against any challenges "
+subj:11003000,election,2,"Name: election
+Description: The selection of representatives by the casting of votes "
+subj:11003001,political candidates,3,"Name: political candidates
+Description: Individuals who are chosen to stand for office "
+subj:11003002,political campaigns,3,"Name: political campaigns
+Description: Campaigns for public office "
+subj:11003003,campaign finance,3,"Name: campaign finance
+Description: The money that makes campaigns for public office possible "
+subj:11003004,national elections,3,"Name: national elections
+Description: Choosing individuals for government at a national level "
+subj:11003005,regional elections,3,"Name: regional elections
+Description: Choosing individuals for government at a regional level "
+subj:11003006,local elections,3,"Name: local elections
+Description: Choosing individuals for government at the basic level, whether city, village or county "
+subj:11003007,voting,3,"Name: voting
+Description: The act of selecting an individual you would like to represent your interests in government "
+subj:11003008,poll,3,"Name: poll
+Description: Periodic measurement of a political candidate's standing with the public "
+subj:11003009,european elections,3,"Name: european elections
+Description: Choosing individuals for a body which is at a higher level than national government, e.g. European parliament "
+subj:11003010,primary,3,"Name: primary
+Description: Preliminary elections on a local or regional basis leading up to a regional or national election "
+subj:11004000,espionage and intelligence,2,"Name: espionage and intelligence
+Description: Covert collection of information "
+subj:11005000,foreign aid,2,"Name: foreign aid
+Description: Help provided by one nation to another "
+subj:11005001,economic sanction,3,"Name: economic sanction
+Description: Punitive actions taken by one country against another including trade restrictions, embargoes etc. "
+subj:11006000,government,2,"Name: government
+Description: The system for ruling a country "
+subj:11006001,civil and public service,3,"Name: civil and public service
+Description: The paid service by civilians for the government, and the often non-paid service of individuals for the benefit of others (public service) "
+subj:11006002,safety of citizens,3,"Name: safety of citizens
+Description: Government policies to protect the well being of its citizens "
+subj:11006003,think tank,3,"Name: think tank
+Description: Group that undertakes political research and issue position papers, recommendations etc "
+subj:11006004,national government,3,"Name: national government
+Description: The ruling body of a nation "
+subj:11006005,executive (government),3,"Name: executive (government)
+Description: That portion of a ruling body involving the overall operation of government "
+subj:11006006,heads of state,3,"Name: heads of state
+Description: Symbolic or actual chief representative of a nation, such as royalty, or president or emir, for example "
+subj:11006007,government departments,3,"Name: government departments
+Description: Divisions of a government that concentrate on specific areas such as health, welfare, economy or war "
+subj:11006008,public officials,3,"Name: public officials
+Description: Individuals, usually elected, who are in public service or commonly in the public eye. "
+subj:11006009,ministers (government),3,"Name: ministers (government)
+Description: Heads of various government departments at one level, also known as secretaries. At another level they form a legislative body. The chief minister is either prime minister or premier. "
+subj:11006010,public employees,3,"Name: public employees
+Description: People employed by a government at all levels "
+subj:11006011,privatisation,3,"Name: privatisation
+Description: The privatisation of state-owned companies or property "
+subj:11006012,nationalisation,3,"Name: nationalisation
+Description: State takeover of private companies or property "
+subj:11006013,impeachment,3,"Name: impeachment
+Description: The process of bringing a public official before a tribunal to answer charges of wrongdoing "
+subj:11007000,human rights,2,"Name: human rights
+Description: Rights entitled to be enjoyed by all citizens universally "
+subj:11008000,local authority,2,"Name: local authority
+Description: Authorities at city, county state or borough level "
+subj:11009000,parliament,2,"Name: parliament
+Description: The collective body of elected officials representing the people "
+subj:11009001,upper house,3,"Name: upper house
+Description: Senior chamber of a legislative body "
+subj:11009002,lower house,3,"Name: lower house
+Description: The lower chamber of a legislative body "
+subj:11010000,parties and movements,2,"Name: parties and movements
+Description: Covers both formally recognized and informal political associations "
+subj:11010001,non government organizations (NGO),3,"Name: non government organizations (NGO)
+Description: Groups officially outside of government that lobby, demonstrate or campaign on a wide range of issues such as economics, environment healthcare etc. "
+subj:11011000,refugee,2,"Name: refugee
+Description: A person seeking shelter in another country because of some fear of persecution in his own country "
+subj:11012000,regional authority,2,"Name: regional authority
+Description: Government bodies at levels encompassing more than one jurisdiction, e.g. the Delaware River Basin Commission "
+subj:11013000,state budget and tax,2,"Name: state budget and tax
+Description: The national budget as promulgated by the government "
+subj:11013001,public finance,3,"Name: public finance
+Description: The money of government used for paying for public programs and services and public debt "
+subj:11015000,constitution,2,"Name: constitution
+Description: Usually a written document setting forth the operations of a government and the rights of the citizens therein "
+subj:11016000,interior policy,2,"Name: interior policy
+Description: Government policies affecting internal affairs of a country "
+subj:11016001,data protection,3,"Name: data protection
+Description: Efforts to protect personal information in either written, oral or electronic form "
+subj:11016002,housing and urban planning,3,"Name: housing and urban planning
+Description: Systematic planning of urban and suburban areas and the housing within those areas "
+subj:11016003,pension and welfare,3,"Name: pension and welfare
+Description: Government policies affecting the well being of its citizens through unemployment benefits, state pensions and other similar payments "
+subj:11016006,personal data collection,3,"Name: personal data collection
+Description: The collection, by government or other entities of information on individuals "
+subj:11016007,planning inquiries,3,"Name: planning inquiries
+Description: Public hearings or planning inquiries on proposed constructions, e.g. Construction of water driven power station in a National Park. "
+subj:11017000,migration,2,"Name: migration
+Description: Movement of one body of persons from one place to another "
+subj:11018000,citizens initiative and recall,2,"Name: citizens initiative and recall
+Description: Political suggestions by non-government officials for corrective action, or for changes in existing rules and regulations "
+subj:11019000,referenda,2,"Name: referenda
+Description: Political proposals, laws and actions suggested by non-government officials to be voted on by the entire voting body "
+subj:11020000,nuclear policy,2,"Name: nuclear policy
+Description: Government policies as regards to use of nuclear fuels for power production or weapons "
+subj:11021000,lobbying,2,"Name: lobbying
+Description: The attempt by non-government bodies and individual to affect the outcome of legislation through verbal, or other, persuasion "
+subj:11022000,regulatory policy and organisation,2,"Name: regulatory policy and organisation
+Description: The rules and bodies, both national and international, that govern conflict of interest and good practice regulations. "
+subj:11023000,censorship,2,"Name: censorship
+Description: Attempts by any group to control freedoms of speech, religion, and ideas distributed in print, graphics, cyberspace and other ways. Does not include official standards such as cinema ratings, advertising and broadcast standards. "
+subj:11024000,politics (general),2,"Name: politics (general)
+Description: The art or science of participating in the affairs of government, a state of political party "
+subj:11024001,political systems,3,"Name: political systems
+Description: Systems designed to provide order to government "
+subj:11024002,democracy,3,"Name: democracy
+Description: Government in which the people hold the power either directly, or through elected officials. "
+subj:11024003,political development,3,"Name: political development
+Description: The creation and rise of political systems and the history of the people and nations that are associated with those systems. "
+subj:11025000,freedom of the press,2,"Name: freedom of the press
+Description: Mass media rights and freedoms, pressure and intimidation of the journalists, censorship in mass media, activities of government bodies, journalistic associations and/or organizations and other NGOs in regards to press freedom "
+subj:11026000,freedom of religion,2,"Name: freedom of religion
+Description: Religious rights and freedoms, pressure and intimidation of the believers, censorship in mass media, activities of government bodies, journalistic associations and/or organizations and other NGOs in regards to freedom of belief and practice "
+subj:11027000,treaty,2,"Name: treaty
+Description: A treaty (as defined by the Vienna Convention on the Law of Treaties) is a written agreement between international entities that is binding under international law. "
+subj:11028000,international organisation,2,"Name: international organisation
+Description: Includes organisations with members and functions that cross international borders, and may include intergovernmental organisations of sovereign nations. "
+subj:12000000,religion and belief,1,"Name: religion and belief
+Description: All aspects of human existence involving theology, philosophy, ethics and spirituality. 
+Keywords: theology, spirituality, faith, doctrine, dogma, divinity, philosophy of religion, worship, belief systems, rituals, religious ethics, sacred texts, spiritual practices, agnosticism, atheism, secularism, mythology, religious history, ecumenism, interfaith dialogue, religious diversity, spiritual growth, moral philosophy, theodicy, eschatology, proselytism, reformation, religious extremism, mysticism, pilgrimage, meditation, prayer, sacraments, ordination, clericalism, monasticism, veneration, deism, pantheism, monotheism, polytheism, animism, syncretism, karma, dharma, soteriology, heresy, blasphemy, saints, religious persecution, secular ethics, religious symbolism, transcendentalism, religious plurality, theological discourse, apologetics, holy sites, religious ceremonies, gospel, prophecy, spiritual enlightenment, religious fundamentalism, pastoral care, creationism, iconography"
+subj:12001000,cult and sect,2,"Name: cult and sect
+Description: Offshoots of established religious bodies, or small narrow-focused group promulgated by one or two individuals "
+subj:12002000,belief (faith),2,"Name: belief (faith)
+Description: The established beliefs of an individuals religion "
+subj:12002002,scientology,3,"Name: scientology
+Description: Believe that man is a spiritual being endowed with abilities well beyond those which he normally envisages; he's able to solve his own problems, accomplish his goals and gain lasting happiness. "
+subj:12003000,freemasonry,2,"Name: freemasonry
+Description: A secret international society based on the principles of brotherhood, charity and mutual aid "
+subj:12006000,values,2,"Name: values
+Description: Personal levels of social behaviour "
+subj:12006001,ethics,3,"Name: ethics
+Description: A system of beliefs about acceptable behaviour "
+subj:12006002,corrupt practices,3,"Name: corrupt practices
+Description: Any action which is harmful to others "
+subj:12007000,church and state relations,2,"Name: church and state relations
+Description: The legal and social division between religious institutions and the affairs of state "
+subj:12008000,philosophy,2,"Name: philosophy
+Description: Different thoughts about the way the world works "
+subj:12009000,christianity,2,"Name: christianity
+Description: Those that use Jesus Christ and his teachings as their centre of belief "
+subj:12009001,protestant,3,"Name: protestant
+Description: General term for christian churches and religious communities which developed through the reformation in the 16th century "
+subj:12009010,roman catholic,3,"Name: roman catholic
+Description: Biggest christian church worldwide tracing its origins back to Jesus Christ "
+subj:12009012,orthodoxy,3,"Name: orthodoxy
+Description: Eastern rite churches which are characterised by their continuity with the apostolic church, their liturgy and their territorial churches, mainly in eastern and south-eastern Europe and the Middle East "
+subj:12010000,islam,2,"Name: islam
+Description: Those who use Allah and his teachings as their centre of belief "
+subj:12011000,judaism,2,"Name: judaism
+Description: A group believing in one god, basing their beliefs on written scriptures and the Talmud, including the first coming of the Messiah "
+subj:12012000,buddhism,2,"Name: buddhism
+Description: A major Asian religion founded by Buddha in the 6th century BC in India and preaching that right thinking and self denial will lead to a divine state without desire "
+subj:12013000,hinduism,2,"Name: hinduism
+Description: A religious and social system, believing in a caste system with the Brahmans the highest and untouchables the lowest. "
+subj:12014000,religious festival or holiday,2,"Name: religious festival or holiday
+Description: Holy day or day of observance in a religion which sometimes is a public holiday as well "
+subj:12014001,christmas,3,"Name: christmas
+Description: Christian festival in commemorating the birth of Jesus Christ "
+subj:12014002,easter,3,"Name: easter
+Description: Christian festival in commemorating the resurrection of Jesus Christ "
+subj:12014004,ramadan,3,"Name: ramadan
+Description: Holy month of fasting in Islam "
+subj:12014005,yom kippur,3,"Name: yom kippur
+Description: Most solemn of Jewish religious holidays, observed on the 10th day of the lunar month of tishri (in the course of September and October, when Jews seek reconciliation with god "
+subj:12015000,religious leader,2,"Name: religious leader
+Description: Person or persons who have a ritual, juridical or otherwise leading role in their respective church or religion "
+subj:12015001,pope,3,"Name: pope
+Description: Head of the roman catholic church worldwide "
+subj:12016000,nature religion,2,"Name: nature religion
+Description: Worship of natural elements like fire, water, trees, mountains "
+subj:12017000,taoism,2,"Name: taoism
+Description: Indigenous religio-philosophical tradition that has shaped Chinese life for more than 2000 years "
+subj:12018000,shintoism,2,"Name: shintoism
+Description: Indigenous religious beliefs and practices of Japan. The word Shinto came into use in order to distinguish indigenous Japanese beliefs from Buddhism. "
+subj:12019000,sikhism,2,"Name: sikhism
+Description: The religion of an Indian group, combining Hindu and Islamic elements, founded in the Punjab (or Panjab) in the late 15th century AD by Guru Nanak. "
+subj:12020000,jainism,2,"Name: jainism
+Description: A religion of India that teaches a path to spiritual purity and enlightenment through a disciplined mode of life founded upon the tradition of ahimsa, non-violence to all living creatures. It began in the 7th-5th century BC. "
+subj:12021000,parsasm,2,"Name: parsasm
+Description: A religion in India following the Iranian prophet Zoroaster, mainly in Bombay, but also in Karachi (Pakistan). "
+subj:12022000,confucianism,2,"Name: confucianism
+Description: The way of life propagated by Confucius in the 6th-5th century BC and followed by the Chinese people for more than 2000 years. Its influence has extended to Korea, Japan, and Vietnam. "
+subj:12023000,religious text,2,"Name: religious text
+Description: Scriptures holy or important for a church or religion "
+subj:12023001,bible,3,"Name: bible
+Description: Sacred scriptures of Christianity consisting of the old and new testament "
+subj:12023002,qur'an,3,"Name: qur'an
+Description: Holy book of Islam "
+subj:12023003,torah,3,"Name: torah
+Description: Holy scriptures of Judaism "
+subj:12024000,interreligious dialogue,2,"Name: interreligious dialogue
+Description: Any form of communication between religions "
+subj:12025000,religious event,2,"Name: religious event
+Description: News regarding a religious event but not a festival or holiday "
+subj:12025001,catholic convention,3,"Name: catholic convention
+Description: A catholic convention "
+subj:12025002,protestant convention,3,"Name: protestant convention
+Description: A protestant convention "
+subj:12025004,ritual,3,"Name: ritual
+Description: Established religious rituals such as mass, baptism, prayer meetings "
+subj:12026000,concordat,2,"Name: concordat
+Description: Treaty between the Holy See and another country for the regulation of ecclesiastical affairs in the territory of the latter "
+subj:12027000,ecumenism,2,"Name: ecumenism
+Description: Relations between christian churches "
+subj:13000000,science and technology,1,"Name: science and technology
+Description: All aspects pertaining to human understanding of nature and the physical world and the development and application of this knowledge 
+Keywords: scientific research, technological advancements, quantum computing, biotechnology, nanotechnology, artificial intelligence, machine learning, space exploration, theoretical physics, clinical trials, renewable energy, robotics engineering, genetic engineering, cybersecurity developments, virtual reality, augmented reality, blockchain technology, physiological studies, material science, sustainable technologies, neuroscience discoveries, big data analytics, environmental science, climate change solutions, astrophysics phenomena, marine biology, pharmaceutical innovations, solar power systems, information technology trends, cosmological research, human-computer interaction, data mining technologies, evolutionary biology, scientific breakthroughs, wireless communication tech, automation systems, internet of things (IoT), medical devices, stem cell research, chemical engineering, particle physics, earth sciences, meteorology study, digital transformation, computational models, fusion energy, aerospace developments, genome sequencing, agricultural science, archaeological discoveries, forensic technologies, planetary science, electronics and circuits, 3D printing applications, infectious diseases research, theoretical computer science, optical engineering, electromagnetic studies, geophysical explorations"
+subj:13001000,applied science,2,"Name: applied science
+Description: Stories about putting scientific knowledge to practical uses in the fields of the medical sciences, agriculture, domestic sciences as well as trades and crafts "
+subj:13001001,physics,3,"Name: physics
+Description: The study of the properties and changes of matter "
+subj:13001002,chemistry,3,"Name: chemistry
+Description: The study of the composition and reaction of substances "
+subj:13001003,cosmology,3,"Name: cosmology
+Description: Study of the organization and structure of the universe "
+subj:13001004,particle physics,3,"Name: particle physics
+Description: The study of elementary particles and atomic nuclei through the use of high-energy particles "
+subj:13002000,engineering,2,"Name: engineering
+Description: Stories about putting scientific knowledge to practical uses in the fields of civil, electrical, mechanical and chemical engineering "
+subj:13002001,material science,3,"Name: material science
+Description: The study of materials used in manufacturing "
+subj:13003000,human science,2,"Name: human science
+Description: Sociology, psychology, anthropology and political science "
+subj:13003001,social sciences,3,"Name: social sciences
+Description: The study of people living in groups, as families, tribes and communities "
+subj:13003002,history,3,"Name: history
+Description: The study of human events of the past "
+subj:13003003,psychology,3,"Name: psychology
+Description: The study of the human mind and mental and emotional processes "
+subj:13003004,sociology,3,"Name: sociology
+Description: The study of human social relations, organization and change "
+subj:13003005,anthropology,3,"Name: anthropology
+Description: The study of human beings in groups or societies "
+subj:13004000,natural science,2,"Name: natural science
+Description: Astronomy, astrophysics, physics, chemistry, earth sciences, palaeontology, biological sciences, botany and zoology, as well as mathematics "
+subj:13004001,geology,3,"Name: geology
+Description: The study of Earth's physical processes "
+subj:13004002,paleontology,3,"Name: paleontology
+Description: The study of ancient animals "
+subj:13004003,geography,3,"Name: geography
+Description: The study of the surface of Earth and its political divisions "
+subj:13004004,botany,3,"Name: botany
+Description: The study of plants "
+subj:13004005,zoology,3,"Name: zoology
+Description: The study of animals "
+subj:13004006,physiology,3,"Name: physiology
+Description: The study of vital processes of living organisms "
+subj:13004007,astronomy,3,"Name: astronomy
+Description: The study of the stars and planets "
+subj:13004008,biology,3,"Name: biology
+Description: The study of living organisms "
+subj:13005000,philosophical science,2,"Name: philosophical science
+Description: Philosophy, logic and ethics, among others "
+subj:13006000,research,2,"Name: research
+Description: Methodical investigation of events, procedures etc to explain why they occur, or to find solutions for problems "
+subj:13006001,survey,3,"Name: survey
+Description: Examination of public attitudes on various subjects or issues, such as the quality of goods, the value of services etc. "
+subj:13007000,scientific exploration,2,"Name: scientific exploration
+Description: Methodical land, sea and space journeys to discover new information about them "
+subj:13008000,space programme,2,"Name: space programme
+Description: The government's organized effort for the exploration of outer space and the bodies therein "
+subj:13009000,science (general),2,"Name: science (general)
+Description: Establishing and systematizing information about nature and the physical world through observation, experimentation and hypothesis "
+subj:13010000,technology (general),2,"Name: technology (general)
+Description: The study of the practical or industrial arts, and applied sciences such as physics, hydrodynamics and thermodynamics "
+subj:13010001,rocketry,3,"Name: rocketry
+Description: The development of rockets "
+subj:13010002,laser,3,"Name: laser
+Description: The development and use of light amplification by stimulated emission of radiation "
+subj:13011000,standards,2,"Name: standards
+Description: The rules, national and international, that govern science and technology. These might include international standards setting for equipment and interference standards. "
+subj:13012000,animal science,2,"Name: animal science
+Description: Science involving animals "
+subj:13013000,micro science,2,"Name: micro science
+Description: The multi-disciplinary areas of nanotechnology and Micro-Electrical Mechanical Systems. "
+subj:13014000,marine science,2,"Name: marine science
+Description: The multi-disciplinary research areas involving the worlds' waterways and oceans. This could include hyper-spectral sensing of ice flows, fisheries studies and underwater research. "
+subj:13015000,weather science,2,"Name: weather science
+Description: All scientific aspects of the weather and climate. "
+subj:13016000,electronics,2,"Name: electronics
+Description: The branch of engineering or physics concerned with the controlled flow of electrons or other carriers of electric charges, especially in semiconductor devices, including the design, manufacture, and maintenance of electronic devices "
+subj:13017000,identification technology,2,"Name: identification technology
+Description: Includes biometrics, new computer-based identification cards, retinal scans, face scanning and mobile augmented reality systems (MARS) and other ways technology can identify individuals. Also technology vs. the privacy of personal information. "
+subj:13018000,mathematics,2,"Name: mathematics
+Description: The study of quantities and shapes and their symbolic relationships. "
+subj:13019000,biotechnology,2,"Name: biotechnology
+Description: Manipulating natural organisms for scientific, medical or agricultural purposes "
+subj:13020000,agricultural research and technology,2,"Name: agricultural research and technology
+Description: Pertaining to the growing of crops and management of farm animals "
+subj:13021000,nanotechnology,2,"Name: nanotechnology
+Description: Manipulating objects at the molecular scale "
+subj:13022000,IT/computer sciences,2,"Name: IT/computer sciences
+Description: The study and design of computer systems and networks. "
+subj:13023000,scientific institutions,2,"Name: scientific institutions
+Description: Institutions that carry out or govern scientific work (e.g. National Academy of Arts and Sciences ) "
+subj:14000000,social issue,1,"Name: social issue
+Description: Aspects of the behaviour of humans affecting the quality of life. 
+Keywords: poverty, inequality, human rights, racial discrimination, gender discrimination, social justice, child welfare, unemployment, homelessness, mental health, drug abuse, domestic violence, education gap, climate change, hunger, healthcare access, disability rights, living wages, immigration, child labor, bullying, elder abuse, corruption, police brutality, LGBTQ issues, religious freedom, digital divide, food deserts, environmental justice, prison reform, veterans' affairs, gun violence, addiction, social exclusion, obesity epidemic, teen pregnancy, civic engagement, voting rights, gender pay gap, access to education, urban decay, gentrification, refugee crisis, cyberbullying, internet privacy, freedom of speech, animal rights, sustainable development, water scarcity, air pollution, recycling issues, conservation efforts, childhood obesity, renewable energy, public transportation, affordable housing, racial profiling, food insecurity, substance abuse, workplace harassment, cultural appropriation, digital literacy, age discrimination, juvenile justice, nuclear disarmament, media bias, academic freedom, brain drain, economic sanctions, neo-colonialism, gender roles, social mobility, birth control, death penalty, war refugees, censorship, pandemic impact"
+subj:14001000,addiction,2,"Name: addiction
+Description: The habitual and often uncontrollable use of harmful substances such as alcohol, tobacco and pharmaceuticals or drugs "
+subj:14002000,charity,2,"Name: charity
+Description: Philanthropic giving "
+subj:14003000,demographics,2,"Name: demographics
+Description: The study of people and here they live and how they interact "
+subj:14003001,population and census,3,"Name: population and census
+Description: Population is the number of people in a geographical region and census is the process of counting them "
+subj:14003002,immigration,3,"Name: immigration
+Description: Movement of individuals from one country to the other "
+subj:14003003,illegal immigrants,3,"Name: illegal immigrants
+Description: Movement of individuals from one country to the other by illicit means "
+subj:14003004,emigrants,3,"Name: emigrants
+Description: People who leave their country of origin, their relationship with their country of origin and their association with fellow emigrants "
+subj:14004000,disabled,2,"Name: disabled
+Description: Being incapacitated either physically, emotionally or mentally "
+subj:14005000,euthanasia (also includes assisted suicide),2,"Name: euthanasia (also includes assisted suicide)
+Description: Voluntary death with the aid of another "
+subj:14005001,suicide,3,"Name: suicide
+Description: Death by one's own hand "
+subj:14006000,family,2,"Name: family
+Description: A group of individuals related by blood or marriage "
+subj:14006001,parent and child,3,"Name: parent and child
+Description: Two or more individuals with a hierarchical familial relationship "
+subj:14006002,adoption,3,"Name: adoption
+Description: A legal process of bringing a child with no supporting parents into a supportive union "
+subj:14006003,marriage,3,"Name: marriage
+Description: The union of two individuals who pledge fidelity, respect and support for each other "
+subj:14006004,divorce,3,"Name: divorce
+Description: The process by which a marriage is dissolved "
+subj:14006005,sex,3,"Name: sex
+Description: The classification of individuals as either male or female. Or conjugal relationship between two individuals. "
+subj:14006006,courtship,3,"Name: courtship
+Description: Preliminaries of wooing and winning a partner "
+subj:14007000,family planning,2,"Name: family planning
+Description: Conscious decisions and efforts involving reproduction "
+subj:14008000,health insurance,2,"Name: health insurance
+Description: Insurance covering extraordinary medical costs "
+subj:14009000,homelessness,2,"Name: homelessness
+Description: Lacking a fixed place of residence "
+subj:14010000,minority group,2,"Name: minority group
+Description: A group of people classified by race, language, religion or other characteristic numerically smaller than others of the same classification "
+subj:14010001,gays and lesbians,3,"Name: gays and lesbians
+Description: Those that consider themselves attracted to their same gender in an erotic or sensual or similar way. "
+subj:14010002,national or ethnic minority,3,"Name: national or ethnic minority
+Description: Groups of people that form a minority on ethnic or national basis, their status, problems and relations to the majority "
+subj:14011000,pornography,2,"Name: pornography
+Description: Audio or visual depictions of various sex related acts considered outside accepted community standards "
+subj:14012000,poverty,2,"Name: poverty
+Description: Having insufficient resources to provide for basic services to oneself or family "
+subj:14013000,prostitution,2,"Name: prostitution
+Description: Sex for sale, either male or female, and those who profit from it "
+subj:14014000,racism,2,"Name: racism
+Description: Harmful attitudes toward another group based on racial differences "
+subj:14015000,welfare,2,"Name: welfare
+Description: Generally government help for those in need of food, housing health and other services "
+subj:14016000,abortion,2,"Name: abortion
+Description: Usually the planned disruption of the process of reproduction of human life "
+subj:14017000,missing person,2,"Name: missing person
+Description: A person who is not where they are expected to be for a period of time "
+subj:14017001,missing due to hostilities,3,"Name: missing due to hostilities
+Description: People, both civilian and military, missing during or after hostilities "
+subj:14018000,long term care,2,"Name: long term care
+Description: Extensive health care because of serious illness or disability "
+subj:14019000,juvenile delinquency,2,"Name: juvenile delinquency
+Description: Incidents involving perpetrators who are minors. "
+subj:14020000,nuclear radiation victims,2,"Name: nuclear radiation victims
+Description: Includes antinuclear movements and compensation for atomic blast victims. "
+subj:14021000,slavery,2,"Name: slavery
+Description: The involuntary servitude, outside of legal incarceration for statuary criminal offences, of men, women and children, including involuntary unpaid labour, coerced actions, child labour "
+subj:14022000,abusive behaviour,2,"Name: abusive behaviour
+Description: The maltreatment of one or more individuals by others through dehumanizing treatment including sexual or mental abuse, deprivation of sensory abilities, deprivation of physical needs, physical mistreatment including beatings, and other forms of torture "
+subj:14023000,death and dying,2,"Name: death and dying
+Description: Dying is the route to death. Death is the state you are in when there are no signs that you can function as a human being either physically or mentally "
+subj:14024000,people,2,"Name: people
+Description: Individuals as a whole, sometimes broken down into various classes, such as indigenous people, people of class etc "
+subj:14024001,children,3,"Name: children
+Description: Immature people, usually up to the age of puberty "
+subj:14024002,infants,3,"Name: infants
+Description: Those people from birth until ages of one or two, usually when they begin walking "
+subj:14024003,teen-agers,3,"Name: teen-agers
+Description: People aged 13 to 19 years of age "
+subj:14024004,adults,3,"Name: adults
+Description: People aged 20 and above "
+subj:14024005,senior citizens,3,"Name: senior citizens
+Description: People aged 60 or 65 and older "
+subj:14025000,social issues (general),2,"Name: social issues (general)
+Description: Issues affecting a number of individuals in their daily lives like housing, food, education, personal relationships "
+subj:14025001,social conditions,3,"Name: social conditions
+Description: Conditions under which people live in terms of housing, water supply, availability of education "
+subj:14025002,social problems,3,"Name: social problems
+Description: Issues affecting the lives of individuals such as housing, education nutrition, communication etc "
+subj:14025003,discrimination,3,"Name: discrimination
+Description: Denial of services to one or more people because of race, colour, sexual identity, religion, political beliefs etc "
+subj:14025004,social services,3,"Name: social services
+Description: Government supported programs to improve the well-being of individuals or groups of individuals "
+subj:14025005,death penalty policies,3,"Name: death penalty policies
+Description: National or international polices regarding death sentences "
+subj:14026000,ordnance clearance,2,"Name: ordnance clearance
+Description: The removal or neutralization of ordnance such as landmines or cluster bombs, remaining after a war or armed conflict "
+subj:14027000,reconstruction,2,"Name: reconstruction
+Description: The reconstruction of economy, infrastructure and property, as well as life in general, after a war or natural disaster "
+subj:15000000,sport,1,"Name: sport
+Description: Competitive exercise involving physical effort. Organizations and bodies involved in these activities. 
+Keywords: athletics, team sports, Olympic games, fitness competition, sports league, physical training, professional athletes, sporting events, sportsmanship, exercise, marathon running, sports organizations, international sports federations, world championships, sports governance, coaching staff, player drafts, sports medicine, competitive gaming, extreme sports, indoor sports, outdoor sports, water sports, winter sports, national teams, sports regulations, sports law, strength training, endurance training, speed training, team strategy, sports psychology, athletic performance, sports nutrition, sports sponsorship, sports broadcasting, sports facilities, sports equipment, fitness centers, physical education, doping in sports, bodybuilding competition, sports fan culture, sports betting, competitive swimming, gymnastics, sports analytics, athlete recruitment, physical therapy for athletes, sports awards, sports history, sports training academies, varsity sports, youth sports leagues, sports scholarships, fantasy sports, motor sports, action sports, adaptive sports, sports for disabled, sportsmanship awards, sport-specific training"
+subj:15001000,aero and aviation sport,2,"Name: aero and aviation sport
+Description: Parachuting, freefall (parapente, delta-plane), gliding, aerostat, motorised flight (airplane, ultra light craft, helicopter) "
+subj:15001001,parachuting,3,"Name: parachuting
+Description: Parachuting competitions: precision landings, voltige, individual and team "
+subj:15001002,sky diving,3,"Name: sky diving
+Description: Parachuting competitions involving sky-diving "
+subj:15002000,alpine skiing,2,"Name: alpine skiing
+Description: Skiing downhill on snow-covered slopes as fast as possible. The slopes contain intermediate gates which are spaced according to the discipline involved "
+subj:15002001,downhill,3,"Name: downhill
+Description: Skiing at top speed down a steep slope with interspersed turns but no gates. The fastest wins. "
+subj:15002002,giant slalom,3,"Name: giant slalom
+Description: Skiing down a slope, but with more turns and bends than in super-G skiing. The fastest wins. "
+subj:15002003,super G,3,"Name: super G
+Description: Skiing down a steep slope, but with more turns and bends than in the downhill. The fastest wins. "
+subj:15002004,slalom,3,"Name: slalom
+Description: Skiers must zig-zag their way down a slope with closely positioned gates which they must negotiate. It is run over two legs with the combined fastest winning. "
+subj:15002005,combined,3,"Name: combined
+Description: Race, usually competed over two days that combines a downhill leg and a slalom leg rewarding the most complete skiers. Combined fastest time wins. "
+subj:15003000,American football,2,"Name: American football
+Description: Team ball game that opposes two teams that have attack sections and defence sections. Each attack goes up against the other defence and attempts to move an oval-shaped ball down the field and into the end-zone to mark a touchdown and earn points. "
+subj:15003001,(US) National Football League (NFL) (North American),3,"Name: (US) National Football League (NFL) (North American)
+Description: The association of professional American football teams "
+subj:15004000,archery,2,"Name: archery
+Description: Archers use bows and arrows to aim at targets 1.22 metres in diameter which are on average 70 metres distant. "
+subj:15005000,"athletics, track and field",2,"Name: athletics, track and field
+Description: Competitions involving foot races, jumping and throwing which can be on a track inside a stadium or on outside roads "
+subj:15006000,badminton,2,"Name: badminton
+Description: Two players or two teams of two compete by hitting a shuttlecock weighing approximately five grams over a high net. The aim for each player/team is to prevent the shuttlecock landing on their side of the court. "
+subj:15007000,baseball,2,"Name: baseball
+Description: A game between two teams of nine played on an enclosed ground. The team which scores the most points wins. A point is scored when a player runs around the ground marked out by four bases. "
+subj:15008000,basketball,2,"Name: basketball
+Description: Game played between two teams of five - points are scored by placing the large inflated ball into a net fixed on a ring 3.05m above the ground. "
+subj:15008001,National Basketball Association (North American Professional),3,"Name: National Basketball Association (North American Professional)
+Description: The NBA is the umbrella organisation running professional basketball in the United States. The NBA is made up of two conferences (east and west), four divisions (Atlantic and Central for the East, and Midwest and Pacific for the west). "
+subj:15009000,biathlon,2,"Name: biathlon
+Description: A combination of cross country skiing and target shooting in a pursuit format. "
+subj:15010000,"billiards, snooker and pool",2,"Name: billiards, snooker and pool
+Description: A game played on a flat table covered with a cloth (baize) where players hit balls according to specific rules using a wooden cue. "
+subj:15011000,bobsleigh,2,"Name: bobsleigh
+Description: In bobsleigh two or four persons race down a course sitting in a sled that consists of a main hull, a frame, two axles and sets of runners. The total time of all heats in a competition is added together to determine the winner. "
+subj:15012000,bowling,2,"Name: bowling
+Description: A game in which a player scores points by trying to knock down ten 'pins' using a ball - if unsuccessful the player has a second attempt. A game consists of ten frames. "
+subj:15013000,bowls and petanque,2,"Name: bowls and petanque
+Description: A game in which players throw bowls at a target, the winner being the player who lands closest. "
+subj:15014000,boxing,2,"Name: boxing
+Description: Combat sport in which two men/women fight using only their fists covered by padded gloves in a square ring measuring 6m a side. The fight is usually split into 12 rounds of three minutes each. "
+subj:15015000,canoeing and kayaking,2,"Name: canoeing and kayaking
+Description: races in either 'white' or 'dead' water "
+subj:15016000,climbing,2,"Name: climbing
+Description: mountain sports "
+subj:15017000,cricket,2,"Name: cricket
+Description: Ball sport involving two teams of 11 players, balls, bats and wickets. The aim is to score as many runs as possible, and to get the opposing team 'out'. A 'run' involves a player running between two wickets. The opposing team try to get their rivals 'out' "
+subj:15018000,curling,2,"Name: curling
+Description: A game played on ice with large flat round stones. A player throws the stone, aiming at a target. Team mates of the player who has thrown the stone can sweep the ice in front of the stone to help smooth its path towards the target. "
+subj:15019000,cycling,2,"Name: cycling
+Description: A race over a given distance on bicycles. "
+subj:15020000,dancing,2,"Name: dancing
+Description: Dancing competition where couples are judged on technique and interpretation. "
+subj:15021000,diving,2,"Name: diving
+Description: Competitors dive off a fixed or spring board and are assessed by seven judges giving marks up to ten for their acrobatic moves. "
+subj:15022000,equestrian,2,"Name: equestrian
+Description: Sport involving a horse and rider. "
+subj:15023000,fencing,2,"Name: fencing
+Description: Combat sport using a sword or foil. "
+subj:15024000,field Hockey,2,"Name: field Hockey
+Description: A ball sport involving two teams of 11 players using curved sticks. The aim is to score as many goals as possible. "
+subj:15025000,figure Skating,2,"Name: figure Skating
+Description: To obtain the best marks possible from nine judges who award scores after two prepared sections - both skated to music - during which competitors must attempt to achieve the greatest possible harmony between artistic flair and technical precision. "
+subj:15026000,freestyle Skiing,2,"Name: freestyle Skiing
+Description: Competitors perform a series of breathtaking acrobatic leaps from a prepared jump. Combined with moguls, jumps and ski ballet. "
+subj:15027000,golf,2,"Name: golf
+Description: Competitors attempt to hit a small white ball with different clubs around a course of 18 holes varying in distance. The object is to make the fewest strokes possible. "
+subj:15028000,gymnastics,2,"Name: gymnastics
+Description: A sport consisting of a variety of disciplines in which gymnasts perform artistic and acrobatic moves on different apparatus. There are 6 disciplines for men and 4 for women. "
+subj:15029000,handball (team),2,"Name: handball (team)
+Description: A ball game using the hands contested by two teams of seven trying to throw the ball into the opponents goal. "
+subj:15030000,"horse racing, harness racing",2,"Name: horse racing, harness racing
+Description: Mounted horse races. "
+subj:15031000,ice hockey,2,"Name: ice hockey
+Description: Two teams of six heavily padded skaters try and outscore each other by hitting a puck into the opponents goal. "
+subj:15031001,National Hockey League (North American),3,"Name: National Hockey League (North American)
+Description: Teams from the US and Canada make up the North American continents top league. "
+subj:15032000,Jai Alai (Pelota),2,"Name: Jai Alai (Pelota)
+Description: Because of the game organization, the proper identification of a specific game may require the combination of 2 subject details "
+subj:15033000,judo,2,"Name: judo
+Description: A defensive martial art. "
+subj:15034000,karate,2,"Name: karate
+Description: A martial art where chops, punches, kicks and throws are used to defeat an opponent. "
+subj:15035000,lacrosse,2,"Name: lacrosse
+Description: Two teams of helmeted and padded players try and outscore each other using a netted stick and hard ball. "
+subj:15036000,luge,2,"Name: luge
+Description: Luge (French word for sled) is competed in singles or doubles. The competitor(s) lay on their back(s) on an open sled and race down a course. The competitor(s) and the sled must be in contact when passing the finishing line. "
+subj:15037000,marathon,2,"Name: marathon
+Description: A road race where competitors run 42.195km, generally through city streets "
+subj:15038000,modern pentathlon,2,"Name: modern pentathlon
+Description: The Modern Pentathlon comprises five events run over a single day in the following order: shooting, fencing, swimming, horse riding and running. "
+subj:15039000,motor racing,2,"Name: motor racing
+Description: Motor racing where speed and trusty mechanics are key "
+subj:15039001,Formula One,3,"Name: Formula One
+Description: Single cockpit car racing where 20 or so competitors race head to head over varied circuits around the world to win Grand Prix points in an individual and constructors championship "
+subj:15040000,motor rallying,2,"Name: motor rallying
+Description: A season of endurance races over closed circuits including dirt tracks, roads and even snowy conditions featuring specials using adapted road cars with a driver and co-pilot. "
+subj:15041000,motorcycling,2,"Name: motorcycling
+Description: Races with 2, 3 or 4 wheels vehicles with a saddle and handlebars "
+subj:15041005,moto-cross,3,"Name: moto-cross
+Description: Raced over dirt tracks featuring severe mounds "
+subj:15042000,netball,2,"Name: netball
+Description: A woman's sport similar to basketball without a board behind the basket "
+subj:15043000,nordic skiing,2,"Name: nordic skiing
+Description: Practiced in snowy countryside and based on power and endurance. There are classic and free style events with mass or staggered starts. "
+subj:15044000,orienteering,2,"Name: orienteering
+Description: An individual time-trial over a route marked out by beacons. The competitor has to search out and find in a specific order. The contestant makes his way with the help of a compass and map "
+subj:15045000,polo,2,"Name: polo
+Description: With the aid of a mallet two teams of four horsemen try and knock a bamboo ball into the opponents goal over a pitch 250m long and 150m wide. The game is divided into 4, 6, or 8 time periods of 7min 30sec called chukkas. "
+subj:15046000,power boating,2,"Name: power boating
+Description: Races between motor boats on rivers or lakes "
+subj:15047000,rowing,2,"Name: rowing
+Description: Boat racing usually on flat calm waters with boats for 1, 2, 4 or 8 rowers "
+subj:15048000,rugby league,2,"Name: rugby league
+Description: Two teams of 13 compete on a pitch where they score tries and penalties by running with and passing an oval ball to be touched down behind the goal line or kicked between goal posts in a tough physical contest "
+subj:15049000,rugby union,2,"Name: rugby union
+Description: Two teams of 15 compete on a pitch where they score tries and penalties by running with and passing an oval ball to be touched down behind the goal line or kicked between goal posts in a tough physical contest "
+subj:15050000,sailing,2,"Name: sailing
+Description: Sail boat racing over a route marked by buoys. "
+subj:15051000,shooting,2,"Name: shooting
+Description: Precision sport using a hand gun, rifle or shotgun "
+subj:15052000,ski jumping,2,"Name: ski jumping
+Description: Competitors descend a snow covered elevated ramp on skis and try to fly off it as far as possible, receiving marks for distance, style of flight and landing "
+subj:15053000,snow boarding,2,"Name: snow boarding
+Description: Practiced with a single board (rather than two skis) "
+subj:15054000,soccer,2,"Name: soccer
+Description: Two teams of eleven try to kick or head a ball into the opponents goal over a match usually of 90 minutes "
+subj:15055000,softball,2,"Name: softball
+Description: Similar to baseball but with a larger and softer ball, a thinner bat, shorter gaps between bases and less innings "
+subj:15056000,speed skating,2,"Name: speed skating
+Description: Timed races competed by two skaters at a time on an oval ice track "
+subj:15057000,speedway,2,"Name: speedway
+Description: Fast track "
+subj:15058000,sports organisations,2,"Name: sports organisations
+Description: Organisations responsible for a specific sport "
+subj:15059000,squash,2,"Name: squash
+Description: A racket sport of strategy and endurance played by singles or doubles teams in a walled court with a small rubber ball "
+subj:15060000,sumo wrestling,2,"Name: sumo wrestling
+Description: A combat sport of speed and rapidity with much ceremony where two contestants try to throw or slap a competitor out of a marked area. Generally practiced in Japan by large men. "
+subj:15061000,surfing,2,"Name: surfing
+Description: Water sport where contestants catch and ride waves upright on a surfboard "
+subj:15062000,swimming,2,"Name: swimming
+Description: A water sport where contestants swim as fast as possible in a given style and win races by being the first to touch home "
+subj:15063000,table tennis,2,"Name: table tennis
+Description: A racket sport for two or four (in doubles), who compete at a table divided by a net using a small bat to play a lightweight ball "
+subj:15064000,Taekwon-Do,2,"Name: Taekwon-Do
+Description: A martial art of Korean origin "
+subj:15065000,tennis,2,"Name: tennis
+Description: A sport where two players, four in doubles, equipped with a racket compete by hitting the ball over a net into the opponent's side of the court with the aim of putting it out of reach within the regulation lines, thus winning points. "
+subj:15066000,triathlon,2,"Name: triathlon
+Description: An endurance multi-sport where competitors first swim, then cycle and then run a road race. Distances vary according to the competition, the Olympic version being 1.5, 40 and 10km respectively. "
+subj:15067000,volleyball,2,"Name: volleyball
+Description: Two teams of six record points by hitting a ball over a net into the opponent's half of the court, keeping it in the air at all times. Points are won when opponents fail to return the ball. "
+subj:15067001,beach volleyball,3,"Name: beach volleyball
+Description: Two teams of two players compete on a sand court. Unlike indoor volleyball, points are scored only when the serving team wins a rally or forces an error. The sand surface makes it more physically demanding than volleyball. "
+subj:15068000,water polo,2,"Name: water polo
+Description: Played in a pool between two teams of 7, who must stay afloat and can only use one hand to pass the ball or swim with it before trying to throw it into the opponents net to score goals. "
+subj:15069000,water skiing,2,"Name: water skiing
+Description: On one or two skis contestants are pulled by a power boat along the water's surface "
+subj:15070000,weightlifting,2,"Name: weightlifting
+Description: A strength test where competitors lift as heavy a weight as possible "
+subj:15071000,windsurfing,2,"Name: windsurfing
+Description: Contestants must complete a marked out course as fast as possible on a windsurf board "
+subj:15072000,wrestling,2,"Name: wrestling
+Description: Combat sport where each wrestler attempts to win over his adversary, by holding both shoulders on the ground (fall) long enough to be in control. Points can also be decisive. "
+subj:15073000,sports event,2,"Name: sports event
+Description: Sports meeting "
+subj:15073001,Summer Olympics,3,"Name: Summer Olympics
+Description: Summer Olympics "
+subj:15073002,Winter Olympics,3,"Name: Winter Olympics
+Description: Winter Olympics "
+subj:15073003,Summer universiade,3,"Name: Summer universiade
+Description: Summer universiade "
+subj:15073004,Winter Universiade,3,"Name: Winter Universiade
+Description: Winter Universiade "
+subj:15073005,Commonwealth Games,3,"Name: Commonwealth Games
+Description: Commonwealth Games "
+subj:15073006,Winter Goodwill Games,3,"Name: Winter Goodwill Games
+Description: Winter Goodwill Games "
+subj:15073007,Summer Asian Games,3,"Name: Summer Asian Games
+Description: Summer Asian Games "
+subj:15073008,Winter Asian Games,3,"Name: Winter Asian Games
+Description: Winter Asian Games "
+subj:15073009,Panamerican Games,3,"Name: Panamerican Games
+Description: Panamerican Games "
+subj:15073010,African Games,3,"Name: African Games
+Description: African Games "
+subj:15073011,Mediterranean Games,3,"Name: Mediterranean Games
+Description: Mediterranean Games "
+subj:15073012,SouthEast Asiatic Games,3,"Name: SouthEast Asiatic Games
+Description: SouthEast Asiatic Games "
+subj:15073013,PanPacific Games,3,"Name: PanPacific Games
+Description: PanPacific Games "
+subj:15073014,SouthPacific Games,3,"Name: SouthPacific Games
+Description: SouthPacific Games "
+subj:15073015,PanArabic Games,3,"Name: PanArabic Games
+Description: PanArabic Games "
+subj:15073016,Summer Goodwill Games,3,"Name: Summer Goodwill Games
+Description: Summer Goodwill Games "
+subj:15073017,World games,3,"Name: World games
+Description: A competition featuring world class athletes "
+subj:15073018,World Cup,3,"Name: World Cup
+Description: Sports meeting with competitors from the five continents "
+subj:15073019,intercontinental cup,3,"Name: intercontinental cup
+Description: Sports meeting bringing together competitors from different continents "
+subj:15073020,continental cup,3,"Name: continental cup
+Description: Sports meeting where competitors come from a single continent "
+subj:15073021,international cup,3,"Name: international cup
+Description: Sports meeting where competitors come from several nations "
+subj:15073022,National Cup,3,"Name: National Cup
+Description: Sports meeting where competitors come from a single nation "
+subj:15073023,interregional cup,3,"Name: interregional cup
+Description: Sports meeting where competitors come from several regions "
+subj:15073024,regional cup,3,"Name: regional cup
+Description: Sports meeting where competitors come from a single region "
+subj:15073025,league cup,3,"Name: league cup
+Description: A competition within a sports league "
+subj:15073026,world championship,3,"Name: world championship
+Description: A championship where competitors from the five continents take part "
+subj:15073027,intercontinental championship,3,"Name: intercontinental championship
+Description: A championship where competitors from the different continents take part "
+subj:15073028,continental championship 1st level,3,"Name: continental championship 1st level
+Description: A championship where top level competitors from a single continent take part "
+subj:15073031,national championship 1st level,3,"Name: national championship 1st level
+Description: A championship where top level competitors from a single nation take part "
+subj:15073035,regional championship,3,"Name: regional championship
+Description: A championship where competitors from a single region take part "
+subj:15073036,Grand Prix,3,"Name: Grand Prix
+Description: High level sports competition, most often motor racing "
+subj:15073037,intercontinental tournament,3,"Name: intercontinental tournament
+Description: Tournament where competitors from several continents take part "
+subj:15073038,continental tournament,3,"Name: continental tournament
+Description: Tournament where competitors from a single continent take part "
+subj:15073039,international tournament,3,"Name: international tournament
+Description: Tournament where competitors from several nations take part "
+subj:15073040,national tournament,3,"Name: national tournament
+Description: Tournament where competitors from a single nation take part "
+subj:15073041,inter-nations competition,3,"Name: inter-nations competition
+Description: Tournament where athletes from several nations take part "
+subj:15073042,inter-clubs competition,3,"Name: inter-clubs competition
+Description: Tournament where competitors from several clubs take part "
+subj:15073043,friendly competition,3,"Name: friendly competition
+Description: Sports played but not in a tournament "
+subj:15073044,all-stars competition,3,"Name: all-stars competition
+Description: Competition between teams made up of invited stars "
+subj:15073045,exhibition,3,"Name: exhibition
+Description: demonstration "
+subj:15073046,Super Bowl,3,"Name: Super Bowl
+Description: The American football final that determines the champion "
+subj:15073047,paralympic games,3,"Name: paralympic games
+Description: Olympic style Games for athletes with a disability "
+subj:15074000,rodeo,2,"Name: rodeo
+Description: A discipline where wild horses or bulls must be mounted and mastered "
+subj:15075000,mini golf sport,2,"Name: mini golf sport
+Description: A game where balls must be holed on an artificial course in as few strokes from the club as possible "
+subj:15076000,bandy,2,"Name: bandy
+Description: Played outdoors on ice. The size of the ice rink is about the size of a soccer field. Skates like ice hockey. A small hard ball is used for playing. Players play with sticks, much like in ice hockey, but the sticks are shorter and more rounded. "
+subj:15077000,flying disc,2,"Name: flying disc
+Description: A group of events all played with a flying plastic disc. The exact regulation for the disc is different in different events but it has to be unbroken of solid plastic and a production model with no modification. Flying disc is sometimes called Frisbee. "
+subj:15078000,floorball,2,"Name: floorball
+Description: Played indoors in a court the size of a basketball court. 6 players per team, of which one is a who plays in a kneeling position without a stick like in ice hockey. The other players use plastic clubs and a light plastic ball to pass and shoot goals. "
+subj:15079000,casting,2,"Name: casting
+Description: Using fishing equipment to hit a target and score points "
+subj:15080000,tug-of-war,2,"Name: tug-of-war
+Description: Two teams pulling against each other on a rope "
+subj:15081000,croquette,2,"Name: croquette
+Description: Using mallets to hit a ball through hoops "
+subj:15082000,dog racing,2,"Name: dog racing
+Description: Dogs racing around a track "
+subj:15083000,skeleton,2,"Name: skeleton
+Description: In skeleton the competitor lays on his/hers stomach when racing down the course. The competitor must be on the sled when crossing the finishing line. The total time of all races in a competition is added together. "
+subj:15084000,Australian rules football,2,"Name: Australian rules football
+Description: Football played under Australian rules "
+subj:15085000,Canadian football,2,"Name: Canadian football
+Description: Football played under Canadian rules "
+subj:15086000,duathlon,2,"Name: duathlon
+Description: Duathlon "
+subj:15087000,hornuss,2,"Name: hornuss
+Description: Swiss team sport with 16 or 18 men per team. A rubber puck is hit towards the field of the adversary team which tries to hit the puck in the air with a wooden board thrown in the air "
+subj:15088000,fist ball,2,"Name: fist ball
+Description: Men's team sport similar to volleyball (with a much lower net) executed mainly in gymnastics clubs "
+subj:15089000,inline skating,2,"Name: inline skating
+Description: Competitive sports using inline skates "
+subj:15090000,grass ski,2,"Name: grass ski
+Description: Alpine skiing on roller skis and grass "
+subj:15091000,snowbiking,2,"Name: snowbiking
+Description: Individual sport on snow on a snow bike, the athlete has two mini skis, previous name: ski bob "
+subj:15092000,twirling,2,"Name: twirling
+Description: Team competition with majorettes and a jury "
+subj:15093000,kendo,2,"Name: kendo
+Description: Japanese traditional martial art using a bamboo sword, sometimes called Japanese fencing. (Programme of National Sports Festival in Japan) "
+subj:15094000,jukendo,2,"Name: jukendo
+Description: Japanese traditional martial art using a model rifle made of wood. *Juken* means a rifle or gun with blade (bayonet). (Programme of National Sports Festival in Japan) "
+subj:15095000,naginata,2,"Name: naginata
+Description: Japanese traditional martial art using a pole sword made of wood. *Naginata* means a spear with a curved blade. (Programme of National Sports Festival in Japan) "
+subj:15096000,kyudo,2,"Name: kyudo
+Description: Japanese traditional martial art using a bamboo bow and arrows, sometimes called Japanese archery. (Programme of National Sports Festival in Japan) "
+subj:15097000,kabaddi,2,"Name: kabaddi
+Description: The attacking side scores by touching, and the side to guard scores by capturing. The attacker continues calling it *kabaddi*. "
+subj:15098000,sepak takraw,2,"Name: sepak takraw
+Description: The game like volleyball which must not use a hand. The ball made of rattan is used. (Programme of National Sports Festival in Japan) "
+subj:15099000,wushu,2,"Name: wushu
+Description: Generally, Chinese traditional martial art. (Programme of National Sports Festival in Japan) "
+subj:15100000,darts,2,"Name: darts
+Description: Two players compete by throwing metal darts at a wall-mounted circular board divided radially into segments of different scores "
+subj:15101000,bodybuilding,2,"Name: bodybuilding
+Description: A person displays pronounced muscle tone and exaggerated muscle mass and definition for overall aesthetic effect "
+subj:15102000,sports disciplinary action,2,"Name: sports disciplinary action
+Description: Actions, including fines and suspensions levied by sports organisations and teams "
+subj:15103000,sports awards,2,"Name: sports awards
+Description: Awards and honors given by sports organisations or won by sports figures "
+subj:16000000,"unrest, conflicts and war",1,"Name: unrest, conflicts and war
+Description: Acts of socially or politically motivated protest and/or violence. 
+Keywords: civil conflict, political turmoil, armed rebellion, uprising, military coup, insurgency, revolution, street protests, violent clashes, guerrilla warfare, separatist movement, riot, ethnic strife, sectarian violence, border skirmish, terrorist attack, peacekeeping mission, war zone, battlefield engagements, diplomatic crisis, interstate conflict, Cold War tension, proxy war, nuclear threat, ceasefire violation, radical extremism, anarchism, civil disobedience, mutiny, state of emergency, humanitarian crisis, escalation of hostilities, paramilitary forces, revolutionary guards, war crimes, autonomy dispute, nationalist militia, cyber warfare, ideological conflict, political assassination, sanctions regime, strategic military operation, rebel faction, peace protest, internecine conflict, subversive activities, massacre, genocide, ethnic cleansing, non-interventionism, pacifism, sovereignty movement, anti-war movement, resistance group, foreign intervention, civil resistance, freedom fighters, liberation struggle, demilitarization, arms race, diplomatic negotiation, peace talks"
+subj:16001000,act of terror,2,"Name: act of terror
+Description: Act of violence, often deadly, designed to raise fear and anxiety in a population "
+subj:16002000,armed conflict,2,"Name: armed conflict
+Description: Disputes between opposing groups involving the use of weaponry, but not formally declared a war "
+subj:16003000,civil unrest,2,"Name: civil unrest
+Description: Dissatisfaction among the general population as evidenced by rallies, strikes, demonstrations or sabotage "
+subj:16003001,revolutions,3,"Name: revolutions
+Description: An often violent change in a nation's system of government by internal forces that results in systematic social change. "
+subj:16003002,rebellions,3,"Name: rebellions
+Description: Armed uprising by citizens of a nation with the intent to overthrow the government, without necessarily achieving social change "
+subj:16003003,political dissent,3,"Name: political dissent
+Description: Disagreement between political groups, usually organized and sometimes resulting in imprisonment of the dissenters "
+subj:16003004,religious conflict,3,"Name: religious conflict
+Description: Conflicts involving religious differences "
+subj:16003005,social conflict,3,"Name: social conflict
+Description: Conflicts involving social differences "
+subj:16004000,coup d'etat,2,"Name: coup d'etat
+Description: The overthrow of an established government by an organized group, often the military or a political party "
+subj:16005000,guerrilla activity,2,"Name: guerrilla activity
+Description: Anti-government actions by clandestine groups using hit-and-run techniques or sabotage, kidnapping and the like "
+subj:16005001,bioterrorism,3,"Name: bioterrorism
+Description: Use of biological agent to raise the level of fear within a population, whether deaths occur or not. "
+subj:16005002,bombings,3,"Name: bombings
+Description: Use of explosive devices against people, buildings or structures "
+subj:16006000,massacre,2,"Name: massacre
+Description: The death of a large group of people over a brief period of time "
+subj:16006001,genocide,3,"Name: genocide
+Description: Systematic killing of one clan, tribe or ethnic type by another "
+subj:16007000,riots,2,"Name: riots
+Description: Violent, destructive demonstrations often involving injury to individuals and destruction of property "
+subj:16008000,demonstration,2,"Name: demonstration
+Description: A public show of feeling or opinion, as by a mass meeting or parade "
+subj:16009000,war,2,"Name: war
+Description: A formal declaration of hostilities by one country against another "
+subj:16009001,civil war,3,"Name: civil war
+Description: Armed conflict between members of the same nation or geographical region, in some cases with a desire to divide the nation or region. "
+subj:16009002,international military intervention,3,"Name: international military intervention
+Description: Temporary use of international forces by invitation or by a decision of an outside body in another country or region for the purpose of resolving a crisis. "
+subj:16009003,prisoners and detainees,3,"Name: prisoners and detainees
+Description: People captured and imprisoned by their enemy during war or armed conflict "
+subj:16010000,conflict (general),2,"Name: conflict (general)
+Description: A dispute which can be at several levels, "
+subj:16010001,peacekeeping force,3,"Name: peacekeeping force
+Description: Varied national military forces under unified international command to maintain order in disputed areas. "
+subj:16011000,crisis,2,"Name: crisis
+Description: Conflict of all kinds that rises to a level where, depending on events, governments can fall, war be declared or stock markets crash, or not "
+subj:16012000,weaponry,2,"Name: weaponry
+Description: Armaments of all types used to conduct war "
+subj:17000000,weather,1,"Name: weather
+Description: The study, reporting and prediction of meteorological phenomena. 
+Keywords: forecasting, climate analysis, meteorology, atmospheric science, precipitation tracking, temperature trends, weather patterns, weather reports, weather warnings, weather radar, severe weather alerts, hurricane tracking, doppler radar, barometric pressure, weather satellites, atmospheric pressure, tropical storms, weather models, storm chasing, weather phenomena, cyclone forecasting, weather stations, humidity measurements, weather anomalies, long-term forecasts, heatwaves, meteorological events, climate dynamics, wind patterns, extreme weather, precipitation predictions, synoptic meteorology, weather trends, meteorological instruments, atmospheric conditions, weather disruptions, weather maps, weather research, thunderstorm analysis, hydrometeorology, cold fronts, weather balloons, weather anomalies, weather extremes, air masses, climatological studies, weather safety, weather advisories, flood forecasting, weather predictions, weather apps, weather efficiency, weather warnings, air quality index, blizzard tracking, seasonal weather, atmospheric disturbances, weather technology, weather forecast models, environmental meteorology, weather alert systems, weather modification, weather-related emergencies, weather monitoring, tornado warnings, oceanographic meteorology, weather impact assessment, wind chill factor, weather satellites, weather network, weather data analytics, weather telemetry, weather service providers, weather navigation, microclimates, weather fronts, weather education, weather preparedness, weather derivatives, climate change projections"
+subj:17001000,forecast,2,"Name: forecast
+Description: Prediction of the course of the weather in the future either near term or long term "
+subj:17002000,global change,2,"Name: global change
+Description: The determination whether the Earth is getting warm, or colder, whether seas are rising or falling and the like "
+subj:17003000,report,2,"Name: report
+Description: Any distributed announcement about the weather "
+subj:17004000,statistic,2,"Name: statistic
+Description: Numerical facts about the weather such as temperature, barometric pressure, river levels, humidity, high and low tides and the like "
+subj:17005000,warning,2,"Name: warning
+Description: Alerts to the general populace about severe weather coming their way "

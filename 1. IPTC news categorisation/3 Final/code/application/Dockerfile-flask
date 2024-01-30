@@ -1,0 +1,14 @@
+FROM python:3.10
+
+ENV HUGGING_FACE_KEY=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
+
+WORKDIR /app
+
+COPY requirements-flask.txt /app/
+RUN pip install -r requirements-flask.txt
+
+COPY ./app.py /app/
+COPY taxonomy_chroma.csv /app/taxonomy_chroma.csv
+COPY articles_chroma.csv /app/articles_chroma.csv
+
+CMD ["python", "app.py"]
