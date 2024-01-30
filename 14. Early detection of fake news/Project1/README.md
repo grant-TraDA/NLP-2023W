@@ -2,6 +2,8 @@
 
 The Comparison of Local and Global Early Fake News Detection Methods
 
+Authors: Hubert Ruczyński, Bartosz Siński, Maciej Pawlikowski, Adrian Stańdo
+
 ## Goals
 1. Comparison of different topic detection models.
 2. Comparison of fake news detection methods.
@@ -63,6 +65,13 @@ In the project we used a dataset called **Fake News Corspus**, which can be down
 │   │       ├── ldatfidf4_nouns.csv -> ../../02-clustering/outputs/ldatfidf4_nouns.csv
 │   │       └── main_df.csv -> ../../01-EDA/data_1000/main_df.csv
 │   ├── presentation.pdf                    # presentation
-│   └── report.pdf                          # report
+│   ├── presentation_final.pdf              # final presentation of the project
+│   ├── report.pdf                          # report
+│   └── report_final.pdf                    # final report of the project
+├── requirements.txt                        # file with required Python packages
 └── README.md
 ```
+
+## Environment
+
+The repository contains the `requirements.txt` file with the required Python packages. Additionally, the `gssdm` package has to be installed manually from the source: [https://github.com/rwalk/gsdmm](https://github.com/rwalk/gsdmm).
