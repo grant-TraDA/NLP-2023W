@@ -1,6 +1,11 @@
 # News Linking
 The source code of News Linking project. 
 
+Team members:
+- Panpan Liu
+- Trifebi Shina
+- Illia Tesliuk
+
 NOTE! Data used in this project is private and can't be publicly shared on GitHub due to Non-disclosure agreement. Please contact us if you need the data to run the project.
 
 ## Run News Linking
