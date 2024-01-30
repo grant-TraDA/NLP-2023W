@@ -1,6 +1,10 @@
 <h1>README</h1>
 
-The project *NER for acknowledgements* has been prepared by: Sebastian Deręgowski, Klaudia Gruszkowska, Bartosz Jamroży and Dawid Janus.
+The project *NER for acknowledgements* has been prepared by: 
+* Sebastian Deręgowski,
+* Klaudia Gruszkowska,
+* Bartosz Jamroży,
+* Dawid Janus.
 
 Here's a detailed description of all contents within our project files.
 
