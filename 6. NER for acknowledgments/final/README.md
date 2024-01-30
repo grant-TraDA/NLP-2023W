@@ -1,5 +1,7 @@
 <h1>README</h1>
 
+The project *NER for acknowledgements* has been prepared by: Sebastian Deręgowski, Klaudia Gruszkowska, Bartosz Jamroży and Dawid Janus.
+
 Here's a detailed description of all contents within our project files.
 
 In folder *data*, there are six folders:
@@ -21,5 +23,7 @@ Notebook *Training.ipynb* contains code for model training process. This noteboo
 All trainings history is saved in .txt files in folder *training_outputs*. If no model name is provided at the beginning of the file name, then we refer to Flair Embedding model. Otherwise, the model name is stated in the name of file, as well as number of corpus and whether the corpus was enriched with silver standard set.
 
 File *post_trainning_analysis.ipynb* contains all the model's performance evaluation, including all the plots. It is based on the training outputs.
+
+File *Reproducibility_appendix.pdf* contains all information regarding reproducibility of the code.
 
 All the requirements can be found in *requirements.txt* file.
