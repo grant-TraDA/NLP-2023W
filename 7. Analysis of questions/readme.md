@@ -16,5 +16,7 @@ It is also related to the topic of creativity: our goal was to determine which q
 * `project_final/` -- folder containg files for the project final. Files include:
   * `squad.txt` -- Standford Questions and Answers Dataset.
   * `computing_complexity_metrics.R` -- file for computing various text complexity metrics.
-  * `NLP_Group_7_final_report.pdf` -- final report.
+  * `NLP Group 7 corrected final report.pdf` -- final report (with corrections).
+  * `NLP Group 7 reproducibility checklist.pdf` -- reproducibility checklist.
   * `analysis.ipynb` -- notebook containing the entirety of our project.
+  * `Analysis of questions Post-final presentation.pdf` -- post-final presentation.
